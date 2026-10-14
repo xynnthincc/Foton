@@ -109,8 +109,8 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Impuls masa tabrakan kecil â†’ gaya besar: $F = \\Delta p/\\Delta t$. Maka pelan-pelan (memperbesar $\\Delta t$) meredam gaya (airbag, karpet, menekuk lutut)." },
-          { text: "Impuls masa tabrakan cepat â†’ gaya raksasa: palu, tumbukan." },
+          { text: "Impuls masa tabrakan kecil → gaya besar: $F = \\Delta p/\\Delta t$. Maka pelan-pelan (memperbesar $\\Delta t$) meredam gaya (airbag, karpet, menekuk lutut)." },
+          { text: "Impuls masa tabrakan cepat → gaya raksasa: palu, tumbukan." },
           { text: "Impuls positif menambah momentum; impuls negatif mengurangi." },
         ],
       },
@@ -246,9 +246,9 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Kasus khusus: $m_1 = m_2$ elastis â†’ kecepatan saling bertukar ($v_1' = v_2$, $v_2' = v_1$)." },
-          { text: "Kasus khusus: $m_2$ sangat besar/diam â†’ benda 1 pantul dengan kecepatan $-v_1$." },
-          { text: "Kasus khusus: $m_1$ sangat besar â†’ benda 2 terlempar dengan $2v_1$." },
+          { text: "Kasus khusus: $m_1 = m_2$ elastis → kecepatan saling bertukar ($v_1' = v_2$, $v_2' = v_1$)." },
+          { text: "Kasus khusus: $m_2$ sangat besar/diam → benda 1 pantul dengan kecepatan $-v_1$." },
+          { text: "Kasus khusus: $m_1$ sangat besar → benda 2 terlempar dengan $2v_1$." },
         ],
       },
       {
@@ -1474,7 +1474,7 @@ export const materiGelombang: Materi[] = [
           { text: "Torricelli (bocoran tangki): $v = \\sqrt{2 g h}$, di mana $h$ kedalaman permukaan ke lobang; jangkauan horizontal $x = 2\\sqrt{h(H-h)}$ dengan $H$ tinggi total tangki." },
           { text: "Venturimeter: mengukur kecepatan aliran lewat perbedaan tekanan pada bagian sempit." },
           { text: "Tabung Pitot: mengukur kecepatan aliran fluida (kapal terbang) dari perbedaan tekanan stagnasi dan statis." },
-          { text: "Gaya angkat sayap pesawat: udara di atas sayap lebih cepat â†’ tekanan lebih rendah â†’ ada gaya angkat." },
+          { text: "Gaya angkat sayap pesawat: udara di atas sayap lebih cepat → tekanan lebih rendah → ada gaya angkat." },
           { text: "Penyemprot, filter (karburator): tekanan rendah di celah sempit menyedot cairan." },
           { text: "Atwood? Tidak terkait." },
         ],
@@ -1910,8 +1910,8 @@ export const materiGelombang: Materi[] = [
         items: [
           { text: "Pada dawai: frekuensi naik jika $L$ dipendek, $F$ diperbesar, atau $\\mu$ diperkecil." },
           { text: "Pipa tertutup hanya memiliki harmonik ganjil (1, 3, 5, ...). Pipa terbuka memiliki semua harmonik." },
-          { text: "Dua kali panjang pipa â†’ frekuensi turun separuh." },
-          { text: "Suhu udara naik â†’ $v$ naik â†’ frekuensi pipa naik (dawai tidak terpengaruh langsung)." },
+          { text: "Dua kali panjang pipa → frekuensi turun separuh." },
+          { text: "Suhu udara naik → $v$ naik → frekuensi pipa naik (dawai tidak terpengaruh langsung)." },
         ],
       },
       {
@@ -1975,7 +1975,7 @@ export const materiGelombang: Materi[] = [
         items: [
           { text: "$n$ sumber identik: $TI_n = TI_1 + 10\\log_{10} n$." },
           { text: "Jarak berubah: $TI_2 = TI_1 - 20 \\log_{10}(r_2/r_1)$." },
-          { text: "Tambahan 3 dB â†’ intensitas menjadi $2\\times$; tambahan 10 dB â†’ intensitas menjadi $10\\times$." },
+          { text: "Tambahan 3 dB → intensitas menjadi $2\\times$; tambahan 10 dB → intensitas menjadi $10\\times$." },
           { text: "Bunyi sehari-hari: percakapan ~60 dB, musik ~80–100 dB, pesawat ~120–140 dB." },
         ],
       },
@@ -2021,7 +2021,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Aturan cepat: jika saling mendekat â†’ frekuensi naik; saling menjauh â†’ frekuensi turun. Berlaku untuk semua kasus.",
+        text: "Aturan cepat: jika saling mendekat → frekuensi naik; saling menjauh → frekuensi turun. Berlaku untuk semua kasus.",
         variant: "tip",
       },
       {
@@ -2273,7 +2273,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Gunakan aturan: mendekat â†’ tanda yang membuat frekuensi naik; menjauh â†’ sebaliknya. Hitung dua tahap jika pantulan (reflektor bergerak).",
+        text: "Gunakan aturan: mendekat → tanda yang membuat frekuensi naik; menjauh → sebaliknya. Hitung dua tahap jika pantulan (reflektor bergerak).",
         variant: "tip",
       },
       {
@@ -2292,7 +2292,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Strategi TKA bunyi: (1) baca frekuensi ke Hz konsisten; (2) untuk Doppler, pilih tanda sesuai tabel (saling mendekat â†’ naik); (3) untuk TI gunakan log dan I0=1e-12; (4) untuk gema bagi waktu dengan 2.",
+        text: "Strategi TKA bunyi: (1) baca frekuensi ke Hz konsisten; (2) untuk Doppler, pilih tanda sesuai tabel (saling mendekat → naik); (3) untuk TI gunakan log dan I0=1e-12; (4) untuk gema bagi waktu dengan 2.",
         variant: "tip",
       },
     ],
@@ -2314,6 +2314,96 @@ export const materiGelombang: Materi[] = [
         definition: "Dalam optik geometrik, cahaya dianggap sebagai sinar yang merambat lurus dalam medium homogen dan isotrop.",
       },
       {
+        type: "heading",
+        level: 2,
+        text: "Sifat Rambat Cahaya",
+      },
+      {
+        type: "paragraph",
+        text: "Sebelum memakai rumus optik, kita perlu menghafal sifat dasar rambat cahaya. Sifat inilah yang membuat optik geometrik bisa disederhanakan: cahaya dianggap sebagai sinar berupa garis lurus, bukan bola cahaya yang menyebar ke segala arah.",
+      },
+      {
+        type: "table",
+        headers: ["Sifat", "Arti", "Konsekuensi pada optik"],
+        rows: [
+          [
+            "Rambat lurus",
+            "Dalam medium homogen cahaya merambat pada garis lurus",
+            "Sinar bisa digambar sebagai garis berpanah, sehingga rumus optik geometrik berlaku",
+          ],
+          [
+            "Tidak bergantung pada sumber",
+            "Laju, intensitas, dan warna cahaya tidak dipengaruhi sumber",
+            "Dua sumber berbeda dapat berinterferensi tanpa saling memengaruhi",
+          ],
+          [
+            "Tidak memerlukan medium",
+            "Cahaya merambat di ruang hampa",
+            "Berbeda dengan bunyi, tidak ada medium yang wajib ada",
+          ],
+          [
+            "Laju bergantung medium",
+            "Berbeda dari medium ke medium, $v = c/n$",
+            "Menyebabkan pembiasan dan pemantulan sempurna",
+          ],
+          [
+            "Indeks bias bergantung warna",
+            "$n$ berbeda untuk tiap panjang gelombang",
+            "Menyebabkan dispersi pada prisma dan pelangi",
+          ],
+        ],
+      },
+      {
+        type: "formula",
+        latex: "v = \\frac{c}{n} = \\frac{c \\, \\lambda_{\\text{vak}}}{n \\, \\lambda_{\\text{med}}}",
+        description:
+          "Laju cahaya di dalam medium. Perhatikan: yang berubah adalah panjang gelombang, bukan frekuensi.",
+      },
+      {
+        type: "glossary",
+        title: "Keterangan Simbol/Variabel",
+        items: [
+          { symbol: "$v$", meaning: "laju cahaya di dalam medium", unit: "m/s" },
+          { symbol: "$c$", meaning: "laju cahaya di ruang hampa", unit: "m/s ($3 \\times 10^8$)" },
+          { symbol: "$n$", meaning: "indeks bias medium", unit: "tanpa satuan", note: "$n \\ge 1$; ruang hampa $n = 1$" },
+          { symbol: "$\\lambda_{\\text{vak}}$", meaning: "panjang gelombang di ruang hampa", unit: "m" },
+          { symbol: "$\\lambda_{\\text{med}}$", meaning: "panjang gelombang di dalam medium", unit: "m" },
+        ],
+      },
+      {
+        type: "note",
+        text: "Yang berubah saat cahaya masuk medium adalah panjang gelombang, BUKAN frekuensi. Frekuensi ditentukan oleh sumber dan tetap ketika cahaya berpindah medium. Itulah sebabnya $v = f \\lambda$ tetap berlaku: $v$ turun, maka $\\lambda$ ikut turun.",
+        variant: "warning",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Indeks Bias dan Laju Cahaya pada Beberapa Material",
+      },
+      {
+        type: "paragraph",
+        text: "Nilai indeks bias inilah yang sering muncul di soal TKA, baik untuk pembiasan, pemantulan sempurna, maupun untuk menghitung laju cahaya pada suatu medium.",
+      },
+      {
+        type: "table",
+        headers: ["Medium", "$n$", "$v = c/n$", "Catatan"],
+        rows: [
+          ["Ruang hampa", "$1{,}00$", "$3{,}00 \\times 10^8$ m/s", "acuan semua perhitungan"],
+          ["Udara", "$1{,}0003$", "$\\approx 3{,}00 \\times 10^8$ m/s", "dianggap sama dengan hampa"],
+          ["Es", "$1{,}31$", "$2{,}29 \\times 10^8$ m/s", "lebih rapat dari air"],
+          ["Air", "$1{,}33$", "$2{,}26 \\times 10^8$ m/s", "sudut kritis ke udara $\\approx 48{,}6^\\circ$"],
+          ["Minyak zaitun", "$1{,}47$", "$2{,}04 \\times 10^8$ m/s", "dipakai pada soal lapisan"],
+          ["Kaca biasa (crown)", "$1{,}50$", "$2{,}00 \\times 10^8$ m/s", "sudut kritis ke udara $\\approx 42^\\circ$"],
+          ["Kaca dispersif (flint)", "$1{,}62$", "$1{,}85 \\times 10^8$ m/s", "dispersi besar, dipakai prisma"],
+          ["Intan", "$2{,}42$", "$1{,}24 \\times 10^8$ m/s", "sudut kritis ke udara $\\approx 24{,}4^\\circ$"],
+        ],
+      },
+      {
+        type: "note",
+        text: "Semakin besar indeks bias, semakin lambat cahaya merambat di medium tersebut, dan semakin kecil sudut kritisnya ke udara.",
+        variant: "tip",
+      },
+      {
         type: "note",
         text: "Untuk semua soal optik geometrik, gunakan $c = 3\\times 10^8$ m/s dan (bila perlu) frekuensi cahaya tampak sekitar $4\\times 10^{14}$ - $7{,}5\\times 10^{14}$ Hz.",
         variant: "info",
@@ -2330,7 +2420,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Urutan frekuensi naik (panjang gelombang turun): Radio, Mikro, Inframerah, Cahaya tampak (merahâ†’ungu), Ultraviolet, Sinar-X, Sinar Gamma." },
+          { text: "Urutan frekuensi naik (panjang gelombang turun): Radio, Mikro, Inframerah, Cahaya tampak (merah→ungu), Ultraviolet, Sinar-X, Sinar Gamma." },
           { text: "Cahaya tampak: merah ($\\lambda$ terpanjang, $f$ terendah) hingga ungu ($\\lambda$ terpendek, $f$ tertinggi)." },
           { text: "Merah ~700 nm, hijau ~550 nm, biru/ungu ~400 nm." },
           { text: "Infra merah dipakai remote/termovisi, UV sterilisasi, sinar-X foto medis/CT, gamma sterilisasi radioterapi." },
@@ -2372,20 +2462,34 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Pantulan terjadi ketika cahaya menumbuk permukaan. Permukaan licin (cermin) menghasilkan pemantulan teratur; permukaan kasar menghasilkan pemantulan difus (tidak beraturan).",
+        text: "Pemantulan terjadi ketika cahaya menumbuk permukaan. Permukaan licin dan datar menghasilkan pemantulan teratur sehingga terbentuk bayangan yang tajam. Permukaan kasar menghasilkan pemantulan difus: cahaya mengalami hamburan ke segala arah sehingga benda tidak lagi memiliki bayangan yang jelas.",
       },
       {
         type: "formula",
         latex: "\\theta_i = \\theta_r",
-        description: "Sudut datang = sudut pantul (terhadap garis normal).",
+        description: "Hukum pemantulan: sudut datang sama dengan sudut pantul, keduanya diukur terhadap garis normal.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\theta_i$", meaning: "sudut datang (dari normal)", unit: "derajat/rad" },
-          { symbol: "$\\theta_r$", meaning: "sudut pantul (dari normal)", unit: "derajat/rad" },
+          { symbol: "$\\theta_i$", meaning: "sudut datang, antara sinar datang dan garis normal", unit: "derajat/rad" },
+          { symbol: "$\\theta_r$", meaning: "sudut pantul, antara sinar pantul dan garis normal", unit: "derajat/rad" },
         ],
+      },
+      {
+        type: "list",
+        items: [
+          { text: "Sudut selalu diukur dari **garis normal**, bukan dari permukaan. Kalau diukur dari permukaan, sudut datang ditambah sudut pantul sama dengan $180^\\circ$." },
+          { text: "Cahaya yang datang tegak lurus permukaan ($\\theta_i = 0^\\circ$) dipantulkan tepat kembali ke arah semula." },
+          { text: "Permukaan yang licin (cermin) pantulannya teratur; permukaan kasar pantulannya tersebar ke segala arah sehingga bayangan menjadi kabur." },
+          { text: "Pada permukaan logam, besar sudut pantul tidak bergantung panjang gelombang. Pada permukaan nonlogam seperti kaca dan plastik, besar sudut pantul **bergantung panjang gelombang**, sehingga muncul warna." },
+        ],
+      },
+      {
+        type: "note",
+        text: "Kesalahan klasik TKA: menghitung sudut datang dari permukaan. Selalu tarik garis normal lebih dulu, baru ukur sudut terhadap garis itu.",
+        variant: "warning",
       },
       {
         type: "heading",
@@ -2400,29 +2504,71 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Saat memasuki medium berbeda, kecepatan cahaya berubah sehingga arahnya dibelokkan. Indeks bias $n = c/v$; ke medium lebih rapat (n besar) cahaya mendekati normal.",
+        text: "Pembiasan terjadi karena kecepatan cahaya berubah saat memasuki medium lain, sehingga arahnya dibelokkan. Penting: pembiasan BUKAN akibat gaya yang menarik cahaya, melainkan akibat perbedaan laju rambat.",
       },
       {
         type: "formula",
         latex: "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2, \\qquad n = \\frac{c}{v}",
-        description: "Hukum Snell (pembiasan) dan definisi indeks bias.",
+        description: "Hukum Snell (pembiasan) beserta definisi indeks bias.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$n_1,n_2$", meaning: "indeks bias medium 1 dan 2", unit: "tanpa satuan" },
-          { symbol: "$\\theta_1,\\theta_2$", meaning: "sudut datang dan bias (dari normal)", unit: "derajat/rad" },
-          { symbol: "$c$", meaning: "cepat rambat cahaya di ruang hampa", unit: "m/s" },
-          { symbol: "$v$", meaning: "cepat rambat cahaya di medium", unit: "m/s" },
+          { symbol: "$n_1,n_2$", meaning: "indeks bias medium asal (1) dan medium tujuan (2)", unit: "tanpa satuan" },
+          { symbol: "$\\theta_1,\\theta_2$", meaning: "sudut datang dan sudut bias, keduanya dari garis normal", unit: "derajat/rad" },
+          { symbol: "$c$", meaning: "laju cahaya di ruang hampa", unit: "m/s" },
+          { symbol: "$v$", meaning: "laju cahaya di medium", unit: "m/s" },
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Arah Pembiasan: Empat Kasus Penting",
+      },
+      {
+        type: "table",
+        headers: ["Kasus", "Syarat", "Sifat Pembiasan"],
+        rows: [
+          ["Masuk medium lebih rapat", "$n_2 > n_1$", "Sinar mendekati normal ($\\theta_2 < \\theta_1$)"],
+          ["Masuk medium lebih renggang", "$n_2 < n_1$", "Sinar menjauhi normal ($\\theta_2 > \\theta_1$)"],
+          ["Datang tegak lurus", "$\\theta_1 = 0^\\circ$", "Tidak dibelokkan, $\\theta_2 = 0^\\circ$"],
+          ["Dua medium sama", "$n_1 = n_2$", "Tidak ada pembiasan, cahaya terus lurus"],
+        ],
+      },
+      {
+        type: "note",
+        text: "Ingat arahnya: cahaya yang bergerak dari udara ke air (benda di dasar kolam terlihat lebih dangkal) MENDEKATI normal. Cahaya dari air ke udara MENJAUHI normal. Dua arah ini sering tertukar.",
+        variant: "warning",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Sudut Bias Relatif",
+      },
+      {
+        type: "paragraph",
+        text: "Ketika cahaya melewati lempengan kaca yang kedua sisinya sejajar, arah cahaya hanya berubah pada permukaan pertama dan terakhir, karena sudut keluar dari lempeng sama dengan sudut masuknya. Sudut antara arah cahaya sebelum dan sesudah melewati lempengan disebut sudut bias relatif, dan tidak bergantung pada ketebalan lempengan.",
+      },
+      {
+        type: "formula",
+        latex: "\\theta_{\\text{rel}} = \\theta_1 - \\theta_2 = \\arcsin\\left(\\frac{n_2}{n_1} \\sin\\theta_1\\right) - \\theta_2",
+        description: "Sudut bias relatif untuk lempengan paralel dengan medium di sekitarnya.",
+      },
+      {
+        type: "glossary",
+        title: "Keterangan Simbol/Variabel",
+        items: [
+          { symbol: "$\\theta_{\\text{rel}}$", meaning: "sudut bias relatif (selisih arah keluar dan masuk)", unit: "derajat/rad" },
+          { symbol: "$\\theta_1$", meaning: "sudut datang pada permukaan pertama", unit: "derajat/rad" },
+          { symbol: "$\\theta_2$", meaning: "sudut bias pada permukaan pertama sekaligus sudut datang pada permukaan kedua", unit: "derajat/rad" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Air $n \\approx 1{,}33$, kaca $n \\approx 1{,}5$, intan $n \\approx 2{,}42$, udara $n \\approx 1$." },
-          { text: "Ke medium rapat (n naik) â†’ mendekati normal; ke medium renggang (n turun) â†’ menjauhi normal." },
-          { text: "Sinar datang normal ($\\theta=0$) tidak dibelokkan." },
+          { text: "Sudut bias relatif **tidak bergantung pada ketebalan** lempeng. Makin tebal lempeng, makin jauh pergeserannya, tetapi sudutnya sama." },
+          { text: "Jika kedua permukaan lempeng tidak sejajar (wedge/prisma), sudut bias relatif menjadi sudut deviasi dan bergantung pada sudut wedgenya." },
         ],
       },
       {
@@ -2432,7 +2578,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Pada peralihan dari medium rapat ke renggang, jika sudut datang melebihi sudut kritis, seluruh cahaya dipantulkan. Ini dasar serat optik dan prisma pembias total.",
+        text: "Pemantulan sempurna hanya mungkin pada peralihan dari medium rapat ke medium renggang, yaitu ketika $n_1 > n_2$. Pada sudut datang tertentu, cahaya yang biasanya mengalami pembiasan. Ini adalah dasar serat optik, prisma pembias total, dan kilau pada berlian.",
       },
       {
         type: "formula",
@@ -2443,24 +2589,74 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\theta_c$", meaning: "sudut kritis", unit: "derajat/rad" },
+          { symbol: "$\\theta_c$", meaning: "sudut kritis, batas antara pembiasan dan pemantulan sempurna", unit: "derajat/rad" },
           { symbol: "$n_1$", meaning: "indeks bias medium asal (rapat)", unit: "tanpa satuan" },
-          { symbol: "$n_2$", meaning: "indeks bias medium tujuan (renggang)", unit: "tanpa satuan", note: "syarat $n_1>n_2$" },
+          { symbol: "$n_2$", meaning: "indeks bias medium tujuan (renggang)", unit: "tanpa satuan", note: "harus berlaku $n_1 > n_2$" },
+        ],
+      },
+      {
+        type: "table",
+        headers: ["Peralihan", "$n_1$", "$n_2$", "Sudut kritis"],
+        rows: [
+          ["Kaca → udara", "$1{,}50$", "$1{,}00$", "$\\approx 41{,}8^\\circ$"],
+          ["Air → udara", "$1{,}33$", "$1{,}00$", "$\\approx 48{,}6^\\circ$"],
+          ["Kaca flint → udara", "$1{,}62$", "$1{,}00$", "$\\approx 38{,}1^\\circ$"],
+          ["Intan → udara", "$2{,}42$", "$1{,}00$", "$\\approx 24{,}4^\\circ$"],
+          ["Kaca → air", "$1{,}50$", "$1{,}33$", "$\\approx 62{,}5^\\circ$"],
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Difraksi celah tunggal (gelap): $d \\sin\\theta = m\\lambda$ dengan $m=1,2,3,\\ldots$ (bukan 0)." },
-          { text: "Interferensi celah ganda Young: terang $d\\sin\\theta = m\\lambda$; gelap $d\\sin\\theta = (m-\\tfrac12)\\lambda$; m = 0, ±1, ±2, ..." },
-          { text: "Dispersi: penguraian cahaya putih oleh prisma (n bergantung $\\lambda$)." },
-          { text: "Polarisasi: cahaya transversal dapat berpolarisasi linear; bukti sifat gelombang." },
+          { text: "Jika $\\theta_i < \\theta_c$ → terjadi **pembiasan** (cahaya menembus)." },
+          { text: "Jika $\\theta_i = \\theta_c$ → sinar refract keluar tepat menyusuri permukaan (tembusTipis dan pantul)." },
+          { text: "Jika $\\theta_i > \\theta_c$ → terjadi **pemantulan sempurna**, tidak ada cahaya yang tembus." },
+          { text: "Pemantulan sempurna **tidak mungkin** dari medium renggang ke medium rapat. Ingat: harus $n_1 > n_2$." },
+          { text: "Semakin besar $n_1$, semakin kecil sudut kritisnya. Berlian yang dipoles memiliki sudut kritis sangat kecil sehingga cahaya banyak terpantulkan ke arah mata dan tampak berkilau." },
+        ],
+      },
+      {
+        type: "image",
+        src: "/diagrams/prisma-deviasi.svg",
+        alt: "Deviasi cahaya pada prisma dengan sudut datang i, sudut bias r1 dan r2, sudut keluar e, dan sudut deviasi D",
+        caption: "Hubungan pada prisma: A = r1 + r2 dan D = i + e - A. Deviasi terjadi karena cahaya keluar tidak sejajar dengan arah masuknya.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Dispersi Cahaya",
+      },
+      {
+        type: "paragraph",
+        text: "Dispersi adalah penguraian cahaya putih menjadi-spectrum warna karena indeks bias tiap warna berbeda. Cahaya ungu memiliki $\\lambda$ paling pendek sehingga $n$-nya paling besar dan paling banyak dibelokkan; cahaya merah $|\U0001d514$ paling panjang sehingga paling sedikit dibelokkan.",
+      },
+      {
+        type: "formula",
+        latex: "n = A + \\frac{B}{\\lambda^2} \\quad (\\text{persamaan Cauchy})",
+        description: "Indeks bias sebagai fungsi panjang gelombang vakum pada cahaya tampak.",
+      },
+      {
+        type: "glossary",
+        title: "Keterangan Simbol/Variabel",
+        items: [
+          { symbol: "$n$", meaning: "indeks bias material pada panjang gelombang tertentu", unit: "tanpa satuan" },
+          { symbol: "$A,B$", meaning: "konstanta khas bahan (hasil pengukuran)", unit: "tanpa satuan" },
+          { symbol: "$\\lambda$", meaning: "panjang gelombang cahaya di ruang hampa", unit: "m" },
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          { text: "Prisma memakai kaca dispersif (flint) karena perbedaan indeks biasnya antarwarna lebih besar, sehingga pemisahan warnanya lebih jelas." },
+          { text: "Pelangi primer terjadi karena cahaya putih terdispersi oleh tetes air hujan yang berfungsi sebagai prisma alami. Urutannya merah di bagian luar, ungu di bagian dalam." },
+          { text: "Pelangi sekunder (warna-warna yang berbalik urutan) muncul karena cahaya mengalami dua kali pembiasan plus satu kali pemantulan di dalam tetes air." },
+          { text: "Kaca jendela biasa tidak terlihat berwarna karena perbedaan indeks bias antarwarnanya sangat kecil." },
         ],
       },
       {
         type: "note",
-        text: "Hati-hati: pada celah ganda, 'terang' dan 'gelap' beda jarak lintasan sebesar $m\\lambda$ vs $(m+\\tfrac12)\\lambda$. Sering tertukar di TKA.",
-        variant: "warning",
+        text: "Semua rumus optik geometrik TKA memakai $n$ untuk cahaya kuning (tengah spektrum) kecuali bila soal menyebut panjang gelombang atau warna secara eksplisit.",
+        variant: "info",
       },
       {
         type: "heading",
@@ -2500,7 +2696,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "$s'$ positif â†’ bayangan nyata (dapat ditangkap layar); $s'$ negatif â†’ maya." },
+          { text: "$s'$ positif → bayangan nyata (dapat ditangkap layar); $s'$ negatif → maya." },
           { text: "Cermin datar: maya, tegak, sama besar, $s' = -s$ (f = Â∞)." },
           { text: "Dua cermin membentuk sudut $\\theta$: jumlah bayangan $n = 360^\\circ/\\theta - 1$ (untuk $\\theta$ pembagi 360)." },
           { text: "Kekuatan lensa: $P = 1/f$ (dioptri) dengan $f$ dalam meter; atau $P = 100/f(\\text{cm})$." },
@@ -2549,34 +2745,266 @@ export const materiGelombang: Materi[] = [
         ],
       },
       {
+        type: "heading",
+        level: 2,
+        text: "Sinar Istimewa untuk Menentukan Posisi Bayangan",
+      },
+      {
+        type: "paragraph",
+        text: "Untuk menentukan letak bayangan, kita tidak perlu menghitung seluruh sinar. Cukup gunakan tiga sinar utama berikut. Kalau tiga sinar ini digambar, titik potongnya adalah ujung bayangan.",
+      },
+      {
+        type: "image",
+        src: "/diagrams/cermin-sinar-istimewa.svg",
+        alt: "Tiga sinar utama pada cermin cekung: sejajar sumbu, melalui fokus, dan melalui pusat kelengkungan",
+        caption: "Ketiga sinar utama berpotongan di satu titik yang merupakan ujung bayangan.",
+      },
+      {
+        type: "table",
+        headers: ["Sinar datang", "Dipantulkan menjadi", "Dasar hukum"],
+        rows: [
+          ["Sejajar sumbu utama", "Melewati titik fokus $F$", "Sinar sejajar yang mengenai cermin cekung selalu melewati fokus setelah dipantul"],
+          ["Melewati titik fokus $F$", "Sejajar sumbu utama", "Kebalikan dari aturan pertama"],
+          ["Melewati pusat kelengkungan $C$", "Kembali pada dirinya sendiri", "Sudut datang sama dengan sudut pantul terhadap normal"],
+        ],
+      },
+      {
+        type: "note",
+        text: "Pada cermin cembung aturannya dibalik: sinar sejajar dipantulkan seempar dari fokus, dan sinar yang menuju pusat kelengkungan dipantulkan sejajar sumbu utama.",
+        variant: "tip",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Kasus pada Cermin",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Cermin Cekung (Konkaf)",
+      },
+      {
+        type: "paragraph",
+        text: "Cermin cekung memiliki permukaan yang melengkung ke dalam, sehingga bersifat mengumpulkan cahaya. Focal panjangnya positip dan titik fokus berada di depan cermin. Ingat bahwa jari-jari kelengkungan selalu dua kali fokus: $R = 2f$.",
+      },
+      {
         type: "formula",
-        latex: "\\frac{1}{f} = \\frac{n_{\\text{lensa}}}{n_{\\text{medium}}} \\cdot \\dots \\text{ (ingat: } f \\propto 1/(n-1)\\text{)}",
-        description: "Catatan: kekuatan lensa berubah bila dicelupkan dalam medium (mis. air) karena $n_{\\text{relatif}}$ berubah.",
+        latex: "R = 2f",
+        description: "Hubungan jari-jari kelengkungan busur dengan jarak fokus.",
+      },
+      {
+        type: "glossary",
+        title: "Keterangan Simbol/Variabel",
+        items: [
+          { symbol: "$R$", meaning: "jari-jari kelengkungan cermin", unit: "m/cm" },
+          { symbol: "$f$", meaning: "jarak fokus cermin", unit: "m/cm" },
+        ],
+      },
+      {
+        type: "image",
+        src: "/diagrams/cermin-posisi-benda.svg",
+        alt: "Panduan lima posisi benda terhadap cermin cekung dan sifat bayangan masing-masing",
+        caption: "Gunakan tabel ini sebagai panduan cepat membaca sifat bayangan cermin cekung.",
+      },
+      {
+        type: "table",
+        headers: ["Posisi Benda", "Jarak Benda", "Posisi Bayangan", "Sifat Bayangan"],
+        rows: [
+          ["Di luar pusat kelengkungan", "$s > 2f$", "$f < s' < 2f$", "Nyata, terbalik, diperkecil"],
+          ["Tepat di pusat kelengkungan", "$s = 2f$", "$s' = 2f$", "Nyata, terbalik, sama besar"],
+          ["Antara fokus dan kelengkungan", "$f < s < 2f$", "$s' > 2f$", "Nyata, terbalik, diperbesar"],
+          ["Tepat di fokus", "$s = f$", "$s' \\to \\infty$", "Sinar pantul sejajar, bayangan di tak hingga"],
+          ["Di dalam fokus", "$s < f$", "$s' < 0$", "Maya, tegak, diperbesar"],
+        ],
+      },
+      {
+        type: "note",
+        text: "Perhatikan polanya: begitu benda masuk ke dalam fokus, bayangan berubah dari nyata terbalik menjadi maya tegak. Inilah perubahan yang paling sering ditanyakan di TKA.",
+        variant: "tip",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Cermin Cembung (Konveks)",
+      },
+      {
+        type: "paragraph",
+        text: "Cermin cembung melengkung ke luar sehingga bersifat menyebarkan cahaya. Berapa pun posisi benda, hasilnya selalu sama: bayangan maya, tegak, dan diperkecil di belakang cermin.",
+      },
+      {
+        type: "table",
+        headers: ["Posisi Benda", "Jarak Benda", "Sifat Bayangan"],
+        rows: [
+          ["Benda di luar pusat kelengkungan", "$s > 2f$", "Maya, tegak, diperkecil"],
+          ["Benda di pusat kelengkungan", "$s = 2f$", "Maya, tegak, diperkecil"],
+          ["Benda di antara fokus dan kelengkungan", "$f < s < 2f$", "Maya, tegak, diperkecil"],
+          ["Benda di fokus", "$s = f$", "Maya, tegak, diperkecil"],
+          ["Benda di dalam fokus", "$s < f$", "Maya, tegak, diperkecil"],
+        ],
+      },
+      {
+        type: "list",
+        items: [
+          { text: "Fokus cermin cembung bersifat maya (di belakang cermin) sehingga jaraknya selalu negatif." },
+          { text: "Cermin cembung selalu digunakan pada cermin 러시아 di bengkel, karena sudut pandang yang luas memberi pandangan jalan yang lebih baik." },
+          { text: "Tidak ada posisi benda yang membuat bayangan nyata pada cermin cembung." },
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Cermin Datar dan Cermin dalam Air",
+      },
+      {
+        type: "list",
+        items: [
+          { text: "Cermin datar ($f \\to \\infty$): bayangan maya, tegak, sama besar, dengan jarak bayangan sama dengan jarak benda ($|s'| = s$)." },
+          { text: "Jumlah bayangan dua cermin yang membentuk sudut $\\alpha$: $n = \\frac{360^\\circ}{\\alpha} - 1$ jika $360^\\circ/\\alpha$ bulat, dan $n = \\lfloor \\frac{360^\\circ}{\\alpha} \\rfloor$ jika bukan." },
+          { text: "Cermin yang dicelupkan ke dalam air **tidak berubah** jarak fokusnya. Pantulan dipantulkan di permukaan, bukan di medium, sehingga keliling optiknya tetap sama. Ukuran bayangan di dalam air juga tetap sama karena sudut datang dan sudut pantul sama." },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Rumus Pembuat Lensa",
+      },
+      {
+        type: "paragraph",
+        text: "Persamaan pembentuk bayangan untuk cermin dan lensa sama-sama $1/f = 1/s + 1/s'$. Yang membedakan hanya asal nilai fokusnya. Untuk cermin, fokusnya langsung bisa dibaca dari kelengkungan ($R = 2f$). Untuk lensa, fokus ditentukan oleh rumus pembuat lensa yang melibatkan indeks bias bahan dan dua jari-jari kelengkungan permukaannya.",
+      },
+      {
+        type: "formula",
+        latex: "\\frac{1}{f} = \\left( n_{\\text{rel}} - 1 \\right) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right), \\qquad n_{\\text{rel}} = \\frac{n_{\\text{lensa}}}{n_{\\text{medium}}}",
+        description: "Rumus pembuat lensa untuk lensa tipis di dalam medium.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
           { symbol: "$f$", meaning: "jarak fokus lensa", unit: "m/cm" },
-          { symbol: "$n_{\\text{lensa}}$", meaning: "indeks bias bahan lensa", unit: "tanpa satuan" },
-          { symbol: "$n_{\\text{medium}}$", meaning: "indeks bias medium sekitar", unit: "tanpa satuan" },
+          { symbol: "$n_{\\text{lensa}}$", meaning: "indeks bias bahan lensanya", unit: "tanpa satuan" },
+          { symbol: "$n_{\\text{medium}}$", meaning: "indeks bias medium di sekitar lensa", unit: "tanpa satuan", note: "di udara nilainya 1" },
+          { symbol: "$n_{\\text{rel}}$", meaning: "indeks bias relatif terhadap medium", unit: "tanpa satuan" },
+          { symbol: "$R_1$", meaning: "jari-jari kelengkungan permukaan pertama", unit: "m/cm", note: "bertanda jika pusat kelengkungannya di kanan" },
+          { symbol: "$R_2$", meaning: "jari-jari kelengkungan permukaan kedua", unit: "m/cm", note: "bertanda jika pusat kelengkungannya di kanan" },
         ],
+      },
+      {
+        type: "image",
+        src: "/diagrams/lensa-rumus-pembuat.svg",
+        alt: "Empat bentuk lensa dengan jari-jari kelengkungan R1 dan R2 beserta tanda masing-masing",
+        caption: "Tanda R1 dan R2 ditentukan oleh letak pusat kelengkungan, bukan oleh bentuk kubahnya.",
+      },
+      {
+        type: "table",
+        headers: ["Bentuk Lensa", "Tanda $R_1$", "Tanda $R_2$", "Sifat", "Kekuatan"],
+        rows: [
+          ["Bikonvex (dua kubah keluar)", "$+$", "$-$", "mengumpulkan", "positif"],
+          ["Planokonvex (satu bidang, satu kubah)", "$+$", "tak hingga", "mengumpulkan", "positif, separuh bikonvex"],
+          ["Bikonkaf (dua cekungan masuk)", "$-$", "$+$", "menyebar", "negatif"],
+          ["Planokonkaf (satu bidang, satu cekungan)", "tak hingga", "$+$", "menyebar", "negatif"],
+          ["Meniskus cembung (kembung sangat dangkal)", "$+$", "$+$", "mengumpulkan sangat lemah", "positif kecil"],
+        ],
+      },
+      {
+        type: "note",
+        text: "Cara cepat menentukan tanda: buat garis horizontal melewati pusat optik. Bila pusat kelengkungan terletak di kanan titik, R positif; bila di kiri, R negatif. Untuk permukaan bidang, R-nya tak hingga sehingga suku 1/R = 0.",
+        variant: "tip",
       },
       {
         type: "heading",
         level: 2,
-        text: "Karakteristik Bayangan Cermin Cekung",
+        text: "Kasus pada Lensa",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Lensa Cembung (Konveks)",
+      },
+      {
+        type: "paragraph",
+        text: "Lensa cembung bersifat mengumpulkan cahaya dan fokusnya positif. Kelima posisi benda berikut wajib dihafal karena hampir selalu muncul di soal TKA.",
       },
       {
         type: "table",
-        headers: ["Posisi Benda", "Posisi Bayangan", "Sifat Bayangan"],
+        headers: ["Posisi Benda", "Jarak Benda", "Posisi Bayangan", "Sifat Bayangan"],
         rows: [
-          ["$s > 2f$", "$f < s' < 2f$", "Nyata, terbalik, diperkecil"],
-          ["$s = 2f$", "$s' = 2f$", "Nyata, terbalik, sama besar"],
-          ["$f < s < 2f$", "$s' > 2f$", "Nyata, terbalik, diperbesar"],
-          ["$s = f$", "$s' = \\infty$", "Sinar sejajar (tidak berpotongan)"],
-          ["$s < f$", "$s' < 0$ (maya)", "Maya, tegak, diperbesar"],
+          ["Di luar dua fokus", "$s > 2f$", "$f < s' < 2f$", "Nyata, terbalik, diperkecil"],
+          ["Tepat di dua fokus", "$s = 2f$", "$s' = 2f$", "Nyata, terbalik, sama besar"],
+          ["Antara fokus dan dua fokus", "$f < s < 2f$", "$s' > 2f$", "Nyata, terbalik, diperbesar"],
+          ["Tepat di fokus", "$s = f$", "$s' \\to \\infty$", "Sinar keluar sejajar, bayangan di tak hingga"],
+          ["Di dalam fokus", "$s < f$", "$s' < 0$", "Maya, tegak, diperbesar"],
         ],
+      },
+      {
+        type: "image",
+        src: "/diagrams/lensa-cembung.svg",
+        alt: "Diagram lensa cembung dengan titik fokus dan sinar utama",
+        caption: "Lensa cembung mengumpulkan sinar sejajar ke titik fokus di sisi berlawanan.",
+      },
+      {
+        type: "note",
+        text: "Perhatikan bahwa tabel kasus cermin cekung dan lensa cembung **sama persis**. Perbedaannya hanya pada letak titik fokus: pada cermin fokus di depan cermin, pada lensa fokus di belakang lensa.",
+        variant: "info",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Lensa Cekung (Konkaf)",
+      },
+      {
+        type: "paragraph",
+        text: "Lensa cekung bersifat menyebarkan cahaya dengan fokus negatif di sisi yang sama dengan benda. Hasilnya seragam untuk semua posisi benda.",
+      },
+      {
+        type: "table",
+        headers: ["Posisi Benda", "Jarak Benda", "Sifat Bayangan"],
+        rows: [
+          ["Benda di luar fokus", "$s > f$", "Maya, tegak, diperkecil"],
+          ["Benda di fokus", "$s = f$", "Bayangan di titik fokus, maya, tegak, diperkecil"],
+          ["Benda di dalam fokus", "$s < f$", "Maya, tegak, diperkecil"],
+        ],
+      },
+      {
+        type: "image",
+        src: "/diagrams/lensa-cekung.svg",
+        alt: "Diagram lensa cekung dengan sinar yang menyebar dan fokus maya",
+        caption: "Lensa cekung selalu menghasilkan bayangan maya, tegak, dan diperkecil.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Lensa di Dalam Medium Lain",
+      },
+      {
+        type: "paragraph",
+        text: "Jika sebuah lensa dari kaca dicelupkan ke dalam air, indeks bias relatifnya mengecil sehingga lensa menjadi lebih lemah dan fokusnya lebih jauh.",
+      },
+      {
+        type: "image",
+        src: "/diagrams/lensa-dalam-air.svg",
+        alt: "Perbandingan titik fokus lensa yang sama di udara dan di dalam air",
+        caption: "Lensa yang sama menjadi lebih lemah di dalam air, sehingga titik fokusnya menjauh.",
+      },
+      {
+        type: "formula",
+        latex: "n_{\\text{rel, udara}} = n_{\\text{lensa}}, \\qquad n_{\\text{rel, air}} = \\frac{n_{\\text{lensa}}}{n_{\\text{air}}} = \\frac{1{,}5}{1{,}33} \\approx 1{,}13",
+        description: "Indeks bias relatif lensanya di udara dibanding di dalam air.",
+      },
+      {
+        type: "glossary",
+        title: "Keterangan Simbol/Variabel",
+        items: [
+          { symbol: "$n_{\\text{lensa}}$", meaning: "indeks bias bahan lensanya, misal kaca $1{,}5$", unit: "tanpa satuan" },
+          { symbol: "$n_{\\text{air}}$", meaning: "indeks bias air", unit: "tanpa satuan", note: "$1{,}33$" },
+          { symbol: "$f_{\\text{udara}}$", meaning: "fokus di udara", unit: "cm", note: "lebih pendek" },
+          { symbol: "$f_{\\text{air}}$", meaning: "fokus di dalam air", unit: "cm", note: "lebih panjang" },
+        ],
+      },
+      {
+        type: "note",
+        text: "Ingat: cermin tidak berubah di dalam air, tetapi lensa berubah. Cermin bekerja lewat pantulan, lensa bekerja lewat pembiasan yang bergantung medium.",
+        variant: "warning",
       },
       {
         type: "heading",
@@ -2663,7 +3091,7 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$s'$", meaning: "jarak bayangan", unit: "cm", note: "positif â†’ nyata" },
+              { symbol: "$s'$", meaning: "jarak bayangan", unit: "cm", note: "positif → nyata" },
             ],
           },
           {
@@ -2780,7 +3208,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Strategi TKA optik: (1) tentukan jenis cermin/lensa â†’ tanda $f$; (2) tulis persamaan; (3) selesaikan $s'$; (4) tentukan sifat bayangan (nyata/maya, tegak/terbalik, diperbesar/diperkecil) lewat tanda dan $|M|$; (5) untuk mata, hitung dioptri dengan $f$ dalam meter.",
+        text: "Strategi TKA optik: (1) tentukan jenis cermin/lensa → tanda $f$; (2) tulis persamaan; (3) selesaikan $s'$; (4) tentukan sifat bayangan (nyata/maya, tegak/terbalik, diperbesar/diperkecil) lewat tanda dan $|M|$; (5) untuk mata, hitung dioptri dengan $f$ dalam meter.",
         variant: "tip",
       },
       {
@@ -2796,6 +3224,16 @@ export const materiGelombang: Materi[] = [
         type: "formula",
         latex: "\\Delta y = \\frac{\\lambda L}{d}, \\qquad y_m = m \\frac{\\lambda L}{d}",
         description: "Jarak antar pita terang; posisi pita terang ke-$m$.",
+      },
+      {
+        type: "formula",
+        latex: "d\\sin\\theta = m\\lambda\\ (\text{terang}), \qquad d\sin\theta = \left(m - \tfrac{1}{2}\right)\lambda \; (\text{gelap})",
+        description: "Syarat pita terang dan pita gelap pada interferensi celah ganda. Perhatikan bedanya setengah panjang gelombang.",
+      },
+      {
+        type: "note",
+        text: "Pita gelap pada celah ganda berbeda dari pita terang sebesar setengah panjang gelombang. Inilah kesalahan yang paling sering terjadi di soal TKA: memakai rumus yang sama untuk kedua jenis pita.",
+        variant: "warning",
       },
       {
         type: "glossary",
