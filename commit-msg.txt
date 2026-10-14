@@ -1,0 +1,20 @@
+fix(ca): koreksi geometri diagram optik dan selaraskan tabel bentuk lenses
+
+Diagram (revisi dari agent):
+- cermin-sinar-istimewa: tiga sinar utama benar-benar berpotongan di satu
+  titik bayangan.
+- cermin-posisi-benda: posisi F dan C pada lima baris digambar sesuai
+  kasus masing-masing.
+- prisma-deviasi: segitiga dikoreksi menjadi benar-benar sama sisi
+  (A = 60 derajat) dan titik datang sinar dipindahkan ke muka kiri,
+  dengan syarat deviasi minimum i = e.
+- lens-dalam-air: fokus di air digambar lebih jauh dari fokus di udara.
+
+Konsistensi konten:
+- Baris 'Meniskus cembung' dihapus dari tabel bentuk lenses supaya cocok
+  dengan diagram yang menampilkan empat bentuk utama. Alt text
+  dikembalikan menjadi empat bentuk.
+
+Kebersihan repo:
+- .msg.txt (file commit message sementara) keluarkan dari tracking dan
+  masukkan .gitignore.

@@ -65,8 +65,7 @@
   <text class="ts" x="537" y="152" text-anchor="middle" style="fill:#e8b86d">P lebih kecil</text>
 
   <!-- ============ KESIMPULAN ============ -->
-  <text class="acc" x="24" y="224" style="font-size:14px">f_udara &lt; f_air &#8594; di air fokus lebih jauh</text>
-  <text class="acc" x="24" y="242" style="font-size:14px">P_udara &gt; P_air &#8594; di air lebih lemah</text>
-  <text class="ts" x="576" y="224" text-anchor="end">1/f = (n_lensa / n_surrounding - 1)(1/R1 - 1/R2)</text>
-  <text class="ts" x="576" y="242" text-anchor="end">di air n_surrounding membesar &#8594; selisih (n_relatif - 1) mengecil</text>
+  <text class="acc" x="24" y="212" style="font-size:14px">f_udara &lt; f_air &#8594; P_udara &gt; P_air</text>
+  <text class="ts" x="24" y="230">1/f = (n_lensa / n_surrounding - 1)(1/R1 - 1/R2)</text>
+  <text class="ts" x="24" y="246">di air n_surround membesar &#8594; indeks relatif mengecil &#8594; fokus menjauh, P = 1/f mengecil</text>
 </svg>

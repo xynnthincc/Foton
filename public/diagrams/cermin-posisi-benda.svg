@@ -26,7 +26,7 @@
   </defs>
 
   <text class="tb" x="24" y="26">Menentukan sifat bayangan pada cermin cekung</text>
-  <text class="ts" x="24" y="44">posisi benda menentukan letak dan sifat bayangan</text>
+  <text class="ts" x="576" y="26" text-anchor="end">posisi benda menentukan sifat bayangan</text>
 
   <!-- pemisah baris -->
   <line class="dim" x1="20" y1="106" x2="580" y2="106" stroke="#3a3835"/>

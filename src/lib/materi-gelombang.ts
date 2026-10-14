@@ -2892,7 +2892,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "image",
         src: "/diagrams/lensa-rumus-pembuat.svg",
-        alt: "Lima bentuk lensa dengan jari-jari kelengkungan R1 dan R2 beserta tanda masing-masing",
+        alt: "Empat bentuk lensa dengan jari-jari kelengkungan R1 dan R2 beserta tanda masing-masing",
         caption: "Tanda R1 dan R2 ditentukan oleh letak pusat kelengkungan, bukan oleh bentuk kubahnya.",
       },
       {
@@ -2903,7 +2903,6 @@ export const materiGelombang: Materi[] = [
           ["Planokonvex (satu bidang, satu kubah)", "$+$", "tak hingga", "mengumpulkan", "positif, separuh bikonvex"],
           ["Bikonkaf (dua cekungan masuk)", "$-$", "$+$", "menyebar", "negatif"],
           ["Planokonkaf (satu bidang, satu cekungan)", "tak hingga", "$+$", "menyebar", "negatif"],
-          ["Meniskus cembung (kembung sangat dangkal)", "$+$", "$+$", "mengumpulkan sangat lemah", "positif kecil"],
         ],
       },
       {

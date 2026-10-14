@@ -69,13 +69,14 @@
 
   <!-- ============ SINAR 3: datang lewat C &#8594; dipantulkan balik ke arah benda ============ -->
   <line class="vd" x1="162" y1="137.5" x2="482" y2="237.6"/>
+  <line x1="420" y1="218" x2="372" y2="202.4" stroke="#d97757" stroke-width="1.8" marker-end="url(#fa-si)"/>
   <circle cx="430" cy="221" r="9" fill="#1c1b19" stroke="#d97757" stroke-width="1.4"/>
   <text class="acc" x="430" y="225.5" text-anchor="middle" style="font-size:11px">3</text>
 
   <!-- titik bayangan: ketiga sinar berpotongan di sini -->
-  <circle cx="383.3" cy="207" r="3" fill="#e8b86d"/>
-  <line x1="383.3" y1="190" x2="383.3" y2="204" stroke="#e8b86d" stroke-width="2" marker-end="url(#va-si)"/>
-  <text class="t" x="376" y="200" text-anchor="end" style="font-size:12px;fill:#e8b86d;font-weight:600">I&#8242;</text>
+  <circle cx="383.3" cy="206.5" r="2.5" fill="#e8b86d"/>
+  <line x1="383.3" y1="190" x2="383.3" y2="204" stroke="#e8b86d" stroke-width="1.6" marker-end="url(#va-si)"/>
+  <text class="t" x="372" y="199" text-anchor="end" style="font-size:12px;fill:#e8b86d;font-weight:600">I&#8242;</text>
 
   <!-- keterangan sinar -->
   <circle cx="38" cy="300" r="8" fill="#1c1b19" stroke="#d97757" stroke-width="1.2"/>
