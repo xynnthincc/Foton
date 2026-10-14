@@ -1,7 +1,7 @@
-const fs = require("fs");
+﻿const fs = require("fs");
 const path = require("path");
 
-const base = path.join(__dirname, "src", "lib");
+const base = path.join(__dirname, "..", "src", "lib");
 
 // kata/karakter yang tidak mungkin muncul pada teks Indonesia yang benar
 const suspect = [
