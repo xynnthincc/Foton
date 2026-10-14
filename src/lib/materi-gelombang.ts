@@ -14,8 +14,8 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "definition",
-        term: "Momentum linear ($\\vec p$)",
-        definition: "Hasil kali massa dan kecepatan benda, $\\vec p = m\\vec v$, dengan arah sama dengan arah kecepatan.",
+        term: "Momentum linear ($$\\vec p$)",
+        definition: "Hasil kali massa dan kecepatan benda, $$\\vec p = m\\vec v$, dengan arah sama dengan arah kecepatan.",
       },
       {
         type: "note",
@@ -34,20 +34,20 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "p = m v",
-        description: "Momentum = massa $\\times$ kecepatan (besaran skalar pada gerak satu dimensi; vektor pada umumnya).",
+        description: "Momentum = massa $$\\times$ kecepatan (besaran skalar pada gerak satu dimensi; vektor pada umumnya).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$p$", meaning: "momentum linear", unit: "kg m/s" },
-          { symbol: "$m$", meaning: "massa benda", unit: "kg" },
-          { symbol: "$v$", meaning: "kecepatan benda", unit: "m/s", note: "bernilai vektor, perhatikan tanda" },
+          { symbol: "$$p$", meaning: "momentum linear", unit: "kg m/s" },
+          { symbol: "$$m$", meaning: "massa benda", unit: "kg" },
+          { symbol: "$$v$", meaning: "kecepatan benda", unit: "m/s", note: "bernilai vektor, perhatikan tanda" },
         ],
       },
       {
         type: "paragraph",
-        text: "Energi kinetik $E_k = \\tfrac12 m v^2$ juga bergantung pada $m$ dan $v$, tetapi momentum linear dalam kuasa satu velocity, sedangkan energi kuasa dua. Karena itu hubungan $p$ dan $E_k$ sering digunakan untuk menghubungkan kedua besaran.",
+        text: "Energi kinetik $$E_k = \\tfrac12 m v^2$ juga bergantung pada $$m$ dan $$v$, tetapi momentum linear dalam kuasa satu velocity, sedangkan energi kuasa dua. Karena itu hubungan $$p$ dan $$E_k$ sering digunakan untuk menghubungkan kedua besaran.",
       },
       {
         type: "formula",
@@ -58,9 +58,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$E_k$", meaning: "energi kinetik", unit: "J (kg m^2/s^2)" },
-          { symbol: "$p$", meaning: "momentum linear", unit: "kg m/s" },
-          { symbol: "$m$", meaning: "massa benda", unit: "kg" },
+          { symbol: "$$E_k$", meaning: "energi kinetik", unit: "J (kg m^2/s^2)" },
+          { symbol: "$$p$", meaning: "momentum linear", unit: "kg m/s" },
+          { symbol: "$$m$", meaning: "massa benda", unit: "kg" },
         ],
       },
       {
@@ -81,16 +81,16 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I$", meaning: "impuls", unit: "N s = kg m/s" },
-          { symbol: "$F$", meaning: "gaya rata-rata yang bekerja", unit: "N" },
-          { symbol: "$\\Delta t$", meaning: "selang waktu kerja gaya", unit: "s" },
-          { symbol: "$\\Delta p$", meaning: "perubahan momentum", unit: "kg m/s" },
-          { symbol: "$v_1, v_2$", meaning: "kecepatan awal dan akhir", unit: "m/s" },
+          { symbol: "$$I$", meaning: "impuls", unit: "N s = kg m/s" },
+          { symbol: "$$F$", meaning: "gaya rata-rata yang bekerja", unit: "N" },
+          { symbol: "$$\\Delta t$", meaning: "selang waktu kerja gaya", unit: "s" },
+          { symbol: "$$\\Delta p$", meaning: "perubahan momentum", unit: "kg m/s" },
+          { symbol: "$$v_1, v_2$", meaning: "kecepatan awal dan akhir", unit: "m/s" },
         ],
       },
       {
         type: "paragraph",
-        text: "Pada grafik gaya $F$ terhadap waktu $t$, luas di bawah kurva sama dengan impuls. Jika gaya tidak konstan (misal gaya pegas, tabrakan), tetap berlaku $I = \\int F\\,dt = \\Delta p$.",
+        text: "Pada grafik gaya $$F$ terhadap waktu $$t$, luas di bawah kurva sama dengan impuls. Jika gaya tidak konstan (misal gaya pegas, tabrakan), tetap berlaku $$I = \\int F\\,dt = \\Delta p$.",
       },
       {
         type: "formula",
@@ -101,15 +101,15 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$F_{\\text{rata}}$", meaning: "gaya rata-rata", unit: "N" },
-          { symbol: "$\\Delta p$", meaning: "perubahan momentum", unit: "kg m/s" },
-          { symbol: "$\\Delta t$", meaning: "selang waktu interaksi", unit: "s" },
+          { symbol: "$$F_{\\text{rata}}$", meaning: "gaya rata-rata", unit: "N" },
+          { symbol: "$$\\Delta p$", meaning: "perubahan momentum", unit: "kg m/s" },
+          { symbol: "$$\\Delta t$", meaning: "selang waktu interaksi", unit: "s" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Impuls masa tabrakan kecil â†’ gaya besar: $F = \\Delta p/\\Delta t$. Maka pelan-pelan (memperbesar $\\Delta t$) meredam gaya (airbag, karpet, menekuk lutut)." },
+          { text: "Impuls masa tabrakan kecil â†’ gaya besar: $$F = \\Delta p/\\Delta t$. Maka pelan-pelan (memperbesar $$\\Delta t$) meredam gaya (airbag, karpet, menekuk lutut)." },
           { text: "Impuls masa tabrakan cepat â†’ gaya raksasa: palu, tumbukan." },
           { text: "Impuls positif menambah momentum; impuls negatif mengurangi." },
         ],
@@ -137,14 +137,14 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$m_i$", meaning: "massa benda ke-$i$", unit: "kg" },
-          { symbol: "$v_i$", meaning: "kecepatan benda ke-$i$ sebelum", unit: "m/s" },
-          { symbol: "$v_i'$", meaning: "kecepatan benda ke-$i$ sesudah", unit: "m/s", note: "tanda menunjukkan arah" },
+          { symbol: "$$m_i$", meaning: "massa benda ke-$$i$", unit: "kg" },
+          { symbol: "$$v_i$", meaning: "kecepatan benda ke-$$i$ sebelum", unit: "m/s" },
+          { symbol: "$$v_i'$", meaning: "kecepatan benda ke-$$i$ sesudah", unit: "m/s", note: "tanda menunjukkan arah" },
         ],
       },
       {
         type: "paragraph",
-        text: "Dalam bentuk vektor, hukum ini berlaku di setiap sumbu secara independen. Untuk sistem banyak benda: $\\sum m_i \\vec v_i = \\text{konstan}$.",
+        text: "Dalam bentuk vektor, hukum ini berlaku di setiap sumbu secara independen. Untuk sistem banyak benda: $$\\sum m_i \\vec v_i = \\text{konstan}$.",
       },
       {
         type: "formula",
@@ -155,8 +155,8 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\sum m_i \\vec v_i$", meaning: "total momentum sistem", unit: "kg m/s" },
-          { symbol: "$i$", meaning: "indeks benda dalam sistem", unit: "tanpa satuan" },
+          { symbol: "$$\\sum m_i \\vec v_i$", meaning: "total momentum sistem", unit: "kg m/s" },
+          { symbol: "$$i$", meaning: "indeks benda dalam sistem", unit: "tanpa satuan" },
         ],
       },
       {
@@ -175,35 +175,35 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "table",
-        headers: ["Jenis Tumbukan", "Nilai $e$", "Momentum", "Energi Kinetik"],
+        headers: ["Jenis Tumbukan", "Nilai $$e$", "Momentum", "Energi Kinetik"],
         rows: [
-          ["Lenting sempurna", "$e = 1$", "kekal", "kekal"],
-          ["Lenting sebagian", "$0 < e < 1$", "kekal", "tidak kekal (berkurang)"],
-          ["Tidak lenting", "$e = 0$", "kekal", "tidak kekal (banyak berkurang)"],
+          ["Lenting sempurna", "$$e = 1$", "kekal", "kekal"],
+          ["Lenting sebagian", "$$0 < e < 1$", "kekal", "tidak kekal (berkurang)"],
+          ["Tidak lenting", "$$e = 0$", "kekal", "tidak kekal (banyak berkurang)"],
         ],
       },
       {
         type: "paragraph",
-        text: "Koefisien restitusi $e$ menyatakan seberapa 'lenting' tumbukan, didefinisikan sebagai perbandingan (negatif) kecepatan pemisahan terhadap kecepatan pendekatan.",
+        text: "Koefisien restitusi $$e$ menyatakan seberapa 'lenting' tumbukan, didefinisikan sebagai perbandingan (negatif) kecepatan pemisahan terhadap kecepatan pendekatan.",
       },
       {
         type: "formula",
         latex: "e = -\\frac{v_2' - v_1'}{v_2 - v_1} = \\frac{\\text{kecepatan pemisahan}}{\\text{kecepatan pendekatan}}",
-        description: "$0 \\le e \\le 1$; $e=1$ elastis sempurna, $e=0$ tidak lenting.",
+        description: "$$0 \\le e \\le 1$; $$e=1$ elastis sempurna, $$e=0$ tidak lenting.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$e$", meaning: "koefisien restitusi", unit: "tanpa satuan (0--1)" },
-          { symbol: "$v_1, v_2$", meaning: "kecepatan benda 1 dan 2 sebelum", unit: "m/s" },
-          { symbol: "$v_1', v_2'$", meaning: "kecepatan benda 1 dan 2 sesudah", unit: "m/s", note: "tanda menunjukkan arah" },
+          { symbol: "$$e$", meaning: "koefisien restitusi", unit: "tanpa satuan (0--1)" },
+          { symbol: "$$v_1, v_2$", meaning: "kecepatan benda 1 dan 2 sebelum", unit: "m/s" },
+          { symbol: "$$v_1', v_2'$", meaning: "kecepatan benda 1 dan 2 sesudah", unit: "m/s", note: "tanda menunjukkan arah" },
         ],
       },
       {
         type: "heading",
         level: 3,
-        text: "Tumbukan Lenting Sempurna ($e = 1$)",
+        text: "Tumbukan Lenting Sempurna ($$e = 1$)",
       },
       {
         type: "paragraph",
@@ -218,9 +218,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_1'$", meaning: "kecepatan akhir benda 1", unit: "m/s" },
-          { symbol: "$m_1, m_2$", meaning: "massa benda 1 dan 2", unit: "kg" },
-          { symbol: "$v_1, v_2$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$$v_1'$", meaning: "kecepatan akhir benda 1", unit: "m/s" },
+          { symbol: "$$m_1, m_2$", meaning: "massa benda 1 dan 2", unit: "kg" },
+          { symbol: "$$v_1, v_2$", meaning: "kecepatan awal", unit: "m/s" },
         ],
       },
       {
@@ -232,27 +232,27 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_2'$", meaning: "kecepatan akhir benda 2", unit: "m/s" },
-          { symbol: "$m_1, m_2$", meaning: "massa benda", unit: "kg" },
-          { symbol: "$v_1, v_2$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$$v_2'$", meaning: "kecepatan akhir benda 2", unit: "m/s" },
+          { symbol: "$$m_1, m_2$", meaning: "massa benda", unit: "kg" },
+          { symbol: "$$v_1, v_2$", meaning: "kecepatan awal", unit: "m/s" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Kasus khusus: $m_1 = m_2$ elastis â†’ kecepatan saling bertukar ($v_1' = v_2$, $v_2' = v_1$)." },
-          { text: "Kasus khusus: $m_2$ sangat besar/diam â†’ benda 1 pantul dengan kecepatan $-v_1$." },
-          { text: "Kasus khusus: $m_1$ sangat besar â†’ benda 2 terlempar dengan $2v_1$." },
+          { text: "Kasus khusus: $$m_1 = m_2$ elastis â†’ kecepatan saling bertukar ($$v_1' = v_2$, $$v_2' = v_1$)." },
+          { text: "Kasus khusus: $$m_2$ sangat besar/diam â†’ benda 1 pantul dengan kecepatan $$-v_1$." },
+          { text: "Kasus khusus: $$m_1$ sangat besar â†’ benda 2 terlempar dengan $$2v_1$." },
         ],
       },
       {
         type: "heading",
         level: 3,
-        text: "Tumbukan Tidak Lenting Sempurna ($e = 0$)",
+        text: "Tumbukan Tidak Lenting Sempurna ($$e = 0$)",
       },
       {
         type: "paragraph",
-        text: "Setelah tumbukan kedua benda menyatu (bergerak bersama) dengan kecepatan bersama $v'$. Kehilangan energi kinetik maksimum.",
+        text: "Setelah tumbukan kedua benda menyatu (bergerak bersama) dengan kecepatan bersama $$v'$. Kehilangan energi kinetik maksimum.",
       },
       {
         type: "formula",
@@ -263,9 +263,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v'$", meaning: "kecepatan bersama setelah", unit: "m/s" },
-          { symbol: "$m_1, m_2$", meaning: "massa", unit: "kg" },
-          { symbol: "$v_1, v_2$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$$v'$", meaning: "kecepatan bersama setelah", unit: "m/s" },
+          { symbol: "$$m_1, m_2$", meaning: "massa", unit: "kg" },
+          { symbol: "$$v_1, v_2$", meaning: "kecepatan awal", unit: "m/s" },
         ],
       },
       {
@@ -277,10 +277,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\Delta E_k$", meaning: "kehilangan energi kinetik", unit: "J" },
-          { symbol: "$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
-          { symbol: "$m_1, m_2$", meaning: "massa", unit: "kg" },
-          { symbol: "$v_1, v_2$", meaning: "kecepatan relatif awal", unit: "m/s" },
+          { symbol: "$$\\Delta E_k$", meaning: "kehilangan energi kinetik", unit: "J" },
+          { symbol: "$$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
+          { symbol: "$$m_1, m_2$", meaning: "massa", unit: "kg" },
+          { symbol: "$$v_1, v_2$", meaning: "kecepatan relatif awal", unit: "m/s" },
         ],
       },
       {
@@ -301,9 +301,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_1'$", meaning: "kecepatan akhir benda 1", unit: "m/s" },
-          { symbol: "$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
-          { symbol: "$m_1, m_2$", meaning: "massa", unit: "kg" },
+          { symbol: "$$v_1'$", meaning: "kecepatan akhir benda 1", unit: "m/s" },
+          { symbol: "$$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
+          { symbol: "$$m_1, m_2$", meaning: "massa", unit: "kg" },
         ],
       },
       {
@@ -315,9 +315,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_2'$", meaning: "kecepatan akhir benda 2", unit: "m/s" },
-          { symbol: "$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
-          { symbol: "$m_1, m_2$", meaning: "massa", unit: "kg" },
+          { symbol: "$$v_2'$", meaning: "kecepatan akhir benda 2", unit: "m/s" },
+          { symbol: "$$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
+          { symbol: "$$m_1, m_2$", meaning: "massa", unit: "kg" },
         ],
       },
       {
@@ -328,21 +328,21 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Bola jatuh-pantul: $e = \\sqrt{h'/h}$ dan ketinggian pantulan $h' = e^2 h$, dengan $h, h'$ tinggi jatuh dan pantul." },
-          { text: "Ledakan/tembakan: momentum awal nol, sehingga $m_1 \\vec v_1 + m_2 \\vec v_2 = 0$ (berlawanan arah)." },
+          { text: "Bola jatuh-pantul: $$e = \\sqrt{h'/h}$ dan ketinggian pantulan $$h' = e^2 h$, dengan $$h, h'$ tinggi jatuh dan pantul." },
+          { text: "Ledakan/tembakan: momentum awal nol, sehingga $$m_1 \\vec v_1 + m_2 \\vec v_2 = 0$ (berlawanan arah)." },
           { text: "Roket: dorongan berasal dari gas yang dikeluarkan ke belakang; roket ke depan (momentum kekal sistem roket+gas)." },
           { text: "Pendulum balistik: proyektil menabrak balok yang bergantung; momentum kekal saat tumbukan, energi kekal saat ayunan." },
-          { text: "Keamanan: airbag memperpanjang $\\Delta t$ untuk mengurangi gaya pada penumpang pada perubahan momentum yang sama." },
+          { text: "Keamanan: airbag memperpanjang $$\\Delta t$ untuk mengurangi gaya pada penumpang pada perubahan momentum yang sama." },
         ],
       },
       {
         type: "definition",
         term: "Frasa kunci TKA",
-        definition: "Momentum total selalu kekal pada tumbukan (tanpa gaya luar). Energi kinetik hanya kekal jika $e = 1$.",
+        definition: "Momentum total selalu kekal pada tumbukan (tanpa gaya luar). Energi kinetik hanya kekal jika $$e = 1$.",
       },
       {
         type: "note",
-        text: "Tips TKA: soal tumbukan tidak lenting sering menanyakan kehilangan energi kinetik. Hitung $\\Delta E_k = E_k(\\text{awal}) - E_k(\\text{akhir})$ langsung, atau pakai rumus umum di atas.",
+        text: "Tips TKA: soal tumbukan tidak lenting sering menanyakan kehilangan energi kinetik. Hitung $$\\Delta E_k = E_k(\\text{awal}) - E_k(\\text{akhir})$ langsung, atau pakai rumus umum di atas.",
         variant: "tip",
       },
       {
@@ -351,7 +351,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Bola $m_1 = 2$ kg dengan $v_1 = 6$ m/s menabrak bola $m_2 = 4$ kg yang diam. Tumbukan tidak lenting ($e = 0$). Berapa kecepatan setelah tumbukan?",
+            text: "Bola $$m_1 = 2$ kg dengan $$v_1 = 6$ m/s menabrak bola $$m_2 = 4$ kg yang diam. Tumbukan tidak lenting ($$e = 0$). Berapa kecepatan setelah tumbukan?",
           },
           {
             type: "formula",
@@ -362,14 +362,14 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$v'$", meaning: "kecepatan setelah", unit: "m/s" },
-              { symbol: "$m_1,m_2$", meaning: "massa", unit: "kg" },
-              { symbol: "$v_1,v_2$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$$v'$", meaning: "kecepatan setelah", unit: "m/s" },
+              { symbol: "$$m_1,m_2$", meaning: "massa", unit: "kg" },
+              { symbol: "$$v_1,v_2$", meaning: "kecepatan awal", unit: "m/s" },
             ],
           },
           {
             type: "paragraph",
-            text: "Energi kinetik sebelum = $\\tfrac12(2)(36)+0 = 36$ J. Energi sesudah = $\\tfrac12(6)(2^2) = 12$ J. Hilang = 24 J (kehilangan maksimum untuk parameter ini).",
+            text: "Energi kinetik sebelum = $$\\tfrac12(2)(36)+0 = 36$ J. Energi sesudah = $$\\tfrac12(6)(2^2) = 12$ J. Hilang = 24 J (kehilangan maksimum untuk parameter ini).",
           },
         ],
       },
@@ -379,7 +379,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Bola $m_1 = 3$ kg bergerak $v_1 = 4$ m/s menabrak bola $m_2 = 1$ kg yang diam. Tumbukan elastis ($e=1$). Tentukan kecepatan akhir keduanya.",
+            text: "Bola $$m_1 = 3$ kg bergerak $$v_1 = 4$ m/s menabrak bola $$m_2 = 1$ kg yang diam. Tumbukan elastis ($$e=1$). Tentukan kecepatan akhir keduanya.",
           },
           {
             type: "formula",
@@ -390,9 +390,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$v_1'$", meaning: "kecepatan akhir benda 1", unit: "m/s" },
-              { symbol: "$m_1,m_2$", meaning: "massa", unit: "kg" },
-              { symbol: "$v_1$", meaning: "kecepatan awal benda 1", unit: "m/s" },
+              { symbol: "$$v_1'$", meaning: "kecepatan akhir benda 1", unit: "m/s" },
+              { symbol: "$$m_1,m_2$", meaning: "massa", unit: "kg" },
+              { symbol: "$$v_1$", meaning: "kecepatan awal benda 1", unit: "m/s" },
             ],
           },
           {
@@ -404,12 +404,12 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$v_2'$", meaning: "kecepatan akhir benda 2", unit: "m/s" },
-              { symbol: "$m_1,m_2$", meaning: "massa", unit: "kg" },
-              { symbol: "$v_1$", meaning: "kecepatan awal benda 1", unit: "m/s" },
+              { symbol: "$$v_2'$", meaning: "kecepatan akhir benda 2", unit: "m/s" },
+              { symbol: "$$m_1,m_2$", meaning: "massa", unit: "kg" },
+              { symbol: "$$v_1$", meaning: "kecepatan awal benda 1", unit: "m/s" },
             ],
           },
-          { type: "paragraph", text: "Momentum awal = 12 kg m/s. Momentum akhir = 3(2)+1(6)=12 kg m/s. Energi awal = $\\tfrac12(3)(16)=24$ J. Energi akhir = $\\tfrac12(3)(4)+\\tfrac12(1)(36)=6+18=24$ J. Terbukti kekal." },
+          { type: "paragraph", text: "Momentum awal = 12 kg m/s. Momentum akhir = 3(2)+1(6)=12 kg m/s. Energi awal = $$\\tfrac12(3)(16)=24$ J. Energi akhir = $$\\tfrac12(3)(4)+\\tfrac12(1)(36)=6+18=24$ J. Terbukti kekal." },
         ],
       },
       {
@@ -418,7 +418,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Sebuah bola dijatuhkan dari ketinggian $h = 80$ cm dan memantul setinggi $h' = 20$ cm. Hitung (a) koefisien restitusi, (b) kehilangan energi (dalam persen) tiap tumbukan.",
+            text: "Sebuah bola dijatuhkan dari ketinggian $$h = 80$ cm dan memantul setinggi $$h' = 20$ cm. Hitung (a) koefisien restitusi, (b) kehilangan energi (dalam persen) tiap tumbukan.",
           },
           {
             type: "formula",
@@ -429,9 +429,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
-              { symbol: "$h$", meaning: "ketinggian jatuh", unit: "m (atau cm)" },
-              { symbol: "$h'$", meaning: "ketinggian pantul", unit: "m (atau cm)" },
+              { symbol: "$$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
+              { symbol: "$$h$", meaning: "ketinggian jatuh", unit: "m (atau cm)" },
+              { symbol: "$$h'$", meaning: "ketinggian pantul", unit: "m (atau cm)" },
             ],
           },
           {
@@ -443,12 +443,12 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$E_{\\text{hilang}}$", meaning: "energi yang hilang", unit: "J" },
-              { symbol: "$E_{\\text{awal}}$", meaning: "energi awal", unit: "J" },
-              { symbol: "$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
+              { symbol: "$$E_{\\text{hilang}}$", meaning: "energi yang hilang", unit: "J" },
+              { symbol: "$$E_{\\text{awal}}$", meaning: "energi awal", unit: "J" },
+              { symbol: "$$e$", meaning: "koefisien restitusi", unit: "tanpa satuan" },
             ],
           },
-          { type: "paragraph", text: "Jadi 75% energi mekanik hilang pada tiap tumbukan (menjadi panas/bunyi), dan $e=0{,}5$." },
+          { type: "paragraph", text: "Jadi 75% energi mekanik hilang pada tiap tumbukan (menjadi panas/bunyi), dan $$e=0{,}5$." },
         ],
       },
       {
@@ -472,10 +472,10 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$m_{\\text{meriam}}$", meaning: "massa meriam", unit: "kg" },
-              { symbol: "$v_{\\text{meriam}}$", meaning: "kecepatan tolak meriam", unit: "m/s" },
-              { symbol: "$m_{\\text{peluru}}$", meaning: "massa peluru", unit: "kg" },
-              { symbol: "$v_{\\text{peluru}}$", meaning: "kecepatan peluru", unit: "m/s" },
+              { symbol: "$$m_{\\text{meriam}}$", meaning: "massa meriam", unit: "kg" },
+              { symbol: "$$v_{\\text{meriam}}$", meaning: "kecepatan tolak meriam", unit: "m/s" },
+              { symbol: "$$m_{\\text{peluru}}$", meaning: "massa peluru", unit: "kg" },
+              { symbol: "$$v_{\\text{peluru}}$", meaning: "kecepatan peluru", unit: "m/s" },
             ],
           },
           {
@@ -487,9 +487,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$v_{\\text{meriam}}$", meaning: "kecepatan meriam", unit: "m/s" },
-              { symbol: "$m_{\\text{peluru}}, m_{\\text{meriam}}$", meaning: "massa", unit: "kg" },
-              { symbol: "$v_{\\text{peluru}}$", meaning: "kecepatan peluru", unit: "m/s" },
+              { symbol: "$$v_{\\text{meriam}}$", meaning: "kecepatan meriam", unit: "m/s" },
+              { symbol: "$$m_{\\text{peluru}}, m_{\\text{meriam}}$", meaning: "massa", unit: "kg" },
+              { symbol: "$$v_{\\text{peluru}}$", meaning: "kecepatan peluru", unit: "m/s" },
             ],
           },
         ],
@@ -501,31 +501,31 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Bila tumbukan tidak satu dimensi (misal bola bilyar), gunakan kekekalan momentum tiap sumbu secara independen. Energi tetap kekal jika $e=1$.",
+        text: "Bila tumbukan tidak satu dimensi (misal bola bilyar), gunakan kekekalan momentum tiap sumbu secara independen. Energi tetap kekal jika $$e=1$.",
       },
       {
         type: "formula",
         latex: "m_1 v_{1x} + m_2 v_{2x} = m_1 v_{1x}' + m_2 v_{2x}'",
-        description: "Kekekalan momentum pada sumbu $x$.",
+        description: "Kekekalan momentum pada sumbu $$x$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$m_i$", meaning: "massa benda ke-$i$", unit: "kg" },
-          { symbol: "$v_{ix}, v_{ix}'$", meaning: "komponen $x$ kecepatan awal/akhir", unit: "m/s" },
+          { symbol: "$$m_i$", meaning: "massa benda ke-$$i$", unit: "kg" },
+          { symbol: "$$v_{ix}, v_{ix}'$", meaning: "komponen $$x$ kecepatan awal/akhir", unit: "m/s" },
         ],
       },
       {
         type: "formula",
         latex: "m_1 v_{1y} + m_2 v_{2y} = m_1 v_{1y}' + m_2 v_{2y}'",
-        description: "Kekekalan momentum pada sumbu $y$.",
+        description: "Kekekalan momentum pada sumbu $$y$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_{iy}, v_{iy}'$", meaning: "komponen $y$ kecepatan awal/akhir", unit: "m/s" },
+          { symbol: "$$v_{iy}, v_{iy}'$", meaning: "komponen $$y$ kecepatan awal/akhir", unit: "m/s" },
         ],
       },
       {
@@ -540,16 +540,16 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "m v_0 = (m+M) V",
-        description: "Tahap 1: momentum kekal, $V$ kecepatan bersama setelah tumbukan.",
+        description: "Tahap 1: momentum kekal, $$V$ kecepatan bersama setelah tumbukan.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$m$", meaning: "massa proyektil", unit: "kg" },
-          { symbol: "$v_0$", meaning: "kecepatan awal proyektil", unit: "m/s" },
-          { symbol: "$M$", meaning: "massa balok", unit: "kg" },
-          { symbol: "$V$", meaning: "kecepatan bersama setelah", unit: "m/s" },
+          { symbol: "$$m$", meaning: "massa proyektil", unit: "kg" },
+          { symbol: "$$v_0$", meaning: "kecepatan awal proyektil", unit: "m/s" },
+          { symbol: "$$M$", meaning: "massa balok", unit: "kg" },
+          { symbol: "$$V$", meaning: "kecepatan bersama setelah", unit: "m/s" },
         ],
       },
       {
@@ -561,9 +561,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$h_{\\text{maks}}$", meaning: "ketinggian maksimum ayunan", unit: "m" },
-          { symbol: "$V$", meaning: "kecepatan bersama setelah tumbukan", unit: "m/s" },
-          { symbol: "$g$", meaning: "percepatan gravitasi (10)", unit: "m/s^2" },
+          { symbol: "$$h_{\\text{maks}}$", meaning: "ketinggian maksimum ayunan", unit: "m" },
+          { symbol: "$$V$", meaning: "kecepatan bersama setelah tumbukan", unit: "m/s" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi (10)", unit: "m/s^2" },
         ],
       },
       {
@@ -573,21 +573,21 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Roket merupakan sistem dengan massa berubah. Dorongan (thrust) terjadi karena gas dikeluarkan dengan kecepatan $u$ relatif roket. Momentum sistem (roket+gas) kekal.",
+        text: "Roket merupakan sistem dengan massa berubah. Dorongan (thrust) terjadi karena gas dikeluarkan dengan kecepatan $$u$ relatif roket. Momentum sistem (roket+gas) kekal.",
       },
       {
         type: "formula",
         latex: "M \\frac{dv}{dt} = -u \\frac{dM}{dt}",
-        description: "Persamaan gerak roket (massa berkurang, $dM/dt$ negatif).",
+        description: "Persamaan gerak roket (massa berkurang, $$dM/dt$ negatif).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$M$", meaning: "massa roket saat itu", unit: "kg" },
-          { symbol: "$dv/dt$", meaning: "percepatan roket", unit: "m/s^2" },
-          { symbol: "$u$", meaning: "kecepatan gas buang relatif roket", unit: "m/s" },
-          { symbol: "$dM/dt$", meaning: "laju perubahan massa roket (negatif)", unit: "kg/s" },
+          { symbol: "$$M$", meaning: "massa roket saat itu", unit: "kg" },
+          { symbol: "$$dv/dt$", meaning: "percepatan roket", unit: "m/s^2" },
+          { symbol: "$$u$", meaning: "kecepatan gas buang relatif roket", unit: "m/s" },
+          { symbol: "$$dM/dt$", meaning: "laju perubahan massa roket (negatif)", unit: "kg/s" },
         ],
       },
       {
@@ -599,14 +599,14 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_f, v_i$", meaning: "kecepatan akhir/awal", unit: "m/s" },
-          { symbol: "$u$", meaning: "kecepatan gas buang", unit: "m/s" },
-          { symbol: "$M_i, M_f$", meaning: "massa awal/akhir roket", unit: "kg" },
+          { symbol: "$$v_f, v_i$", meaning: "kecepatan akhir/awal", unit: "m/s" },
+          { symbol: "$$u$", meaning: "kecepatan gas buang", unit: "m/s" },
+          { symbol: "$$M_i, M_f$", meaning: "massa awal/akhir roket", unit: "kg" },
         ],
       },
       {
         type: "note",
-        text: "Strategi TKA: (1) tentukan arah positif, (2) pilih rumus tumbukan sesuai $e$, (3) tulis persamaan momentum terlebih dahulu, (4) gabungkan dengan $e$ bila perlu, (5) cek dimensi dan tanda hasil.",
+        text: "Strategi TKA: (1) tentukan arah positif, (2) pilih rumus tumbukan sesuai $$e$, (3) tulis persamaan momentum terlebih dahulu, (4) gabungkan dengan $$e$ bila perlu, (5) cek dimensi dan tanda hasil.",
         variant: "tip",
       },
     ],
@@ -625,7 +625,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "definition",
         term: "Sudut (rad)",
-        definition: "Ukuran rotasi berbasis panjang busur: $\\theta = s/r$. Satu putaran penuh = $2\\pi$ rad = 360 derajat.",
+        definition: "Ukuran rotasi berbasis panjang busur: $$\\theta = s/r$. Satu putaran penuh = $$2\\pi$ rad = 360 derajat.",
       },
       {
         type: "note",
@@ -644,47 +644,47 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "\\tau = r \\, F \\, \\sin\\theta",
-        description: "Torsi = lengan gaya $\\times$ gaya; $\\theta$ sudut antara $\\vec r$ dan $\\vec F$.",
+        description: "Torsi = lengan gaya $$\\times$ gaya; $$\\theta$ sudut antara $$\\vec r$ dan $$\\vec F$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\tau$", meaning: "torsi (momen gaya)", unit: "N m" },
-          { symbol: "$r$", meaning: "jarak titik gaya ke sumbu putar", unit: "m" },
-          { symbol: "$F$", meaning: "besar gaya", unit: "N" },
-          { symbol: "$\\theta$", meaning: "sudut antara $\\vec r$ dan $\\vec F$", unit: "rad atau derajat", note: "sin90=1 maksimum" },
+          { symbol: "$$\\tau$", meaning: "torsi (momen gaya)", unit: "N m" },
+          { symbol: "$$r$", meaning: "jarak titik gaya ke sumbu putar", unit: "m" },
+          { symbol: "$$F$", meaning: "besar gaya", unit: "N" },
+          { symbol: "$$\\theta$", meaning: "sudut antara $$\\vec r$ dan $$\\vec F$", unit: "rad atau derajat", note: "sin90=1 maksimum" },
         ],
       },
       {
         type: "paragraph",
-        text: "Bentuk ekivalen: $\\tau = F \\, d_{\\perp}$, dengan $d_{\\perp}$ = lengan momen (jarak tegak lurus dari sumbu ke garis kerja gaya). Jika gaya sejajar $\\vec r$ atau melewati sumbu, torsinya nol.",
+        text: "Bentuk ekivalen: $$\\tau = F \\, d_{\\perp}$, dengan $$d_{\\perp}$ = lengan momen (jarak tegak lurus dari sumbu ke garis kerja gaya). Jika gaya sejajar $$\\vec r$ atau melewati sumbu, torsinya nol.",
       },
       {
         type: "formula",
         latex: "\\tau = F \\, d_{\\perp}",
-        description: "Torsi = gaya $\\times$ lengan momen (jarak tegak lurus).",
+        description: "Torsi = gaya $$\\times$ lengan momen (jarak tegak lurus).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\tau$", meaning: "torsi", unit: "N m" },
-          { symbol: "$F$", meaning: "gaya yang bekerja", unit: "N" },
-          { symbol: "$d_{\\perp}$", meaning: "lengan momen (jarak tegak lurus)", unit: "m" },
+          { symbol: "$$\\tau$", meaning: "torsi", unit: "N m" },
+          { symbol: "$$F$", meaning: "gaya yang bekerja", unit: "N" },
+          { symbol: "$$d_{\\perp}$", meaning: "lengan momen (jarak tegak lurus)", unit: "m" },
         ],
       },
       {
         type: "list",
         items: [
           { text: "Konvensi tanda: CCW (berlawanan arah jarum jam) biasanya positif, CW (searah jarum jam) negatif." },
-          { text: "Kesetimbangan rotasi: $\\Sigma \\tau = 0$ (benda tidak berputar atau putar dengan $\\alpha=0$)." },
-          { text: "Kopel: dua gaya sama besar berlawanan arah pada jarak $d$ memberikan torsi $\\tau = F d$ tanpa resultan gaya." },
+          { text: "Kesetimbangan rotasi: $$\\Sigma \\tau = 0$ (benda tidak berputar atau putar dengan $$\\alpha=0$)." },
+          { text: "Kopel: dua gaya sama besar berlawanan arah pada jarak $$d$ memberikan torsi $$\\tau = F d$ tanpa resultan gaya." },
         ],
       },
       {
         type: "note",
-        text: "Bedakan momen gaya ($N m$) dengan usaha ($J = N m$). Satuannya sama secara dimensi tetapi makna fisika berbeda.",
+        text: "Bedakan momen gaya ($$N m$) dengan usaha ($$J = N m$). Satuannya sama secara dimensi tetapi makna fisika berbeda.",
         variant: "warning",
       },
       {
@@ -699,29 +699,29 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "I = \\sum_i m_i r_i^2",
-        description: "Momen inersia = jumlah $m r^2$ semua elemen massa.",
+        description: "Momen inersia = jumlah $$m r^2$ semua elemen massa.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I$", meaning: "momen inersia", unit: "kg m^2" },
-          { symbol: "$m_i$", meaning: "massa elemen ke-$i$", unit: "kg" },
-          { symbol: "$r_i$", meaning: "jarak elemen ke-$i$ ke sumbu putar", unit: "m" },
+          { symbol: "$$I$", meaning: "momen inersia", unit: "kg m^2" },
+          { symbol: "$$m_i$", meaning: "massa elemen ke-$$i$", unit: "kg" },
+          { symbol: "$$r_i$", meaning: "jarak elemen ke-$$i$ ke sumbu putar", unit: "m" },
         ],
       },
       {
         type: "table",
         headers: ["Benda", "Sumbu", "Momen Inersia"],
         rows: [
-          ["Batang panjang $L$, massa $M$", "tengah (tegak lurus)", "$\\frac{1}{12} M L^2$"],
-          ["Batang panjang $L$, massa $M$", "ujung", "$\\frac{1}{3} M L^2$"],
-          ["Silinder pejal / cakram", "pusat (sumbu simetri)", "$\\frac{1}{2} M R^2$"],
-          ["Silinder berongga / cincin", "pusat", "$M R^2$"],
-          ["Bola pejal", "diameter", "$\\frac{2}{5} M R^2$"],
-          ["Bola berongga", "diameter", "$\\frac{2}{3} M R^2$"],
-          ["Keping tipis (piring)", "pusat (sumbu simetri)", "$\\frac{1}{2} M R^2$"],
-          ["Titik massa $m$", "jarak $r$ dari sumbu", "$m r^2$"],
+          ["Batang panjang $$L$, massa $$M$", "tengah (tegak lurus)", "$$\\frac{1}{12} M L^2$"],
+          ["Batang panjang $$L$, massa $$M$", "ujung", "$$\\frac{1}{3} M L^2$"],
+          ["Silinder pejal / cakram", "pusat (sumbu simetri)", "$$\\frac{1}{2} M R^2$"],
+          ["Silinder berongga / cincin", "pusat", "$$M R^2$"],
+          ["Bola pejal", "diameter", "$$\\frac{2}{5} M R^2$"],
+          ["Bola berongga", "diameter", "$$\\frac{2}{3} M R^2$"],
+          ["Keping tipis (piring)", "pusat (sumbu simetri)", "$$\\frac{1}{2} M R^2$"],
+          ["Titik massa $$m$", "jarak $$r$ dari sumbu", "$$m r^2$"],
         ],
       },
       {
@@ -731,21 +731,21 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Momen inersia terhadap sumbu paralel sembarang dapat diperoleh dari momen inersia pusat massa ditambah $M d^2$.",
+        text: "Momen inersia terhadap sumbu paralel sembarang dapat diperoleh dari momen inersia pusat massa ditambah $$M d^2$.",
       },
       {
         type: "formula",
         latex: "I = I_{\\text{cm}} + M d^2",
-        description: "$d$ = jarak sumbu paralel baru dari pusat massa.",
+        description: "$$d$ = jarak sumbu paralel baru dari pusat massa.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I$", meaning: "momen inersia terhadap sumbu baru", unit: "kg m^2" },
-          { symbol: "$I_{\\text{cm}}$", meaning: "momen inersia terhadap pusat massa", unit: "kg m^2" },
-          { symbol: "$M$", meaning: "massa total", unit: "kg" },
-          { symbol: "$d$", meaning: "jarak sumbu baru ke pusat massa", unit: "m" },
+          { symbol: "$$I$", meaning: "momen inersia terhadap sumbu baru", unit: "kg m^2" },
+          { symbol: "$$I_{\\text{cm}}$", meaning: "momen inersia terhadap pusat massa", unit: "kg m^2" },
+          { symbol: "$$M$", meaning: "massa total", unit: "kg" },
+          { symbol: "$$d$", meaning: "jarak sumbu baru ke pusat massa", unit: "m" },
         ],
       },
       {
@@ -766,8 +766,8 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I_z$", meaning: "momen inersia sumbu tegak lurus bidang", unit: "kg m^2" },
-          { symbol: "$I_x, I_y$", meaning: "momen inersia sumbu-sumbu di bidang", unit: "kg m^2" },
+          { symbol: "$$I_z$", meaning: "momen inersia sumbu tegak lurus bidang", unit: "kg m^2" },
+          { symbol: "$$I_x, I_y$", meaning: "momen inersia sumbu-sumbu di bidang", unit: "kg m^2" },
         ],
       },
       {
@@ -777,25 +777,25 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Analogi langsung Hukum Newton II translasi: torsi total sama dengan momen inersia dikali percepatan sudut. Jika $\\Sigma \\tau = 0$, maka $\\alpha = 0$ (rotasi konstan atau diam).",
+        text: "Analogi langsung Hukum Newton II translasi: torsi total sama dengan momen inersia dikali percepatan sudut. Jika $$\\Sigma \\tau = 0$, maka $$\\alpha = 0$ (rotasi konstan atau diam).",
       },
       {
         type: "formula",
         latex: "\\Sigma \\tau = I \\, \\alpha",
-        description: "Hukum Newton II rotasi (analog $\\Sigma F = m a$).",
+        description: "Hukum Newton II rotasi (analog $$\\Sigma F = m a$).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\Sigma \\tau$", meaning: "torsi total", unit: "N m" },
-          { symbol: "$I$", meaning: "momen inersia terhadap sumbu putar", unit: "kg m^2" },
-          { symbol: "$\\alpha$", meaning: "percepatan sudut", unit: "rad/s^2" },
+          { symbol: "$$\\Sigma \\tau$", meaning: "torsi total", unit: "N m" },
+          { symbol: "$$I$", meaning: "momen inersia terhadap sumbu putar", unit: "kg m^2" },
+          { symbol: "$$\\alpha$", meaning: "percepatan sudut", unit: "rad/s^2" },
         ],
       },
       {
         type: "paragraph",
-        text: "Kinematika rotasi berlaku serupa GLBB: $\\omega = \\omega_0 + \\alpha t$, $\\theta = \\omega_0 t + \\tfrac12 \\alpha t^2$, dan $\\omega^2 = \\omega_0^2 + 2 \\alpha \\theta$.",
+        text: "Kinematika rotasi berlaku serupa GLBB: $$\\omega = \\omega_0 + \\alpha t$, $$\\theta = \\omega_0 t + \\tfrac12 \\alpha t^2$, dan $$\\omega^2 = \\omega_0^2 + 2 \\alpha \\theta$.",
       },
       {
         type: "heading",
@@ -804,39 +804,39 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Benda yang berputar memiliki energi kinetik rotasi. Daya untuk memutar benda: $P = \\tau \\omega$. Pada rotasi murni, kerja = torsi $\\times$ sudut putar.",
+        text: "Benda yang berputar memiliki energi kinetik rotasi. Daya untuk memutar benda: $$P = \\tau \\omega$. Pada rotasi murni, kerja = torsi $$\\times$ sudut putar.",
       },
       {
         type: "formula",
         latex: "E_{k,\\text{rot}} = \\frac{1}{2} I \\omega^2",
-        description: "Energi kinetik rotasi (analog $\\tfrac12 m v^2$).",
+        description: "Energi kinetik rotasi (analog $$\\tfrac12 m v^2$).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$E_{k,\\text{rot}}$", meaning: "energi kinetik rotasi", unit: "J" },
-          { symbol: "$I$", meaning: "momen inersia", unit: "kg m^2" },
-          { symbol: "$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
+          { symbol: "$$E_{k,\\text{rot}}$", meaning: "energi kinetik rotasi", unit: "J" },
+          { symbol: "$$I$", meaning: "momen inersia", unit: "kg m^2" },
+          { symbol: "$$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
         ],
       },
       {
         type: "formula",
         latex: "L = I \\omega",
-        description: "Momentum sudut (analog $p = m v$).",
+        description: "Momentum sudut (analog $$p = m v$).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$L$", meaning: "momentum sudut", unit: "kg m^2/s" },
-          { symbol: "$I$", meaning: "momen inersia", unit: "kg m^2" },
-          { symbol: "$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
+          { symbol: "$$L$", meaning: "momentum sudut", unit: "kg m^2/s" },
+          { symbol: "$$I$", meaning: "momen inersia", unit: "kg m^2" },
+          { symbol: "$$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
         ],
       },
       {
         type: "paragraph",
-        text: "Momentum sudut kekal jika torsi total luar nol: $I_1 \\omega_1 = I_2 \\omega_2$. Ini menjelaskan penari es yang menarik tangan (mengurangi $I$ sehingga $\\omega$ naik) dan kucing yang memutar tubuh di udara.",
+        text: "Momentum sudut kekal jika torsi total luar nol: $$I_1 \\omega_1 = I_2 \\omega_2$. Ini menjelaskan penari es yang menarik tangan (mengurangi $$I$ sehingga $$\\omega$ naik) dan kucing yang memutar tubuh di udara.",
       },
       {
         type: "formula",
@@ -847,9 +847,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I_1, I_2$", meaning: "momen inersia awal/akhir", unit: "kg m^2" },
-          { symbol: "$\\omega_1, \\omega_2$", meaning: "kecepatan sudut awal/akhir", unit: "rad/s" },
-          { symbol: "$\\Sigma\\tau_{\\text{luar}}$", meaning: "torsi luar total", unit: "N m" },
+          { symbol: "$$I_1, I_2$", meaning: "momen inersia awal/akhir", unit: "kg m^2" },
+          { symbol: "$$\\omega_1, \\omega_2$", meaning: "kecepatan sudut awal/akhir", unit: "rad/s" },
+          { symbol: "$$\\Sigma\\tau_{\\text{luar}}$", meaning: "torsi luar total", unit: "N m" },
         ],
       },
       {
@@ -861,10 +861,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\tau$", meaning: "torsi luar", unit: "N m" },
-          { symbol: "$dL/dt$", meaning: "turunan momentum sudut terhadap waktu", unit: "kg m^2/s^2" },
-          { symbol: "$L$", meaning: "momentum sudut", unit: "kg m^2/s" },
-          { symbol: "$t$", meaning: "waktu", unit: "s" },
+          { symbol: "$$\\tau$", meaning: "torsi luar", unit: "N m" },
+          { symbol: "$$dL/dt$", meaning: "turunan momentum sudut terhadap waktu", unit: "kg m^2/s^2" },
+          { symbol: "$$L$", meaning: "momentum sudut", unit: "kg m^2/s" },
+          { symbol: "$$t$", meaning: "waktu", unit: "s" },
         ],
       },
       {
@@ -874,7 +874,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Benda yang menggelinding (tanpa slip) memiliki energi kinetik translasi dan rotasi sekaligus. Syarat tidak slip: $v = \\omega R$ (pusat massa) dan $a = \\alpha R$.",
+        text: "Benda yang menggelinding (tanpa slip) memiliki energi kinetik translasi dan rotasi sekaligus. Syarat tidak slip: $$v = \\omega R$ (pusat massa) dan $$a = \\alpha R$.",
       },
       {
         type: "formula",
@@ -885,17 +885,17 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$E_k$", meaning: "energi kinetik total", unit: "J" },
-          { symbol: "$m$", meaning: "massa", unit: "kg" },
-          { symbol: "$v$", meaning: "kecepatan pusat massa", unit: "m/s" },
-          { symbol: "$I$", meaning: "momen inersia", unit: "kg m^2" },
-          { symbol: "$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
-          { symbol: "$R$", meaning: "jari-jari", unit: "m" },
+          { symbol: "$$E_k$", meaning: "energi kinetik total", unit: "J" },
+          { symbol: "$$m$", meaning: "massa", unit: "kg" },
+          { symbol: "$$v$", meaning: "kecepatan pusat massa", unit: "m/s" },
+          { symbol: "$$I$", meaning: "momen inersia", unit: "kg m^2" },
+          { symbol: "$$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
+          { symbol: "$$R$", meaning: "jari-jari", unit: "m" },
         ],
       },
       {
         type: "paragraph",
-        text: "Percepatan benda menggelinding di bidang miring (sudut $\\theta$) diperoleh dengan menggabungkan Hukum Newton translasi, rotasi, dan syarat tidak slip.",
+        text: "Percepatan benda menggelinding di bidang miring (sudut $$\\theta$) diperoleh dengan menggabungkan Hukum Newton translasi, rotasi, dan syarat tidak slip.",
       },
       {
         type: "formula",
@@ -906,27 +906,27 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$a$", meaning: "percepatan pusat massa", unit: "m/s^2" },
-          { symbol: "$g$", meaning: "percepatan gravitasi (10 m/s^2)", unit: "m/s^2" },
-          { symbol: "$\\theta$", meaning: "sudut bidang miring", unit: "rad/derajat" },
-          { symbol: "$I$", meaning: "momen inersia", unit: "kg m^2" },
-          { symbol: "$m$", meaning: "massa", unit: "kg" },
-          { symbol: "$R$", meaning: "jari-jari", unit: "m" },
+          { symbol: "$$a$", meaning: "percepatan pusat massa", unit: "m/s^2" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi (10 m/s^2)", unit: "m/s^2" },
+          { symbol: "$$\\theta$", meaning: "sudut bidang miring", unit: "rad/derajat" },
+          { symbol: "$$I$", meaning: "momen inersia", unit: "kg m^2" },
+          { symbol: "$$m$", meaning: "massa", unit: "kg" },
+          { symbol: "$$R$", meaning: "jari-jari", unit: "m" },
         ],
       },
       {
         type: "table",
-        headers: ["Benda (menggelinding)", "$I/(mR^2)$", "$a$"],
+        headers: ["Benda (menggelinding)", "$$I/(mR^2)$", "$$a$"],
         rows: [
-          ["Silinder pejal", "$1/2$", "$\\frac{2}{3} g\\sin\\theta$"],
-          ["Silinder berongga", "$1$", "$\\frac{1}{2} g\\sin\\theta$"],
-          ["Bola pejal", "$2/5$", "$\\frac{5}{7} g\\sin\\theta$"],
-          ["Bola berongga", "$2/3$", "$\\frac{3}{5} g\\sin\\theta$"],
+          ["Silinder pejal", "$$1/2$", "$$\\frac{2}{3} g\\sin\\theta$"],
+          ["Silinder berongga", "$$1$", "$$\\frac{1}{2} g\\sin\\theta$"],
+          ["Bola pejal", "$$2/5$", "$$\\frac{5}{7} g\\sin\\theta$"],
+          ["Bola berongga", "$$2/3$", "$$\\frac{3}{5} g\\sin\\theta$"],
         ],
       },
       {
         type: "note",
-        text: "Urutan kecepatan benda menggelinding dari yang tercepat: bola pejal, silinder pejal, bola berongga, silinder berongga. Semakin kecil $I/(mR^2)$, semakin cepat (massa lebih terkonsentrasi ke pusat).",
+        text: "Urutan kecepatan benda menggelinding dari yang tercepat: bola pejal, silinder pejal, bola berongga, silinder berongga. Semakin kecil $$I/(mR^2)$, semakin cepat (massa lebih terkonsentrasi ke pusat).",
         variant: "info",
       },
       {
@@ -936,18 +936,18 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "m g h = \\frac{1}{2} m v^2 \\left(1 + \\frac{I}{mR^2}\\right)",
-        description: "Kekekalan energi untuk menggelinding dari ketinggian $h$.",
+        description: "Kekekalan energi untuk menggelinding dari ketinggian $$h$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$m$", meaning: "massa", unit: "kg" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$h$", meaning: "ketinggian awal", unit: "m" },
-          { symbol: "$v$", meaning: "kecepatan akhir pusat massa", unit: "m/s" },
-          { symbol: "$I$", meaning: "momen inersia", unit: "kg m^2" },
-          { symbol: "$R$", meaning: "jari-jari", unit: "m" },
+          { symbol: "$$m$", meaning: "massa", unit: "kg" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$h$", meaning: "ketinggian awal", unit: "m" },
+          { symbol: "$$v$", meaning: "kecepatan akhir pusat massa", unit: "m/s" },
+          { symbol: "$$I$", meaning: "momen inersia", unit: "kg m^2" },
+          { symbol: "$$R$", meaning: "jari-jari", unit: "m" },
         ],
       },
       {
@@ -959,20 +959,20 @@ export const materiGelombang: Materi[] = [
         type: "table",
         headers: ["Translasi", "Rotasi"],
         rows: [
-          ["$s$ (posisi)", "$\\theta$ (sudut)"],
-          ["$v = ds/dt$ (kecepatan)", "$\\omega = d\\theta/dt$ (kec. sudut)"],
-          ["$a = dv/dt$ (percepatan)", "$\\alpha = d\\omega/dt$ (perc. sudut)"],
-          ["$m$ (massa)", "$I$ (momen inersia)"],
-          ["$F = ma$ (gaya)", "$\\tau = I\\alpha$ (torsi)"],
-          ["$p = mv$ (momentum)", "$L = I\\omega$ (momentum sudut)"],
-          ["$E_k = \\tfrac12 m v^2$", "$E_k = \\tfrac12 I \\omega^2$"],
-          ["$W = F s$", "$W = \\tau \\theta$"],
-          ["$P = F v$", "$P = \\tau \\omega$"],
+          ["$$s$ (posisi)", "$$\\theta$ (sudut)"],
+          ["$$v = ds/dt$ (kecepatan)", "$$\\omega = d\\theta/dt$ (kec. sudut)"],
+          ["$$a = dv/dt$ (percepatan)", "$$\\alpha = d\\omega/dt$ (perc. sudut)"],
+          ["$$m$ (massa)", "$$I$ (momen inersia)"],
+          ["$$F = ma$ (gaya)", "$$\\tau = I\\alpha$ (torsi)"],
+          ["$$p = mv$ (momentum)", "$$L = I\\omega$ (momentum sudut)"],
+          ["$$E_k = \\tfrac12 m v^2$", "$$E_k = \\tfrac12 I \\omega^2$"],
+          ["$$W = F s$", "$$W = \\tau \\theta$"],
+          ["$$P = F v$", "$$P = \\tau \\omega$"],
         ],
       },
       {
         type: "note",
-        text: "Setiap besaran translasi memiliki pasangan rotasi. Ini membantu mengingat rumus: ganti $m \\to I$, $F \\to \\tau$, $v \\to \\omega$, $s \\to \\theta$.",
+        text: "Setiap besaran translasi memiliki pasangan rotasi. Ini membantu mengingat rumus: ganti $$m \\to I$, $$F \\to \\tau$, $$v \\to \\omega$, $$s \\to \\theta$.",
         variant: "tip",
       },
       {
@@ -982,7 +982,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Untuk benda diam atau bergerak dengan kecepatan konstan (translasi dan rotasi), berlaku $\\Sigma F = 0$ dan $\\Sigma \\tau = 0$. Ini dipakai untuk mencari gaya reaksi pada tumpuan (jembatan, tangga bersandar).",
+        text: "Untuk benda diam atau bergerak dengan kecepatan konstan (translasi dan rotasi), berlaku $$\\Sigma F = 0$ dan $$\\Sigma \\tau = 0$. Ini dipakai untuk mencari gaya reaksi pada tumpuan (jembatan, tangga bersandar).",
       },
       {
         type: "formula",
@@ -993,8 +993,8 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\Sigma F_x, \\Sigma F_y$", meaning: "gaya total pada sumbu x dan y", unit: "N" },
-          { symbol: "$\\Sigma \\tau$", meaning: "torsi total terhadap titik putar", unit: "N m" },
+          { symbol: "$$\\Sigma F_x, \\Sigma F_y$", meaning: "gaya total pada sumbu x dan y", unit: "N" },
+          { symbol: "$$\\Sigma \\tau$", meaning: "torsi total terhadap titik putar", unit: "N m" },
         ],
       },
       {
@@ -1003,7 +1003,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Penari berputar dengan tangan terentang memiliki $I_1 = 4$ kg m^2 dan $\\omega_1 = 3$ rad/s. Saat tangan ditarik, $I_2 = 1$ kg m^2. Berapa $\\omega_2$?",
+            text: "Penari berputar dengan tangan terentang memiliki $$I_1 = 4$ kg m^2 dan $$\\omega_1 = 3$ rad/s. Saat tangan ditarik, $$I_2 = 1$ kg m^2. Berapa $$\\omega_2$?",
           },
           {
             type: "formula",
@@ -1014,8 +1014,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$I_1,I_2$", meaning: "momen inersia awal/akhir", unit: "kg m^2" },
-              { symbol: "$\\omega_1,\\omega_2$", meaning: "kecepatan sudut awal/akhir", unit: "rad/s" },
+              { symbol: "$$I_1,I_2$", meaning: "momen inersia awal/akhir", unit: "kg m^2" },
+              { symbol: "$$\\omega_1,\\omega_2$", meaning: "kecepatan sudut awal/akhir", unit: "rad/s" },
             ],
           },
           {
@@ -1027,7 +1027,7 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$\\omega_2$", meaning: "kecepatan sudut akhir", unit: "rad/s" },
+              { symbol: "$$\\omega_2$", meaning: "kecepatan sudut akhir", unit: "rad/s" },
             ],
           },
           { type: "paragraph", text: "Kecepatan putar naik 4 kali karena momen inersia turun 4 kali (energi kinetik rotasi juga naik, berasal dari usaha penari menarik tangan)." },
@@ -1039,7 +1039,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Bola pejal bermassa 2 kg, jari-jari 0,1 m, dilepas dari puncak bidang miring sudut 30 derajat, panjang 7 m (tinggi h = 3,5 m). Hitung (a) percepatan, (b) kecepatan di dasar. ($g=10$ m/s^2)",
+            text: "Bola pejal bermassa 2 kg, jari-jari 0,1 m, dilepas dari puncak bidang miring sudut 30 derajat, panjang 7 m (tinggi h = 3,5 m). Hitung (a) percepatan, (b) kecepatan di dasar. ($$g=10$ m/s^2)",
           },
           {
             type: "formula",
@@ -1050,9 +1050,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$a$", meaning: "percepatan", unit: "m/s^2" },
-              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$\\theta$", meaning: "sudut bidang miring", unit: "derajat/rad" },
+              { symbol: "$$a$", meaning: "percepatan", unit: "m/s^2" },
+              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$$\\theta$", meaning: "sudut bidang miring", unit: "derajat/rad" },
             ],
           },
           {
@@ -1064,9 +1064,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$v$", meaning: "kecepatan akhir", unit: "m/s" },
-              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$h$", meaning: "ketinggian", unit: "m" },
+              { symbol: "$$v$", meaning: "kecepatan akhir", unit: "m/s" },
+              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$$h$", meaning: "ketinggian", unit: "m" },
             ],
           },
         ],
@@ -1088,9 +1088,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$\\tau$", meaning: "torsi", unit: "N m" },
-              { symbol: "$r$", meaning: "panjang kunci", unit: "m" },
-              { symbol: "$F$", meaning: "gaya tarik", unit: "N" },
+              { symbol: "$$\\tau$", meaning: "torsi", unit: "N m" },
+              { symbol: "$$r$", meaning: "panjang kunci", unit: "m" },
+              { symbol: "$$F$", meaning: "gaya tarik", unit: "N" },
             ],
           },
           { type: "paragraph", text: "Jika gaya diberikan pada sudut 30 derajat, torsinya = 10 * sin30 = 5 N m. Mekanik memerlukan dua kali gaya untuk torsi sama." },
@@ -1099,7 +1099,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "definition",
         term: "Syarat tidak slip",
-        definition: "Benda menggelinding tanpa slip bila titik kontak dengan permukaan sesaat diam, yaitu $v_{\\text{pusat}} = \\omega R$ dan $a = \\alpha R$.",
+        definition: "Benda menggelinding tanpa slip bila titik kontak dengan permukaan sesaat diam, yaitu $$v_{\\text{pusat}} = \\omega R$ dan $$a = \\alpha R$.",
       },
       {
         type: "heading",
@@ -1108,7 +1108,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Massa tergantung pada kedua ujung tali yang melilit katrol (massa $M$, jari-jari $R$, momen inersia $I=\\tfrac12 M R^2$ untuk silinder pejal). Gabungkan $\\Sigma F=ma$ dan $\\Sigma\\tau=I\\alpha$ dengan syarat $a=\\alpha R$.",
+        text: "Massa tergantung pada kedua ujung tali yang melilit katrol (massa $$M$, jari-jari $$R$, momen inersia $$I=\\tfrac12 M R^2$ untuk silinder pejal). Gabungkan $$\\Sigma F=ma$ dan $$\\Sigma\\tau=I\\alpha$ dengan syarat $$a=\\alpha R$.",
       },
       {
         type: "formula",
@@ -1119,11 +1119,11 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$a$", meaning: "percepatan sistem", unit: "m/s^2" },
-          { symbol: "$m_1,m_2$", meaning: "massa beban", unit: "kg" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$I$", meaning: "momen inersia katrol", unit: "kg m^2" },
-          { symbol: "$R$", meaning: "jari-jari katrol", unit: "m" },
+          { symbol: "$$a$", meaning: "percepatan sistem", unit: "m/s^2" },
+          { symbol: "$$m_1,m_2$", meaning: "massa beban", unit: "kg" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$I$", meaning: "momen inersia katrol", unit: "kg m^2" },
+          { symbol: "$$R$", meaning: "jari-jari katrol", unit: "m" },
         ],
       },
       {
@@ -1133,7 +1133,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Pada benda yang berputar dengan momentum sudut $L$, torsi luar yang tegak lurus menyebabkan precesi (perubahan arah sumbu putar) dengan laju sudut precesi.",
+        text: "Pada benda yang berputar dengan momentum sudut $$L$, torsi luar yang tegak lurus menyebabkan precesi (perubahan arah sumbu putar) dengan laju sudut precesi.",
       },
       {
         type: "formula",
@@ -1144,11 +1144,11 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\Omega$", meaning: "laju precesi", unit: "rad/s" },
-          { symbol: "$\\tau$", meaning: "torsi luar", unit: "N m" },
-          { symbol: "$L$", meaning: "momentum sudut", unit: "kg m^2/s" },
-          { symbol: "$\\theta$", meaning: "sudut antara sumbu putar dan vertikal", unit: "rad" },
-          { symbol: "$I,\\omega$", meaning: "momen inersia dan kecepatan sudut", unit: "kg m^2, rad/s" },
+          { symbol: "$$\\Omega$", meaning: "laju precesi", unit: "rad/s" },
+          { symbol: "$$\\tau$", meaning: "torsi luar", unit: "N m" },
+          { symbol: "$$L$", meaning: "momentum sudut", unit: "kg m^2/s" },
+          { symbol: "$$\\theta$", meaning: "sudut antara sumbu putar dan vertikal", unit: "rad" },
+          { symbol: "$$I,\\omega$", meaning: "momen inersia dan kecepatan sudut", unit: "kg m^2, rad/s" },
         ],
       },
       {
@@ -1169,10 +1169,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I_{\\text{total}}$", meaning: "momen inersia total", unit: "kg m^2" },
-          { symbol: "$I_i$", meaning: "momen inersia komponen i", unit: "kg m^2" },
-          { symbol: "$M_i$", meaning: "massa komponen i", unit: "kg" },
-          { symbol: "$d_i$", meaning: "jarak pusat komponen i ke sumbu putar", unit: "m" },
+          { symbol: "$$I_{\\text{total}}$", meaning: "momen inersia total", unit: "kg m^2" },
+          { symbol: "$$I_i$", meaning: "momen inersia komponen i", unit: "kg m^2" },
+          { symbol: "$$M_i$", meaning: "massa komponen i", unit: "kg" },
+          { symbol: "$$d_i$", meaning: "jarak pusat komponen i ke sumbu putar", unit: "m" },
         ],
       },
       {
@@ -1189,11 +1189,11 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$W$", meaning: "kerja", unit: "J (N m)" },
-          { symbol: "$\\tau$", meaning: "torsi konstan", unit: "N m" },
-          { symbol: "$\\theta$", meaning: "sudut putar", unit: "rad" },
-          { symbol: "$P$", meaning: "daya", unit: "W" },
-          { symbol: "$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
+          { symbol: "$$W$", meaning: "kerja", unit: "J (N m)" },
+          { symbol: "$$\\tau$", meaning: "torsi konstan", unit: "N m" },
+          { symbol: "$$\\theta$", meaning: "sudut putar", unit: "rad" },
+          { symbol: "$$P$", meaning: "daya", unit: "W" },
+          { symbol: "$$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
         ],
       },
       {
@@ -1221,7 +1221,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Pada TKA, gravitasi diambil $g = 10$ m/s^2 dan tekanan atmosfer $P_0 \\approx 10^5$ Pa (1 atm), kecuali soal menyebut lain.",
+        text: "Pada TKA, gravitasi diambil $$g = 10$ m/s^2 dan tekanan atmosfer $$P_0 \\approx 10^5$ Pa (1 atm), kecuali soal menyebut lain.",
         variant: "info",
       },
       {
@@ -1242,9 +1242,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$P$", meaning: "tekanan", unit: "Pa = N/m^2" },
-          { symbol: "$F$", meaning: "gaya yang bekerja tegak lurus", unit: "N" },
-          { symbol: "$A$", meaning: "luas permukaan", unit: "m^2" },
+          { symbol: "$$P$", meaning: "tekanan", unit: "Pa = N/m^2" },
+          { symbol: "$$F$", meaning: "gaya yang bekerja tegak lurus", unit: "N" },
+          { symbol: "$$A$", meaning: "luas permukaan", unit: "m^2" },
         ],
       },
       {
@@ -1259,16 +1259,16 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "P_h = \\rho \\, g \\, h",
-        description: "Tekanan hidrostatis pada kedalaman $h$.",
+        description: "Tekanan hidrostatis pada kedalaman $$h$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$P_h$", meaning: "tekanan hidrostatis", unit: "Pa" },
-          { symbol: "$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$h$", meaning: "kedalaman vertikal dari permukaan", unit: "m" },
+          { symbol: "$$P_h$", meaning: "tekanan hidrostatis", unit: "Pa" },
+          { symbol: "$$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$h$", meaning: "kedalaman vertikal dari permukaan", unit: "m" },
         ],
       },
       {
@@ -1280,16 +1280,16 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$P_{\\text{mutlak}}$", meaning: "tekanan absolut", unit: "Pa" },
-          { symbol: "$P_0$", meaning: "tekanan atmosfer ($\\approx 10^5$ Pa)", unit: "Pa" },
-          { symbol: "$\\rho$", meaning: "massa jenis", unit: "kg/m^3" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$h$", meaning: "kedalaman", unit: "m" },
+          { symbol: "$$P_{\\text{mutlak}}$", meaning: "tekanan absolut", unit: "Pa" },
+          { symbol: "$$P_0$", meaning: "tekanan atmosfer ($$\\approx 10^5$ Pa)", unit: "Pa" },
+          { symbol: "$$\\rho$", meaning: "massa jenis", unit: "kg/m^3" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$h$", meaning: "kedalaman", unit: "m" },
         ],
       },
       {
         type: "paragraph",
-        text: "Tekanan gauge (terukur) = $P_{\\text{mutlak}} - P_0$. Manometer dan barometer mengukur perbedaan tekanan relatif atmosfer.",
+        text: "Tekanan gauge (terukur) = $$P_{\\text{mutlak}} - P_0$. Manometer dan barometer mengukur perbedaan tekanan relatif atmosfer.",
       },
       {
         type: "heading",
@@ -1303,14 +1303,14 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "\\frac{F_1}{A_1} = \\frac{F_2}{A_2}",
-        description: "Tekanan sama di dua piston; $F_2/F_1 = A_2/A_1$ (pengali gaya).",
+        description: "Tekanan sama di dua piston; $$F_2/F_1 = A_2/A_1$ (pengali gaya).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$F_1,F_2$", meaning: "gaya pada piston 1 dan 2", unit: "N" },
-          { symbol: "$A_1,A_2$", meaning: "luas penampang piston 1 dan 2", unit: "m^2" },
+          { symbol: "$$F_1,F_2$", meaning: "gaya pada piston 1 dan 2", unit: "N" },
+          { symbol: "$$A_1,A_2$", meaning: "luas penampang piston 1 dan 2", unit: "m^2" },
         ],
       },
       {
@@ -1331,8 +1331,8 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\rho_1,\\rho_2$", meaning: "massa jenis fluida 1 dan 2", unit: "kg/m^3" },
-          { symbol: "$h_1,h_2$", meaning: "ketinggian kolom fluida 1 dan 2", unit: "m" },
+          { symbol: "$$\\rho_1,\\rho_2$", meaning: "massa jenis fluida 1 dan 2", unit: "kg/m^3" },
+          { symbol: "$$h_1,h_2$", meaning: "ketinggian kolom fluida 1 dan 2", unit: "m" },
         ],
       },
       {
@@ -1353,28 +1353,28 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$F_A$", meaning: "gaya angkat ke atas (buoyant force)", unit: "N" },
-          { symbol: "$\\rho_{\\text{fluida}}$", meaning: "massa jenis fluida", unit: "kg/m^3" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$V_{\\text{tercelup}}$", meaning: "volume benda yang tercelup", unit: "m^3" },
+          { symbol: "$$F_A$", meaning: "gaya angkat ke atas (buoyant force)", unit: "N" },
+          { symbol: "$$\\rho_{\\text{fluida}}$", meaning: "massa jenis fluida", unit: "kg/m^3" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$V_{\\text{tercelup}}$", meaning: "volume benda yang tercelup", unit: "m^3" },
         ],
       },
       {
         type: "table",
         headers: ["Kondisi", "Hubungan Massa Jenis", "Gaya / Posisi"],
         rows: [
-          ["Terapung", "$\\rho_b < \\rho_f$", "$F_A = w$ (sebagian tercelup)"],
-          ["Melayang", "$\\rho_b = \\rho_f$", "$F_A = w$ (seluruhnya tercelup, diam di tengah)"],
-          ["Tenggelam", "$\\rho_b > \\rho_f$", "$F_A < w$ (berakselerasi ke dasar)"],
+          ["Terapung", "$$\\rho_b < \\rho_f$", "$$F_A = w$ (sebagian tercelup)"],
+          ["Melayang", "$$\\rho_b = \\rho_f$", "$$F_A = w$ (seluruhnya tercelup, diam di tengah)"],
+          ["Tenggelam", "$$\\rho_b > \\rho_f$", "$$F_A < w$ (berakselerasi ke dasar)"],
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Berat semu (benda dalam fluida): $w' = w - F_A$." },
-          { text: "Fraksi tercelup (benda terapung): $V_{\\text{celup}}/V_{\\text{total}} = \\rho_b/\\rho_f$." },
-          { text: "Benda yang mengapung memiliki volume celup = $(\\rho_b/\\rho_f)V_{\\text{total}}$." },
-          { text: "Massa jenis relatif: $SG = \\rho_b/\\rho_{\\text{air}}$ (tanpa satuan)." },
+          { text: "Berat semu (benda dalam fluida): $$w' = w - F_A$." },
+          { text: "Fraksi tercelup (benda terapung): $$V_{\\text{celup}}/V_{\\text{total}} = \\rho_b/\\rho_f$." },
+          { text: "Benda yang mengapung memiliki volume celup = $$(\\rho_b/\\rho_f)V_{\\text{total}}$." },
+          { text: "Massa jenis relatif: $$SG = \\rho_b/\\rho_{\\text{air}}$ (tanpa satuan)." },
         ],
       },
       {
@@ -1404,10 +1404,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$Q$", meaning: "debit (laju volume)", unit: "m^3/s" },
-          { symbol: "$A_1,A_2$", meaning: "luas penampang 1 dan 2", unit: "m^2" },
-          { symbol: "$v_1,v_2$", meaning: "kecepatan aliran di 1 dan 2", unit: "m/s" },
-          { symbol: "$V,t$", meaning: "volume fluida dan waktu", unit: "m^3, s" },
+          { symbol: "$$Q$", meaning: "debit (laju volume)", unit: "m^3/s" },
+          { symbol: "$$A_1,A_2$", meaning: "luas penampang 1 dan 2", unit: "m^2" },
+          { symbol: "$$v_1,v_2$", meaning: "kecepatan aliran di 1 dan 2", unit: "m/s" },
+          { symbol: "$$V,t$", meaning: "volume fluida dan waktu", unit: "m^3, s" },
         ],
       },
       {
@@ -1428,16 +1428,16 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$P$", meaning: "tekanan fluida", unit: "Pa" },
-          { symbol: "$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
-          { symbol: "$v$", meaning: "kecepatan aliran", unit: "m/s" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$h$", meaning: "ketinggian dari acuan", unit: "m" },
+          { symbol: "$$P$", meaning: "tekanan fluida", unit: "Pa" },
+          { symbol: "$$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
+          { symbol: "$$v$", meaning: "kecepatan aliran", unit: "m/s" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$h$", meaning: "ketinggian dari acuan", unit: "m" },
         ],
       },
       {
         type: "paragraph",
-        text: "Antara dua titik sepanjang garis arus: $P_1 + \\tfrac12 \\rho v_1^2 + \\rho g h_1 = P_2 + \\tfrac12 \\rho v_2^2 + \\rho g h_2$.",
+        text: "Antara dua titik sepanjang garis arus: $$P_1 + \\tfrac12 \\rho v_1^2 + \\rho g h_1 = P_2 + \\tfrac12 \\rho v_2^2 + \\rho g h_2$.",
       },
       {
         type: "heading",
@@ -1447,7 +1447,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Torricelli (bocoran tangki): $v = \\sqrt{2 g h}$, di mana $h$ kedalaman permukaan ke lobang; jangkauan horizontal $x = 2\\sqrt{h(H-h)}$ dengan $H$ tinggi total tangki." },
+          { text: "Torricelli (bocoran tangki): $$v = \\sqrt{2 g h}$, di mana $$h$ kedalaman permukaan ke lobang; jangkauan horizontal $$x = 2\\sqrt{h(H-h)}$ dengan $$H$ tinggi total tangki." },
           { text: "Venturimeter: mengukur kecepatan aliran lewat perbedaan tekanan pada bagian sempit." },
           { text: "Tabung Pitot: mengukur kecepatan aliran fluida (kapal terbang) dari perbedaan tekanan stagnasi dan statis." },
           { text: "Gaya angkat sayap pesawat: udara di atas sayap lebih cepat â†’ tekanan lebih rendah â†’ ada gaya angkat." },
@@ -1467,7 +1467,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Fluida nyata memiliki kekentalan (viskositas) yang menyebabkan gaya gesek internal. Aliran bisa laminar atau turbulen ditentukan bilangan Reynolds ($Re = \\rho v D/\\eta$).",
+        text: "Fluida nyata memiliki kekentalan (viskositas) yang menyebabkan gaya gesek internal. Aliran bisa laminar atau turbulen ditentukan bilangan Reynolds ($$Re = \\rho v D/\\eta$).",
       },
       {
         type: "formula",
@@ -1478,26 +1478,26 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$F_{\\eta}$", meaning: "gaya viskos", unit: "N" },
-          { symbol: "$\\eta$", meaning: "koefisien viskositas dinamis", unit: "Pa s" },
-          { symbol: "$A$", meaning: "luas area", unit: "m^2" },
-          { symbol: "$dv/dy$", meaning: "gradien kecepatan", unit: "1/s" },
+          { symbol: "$$F_{\\eta}$", meaning: "gaya viskos", unit: "N" },
+          { symbol: "$$\\eta$", meaning: "koefisien viskositas dinamis", unit: "Pa s" },
+          { symbol: "$$A$", meaning: "luas area", unit: "m^2" },
+          { symbol: "$$dv/dy$", meaning: "gradien kecepatan", unit: "1/s" },
         ],
       },
       {
         type: "formula",
         latex: "R_e = \\frac{\\rho v D}{\\eta}",
-        description: "Bilangan Reynolds; $Re < \\sim 2000$ laminar, $Re > \\sim 4000$ turbulen.",
+        description: "Bilangan Reynolds; $$Re < \\sim 2000$ laminar, $$Re > \\sim 4000$ turbulen.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$R_e$", meaning: "bilangan Reynolds", unit: "tanpa satuan" },
-          { symbol: "$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
-          { symbol: "$v$", meaning: "kecepatan aliran rata-rata", unit: "m/s" },
-          { symbol: "$D$", meaning: "diameter pipa", unit: "m" },
-          { symbol: "$\\eta$", meaning: "viskositas dinamis", unit: "Pa s" },
+          { symbol: "$$R_e$", meaning: "bilangan Reynolds", unit: "tanpa satuan" },
+          { symbol: "$$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
+          { symbol: "$$v$", meaning: "kecepatan aliran rata-rata", unit: "m/s" },
+          { symbol: "$$D$", meaning: "diameter pipa", unit: "m" },
+          { symbol: "$$\\eta$", meaning: "viskositas dinamis", unit: "Pa s" },
         ],
       },
       {
@@ -1518,11 +1518,11 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$Q$", meaning: "debit", unit: "m^3/s" },
-          { symbol: "$R$", meaning: "radius pipa", unit: "m" },
-          { symbol: "$\\Delta P$", meaning: "perbedaan tekanan", unit: "Pa" },
-          { symbol: "$\\eta$", meaning: "viskositas", unit: "Pa s" },
-          { symbol: "$L$", meaning: "panjang pipa", unit: "m" },
+          { symbol: "$$Q$", meaning: "debit", unit: "m^3/s" },
+          { symbol: "$$R$", meaning: "radius pipa", unit: "m" },
+          { symbol: "$$\\Delta P$", meaning: "perbedaan tekanan", unit: "Pa" },
+          { symbol: "$$\\eta$", meaning: "viskositas", unit: "Pa s" },
+          { symbol: "$$L$", meaning: "panjang pipa", unit: "m" },
         ],
       },
       {
@@ -1537,18 +1537,18 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "h = \\frac{2 \\gamma \\cos\\theta}{\\rho g r}",
-        description: "Ketinggian kapiler (tanda $\\cos\\theta$ menentukan naik/turun).",
+        description: "Ketinggian kapiler (tanda $$\\cos\\theta$ menentukan naik/turun).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$h$", meaning: "ketinggian kapiler", unit: "m" },
-          { symbol: "$\\gamma$", meaning: "tegangan permukaan", unit: "N/m" },
-          { symbol: "$\\theta$", meaning: "sudut kontak", unit: "rad" },
-          { symbol: "$\\rho$", meaning: "massa jenis", unit: "kg/m^3" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$r$", meaning: "radius pipa", unit: "m" },
+          { symbol: "$$h$", meaning: "ketinggian kapiler", unit: "m" },
+          { symbol: "$$\\gamma$", meaning: "tegangan permukaan", unit: "N/m" },
+          { symbol: "$$\\theta$", meaning: "sudut kontak", unit: "rad" },
+          { symbol: "$$\\rho$", meaning: "massa jenis", unit: "kg/m^3" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$r$", meaning: "radius pipa", unit: "m" },
         ],
       },
       {
@@ -1557,11 +1557,11 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Balok bermassa 200 g ($\\rho_b = 0{,}8$ g/cm^3) dimasukkan ke air ($\\rho = 1$ g/cm^3). Berapa persen volume yang tercelup?",
+            text: "Balok bermassa 200 g ($$\\rho_b = 0{,}8$ g/cm^3) dimasukkan ke air ($$\\rho = 1$ g/cm^3). Berapa persen volume yang tercelup?",
           },
           {
             type: "paragraph",
-            text: "Karena $\\rho_b < \\rho_f$, balok terapung.",
+            text: "Karena $$\\rho_b < \\rho_f$, balok terapung.",
           },
           {
             type: "formula",
@@ -1572,10 +1572,10 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$V_{\\text{celup}}$", meaning: "volume tercelup", unit: "cm^3 / m^3" },
-              { symbol: "$V_{\\text{total}}$", meaning: "volume total benda", unit: "cm^3 / m^3" },
-              { symbol: "$\\rho_b$", meaning: "massa jenis benda", unit: "g/cm^3 / kg/m^3" },
-              { symbol: "$\\rho_f$", meaning: "massa jenis fluida", unit: "g/cm^3 / kg/m^3" },
+              { symbol: "$$V_{\\text{celup}}$", meaning: "volume tercelup", unit: "cm^3 / m^3" },
+              { symbol: "$$V_{\\text{total}}$", meaning: "volume total benda", unit: "cm^3 / m^3" },
+              { symbol: "$$\\rho_b$", meaning: "massa jenis benda", unit: "g/cm^3 / kg/m^3" },
+              { symbol: "$$\\rho_f$", meaning: "massa jenis fluida", unit: "g/cm^3 / kg/m^3" },
             ],
           },
           { type: "paragraph", text: "Jadi 80% volume balok tercelup dalam air." },
@@ -1598,9 +1598,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$F_2$", meaning: "gaya keluaran", unit: "N" },
-              { symbol: "$F_1$", meaning: "gaya masukan", unit: "N" },
-              { symbol: "$A_2,A_1$", meaning: "luas piston besar/kecil", unit: "cm^2 / m^2" },
+              { symbol: "$$F_2$", meaning: "gaya keluaran", unit: "N" },
+              { symbol: "$$F_1$", meaning: "gaya masukan", unit: "N" },
+              { symbol: "$$A_2,A_1$", meaning: "luas piston besar/kecil", unit: "cm^2 / m^2" },
             ],
           },
           { type: "paragraph", text: "Jadi dongkrak memperbesar gaya 100 kali, tetapi jarak yang ditempuh piston kecil 100 kali lebih panjang (kekekalan energi/kerja)." },
@@ -1612,7 +1612,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Tangki air tinggi $H = 1{,}25$ m memiliki lobang kecil pada ketinggian $h = 0{,}45$ m dari dasar. Hitung kecepatan air keluar dan jangkauan horizontal.",
+            text: "Tangki air tinggi $$H = 1{,}25$ m memiliki lobang kecil pada ketinggian $$h = 0{,}45$ m dari dasar. Hitung kecepatan air keluar dan jangkauan horizontal.",
           },
           {
             type: "formula",
@@ -1623,9 +1623,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$v$", meaning: "kecepatan keluar air", unit: "m/s" },
-              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$H-h$", meaning: "kedalaman permukaan ke lobang", unit: "m" },
+              { symbol: "$$v$", meaning: "kecepatan keluar air", unit: "m/s" },
+              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$$H-h$", meaning: "kedalaman permukaan ke lobang", unit: "m" },
             ],
           },
           {
@@ -1637,9 +1637,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$x$", meaning: "jangkauan horizontal", unit: "m" },
-              { symbol: "$h$", meaning: "tinggi lobang dari dasar", unit: "m" },
-              { symbol: "$H$", meaning: "tinggi total tangki", unit: "m" },
+              { symbol: "$$x$", meaning: "jangkauan horizontal", unit: "m" },
+              { symbol: "$$h$", meaning: "tinggi lobang dari dasar", unit: "m" },
+              { symbol: "$$H$", meaning: "tinggi total tangki", unit: "m" },
             ],
           },
         ],
@@ -1661,9 +1661,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$\\Delta P$", meaning: "perbedaan tekanan", unit: "Pa" },
-              { symbol: "$\\rho$", meaning: "massa jenis udara", unit: "kg/m^3" },
-              { symbol: "$v_{\\text{atas/bawah}}$", meaning: "kecepatan aliran", unit: "m/s" },
+              { symbol: "$$\\Delta P$", meaning: "perbedaan tekanan", unit: "Pa" },
+              { symbol: "$$\\rho$", meaning: "massa jenis udara", unit: "kg/m^3" },
+              { symbol: "$$v_{\\text{atas/bawah}}$", meaning: "kecepatan aliran", unit: "m/s" },
             ],
           },
           {
@@ -1675,9 +1675,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$F_{\\text{angkat}}$", meaning: "gaya angkat", unit: "N" },
-              { symbol: "$\\Delta P$", meaning: "perbedaan tekanan", unit: "Pa" },
-              { symbol: "$A$", meaning: "luas sayap", unit: "m^2" },
+              { symbol: "$$F_{\\text{angkat}}$", meaning: "gaya angkat", unit: "N" },
+              { symbol: "$$\\Delta P$", meaning: "perbedaan tekanan", unit: "Pa" },
+              { symbol: "$$A$", meaning: "luas sayap", unit: "m^2" },
             ],
           },
         ],
@@ -1689,7 +1689,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Bernoulli horizontal antara penampang lebar 1 dan sempit 2 (z sama): $P_1 - P_2 = \\tfrac12 \\rho(v_2^2 - v_1^2)$. Kontinuitas $v_2 = v_1 A_1/A_2$. Eliminasi $v_2$ memberi rumus praktis.",
+        text: "Bernoulli horizontal antara penampang lebar 1 dan sempit 2 (z sama): $$P_1 - P_2 = \\tfrac12 \\rho(v_2^2 - v_1^2)$. Kontinuitas $$v_2 = v_1 A_1/A_2$. Eliminasi $$v_2$ memberi rumus praktis.",
       },
       {
         type: "formula",
@@ -1700,10 +1700,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_1$", meaning: "kecepatan di penampang lebar", unit: "m/s" },
-          { symbol: "$P_1,P_2$", meaning: "tekanan di titik 1 dan 2", unit: "Pa" },
-          { symbol: "$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
-          { symbol: "$A_1,A_2$", meaning: "luas penampang 1 dan 2", unit: "m^2" },
+          { symbol: "$$v_1$", meaning: "kecepatan di penampang lebar", unit: "m/s" },
+          { symbol: "$$P_1,P_2$", meaning: "tekanan di titik 1 dan 2", unit: "Pa" },
+          { symbol: "$$\\rho$", meaning: "massa jenis fluida", unit: "kg/m^3" },
+          { symbol: "$$A_1,A_2$", meaning: "luas penampang 1 dan 2", unit: "m^2" },
         ],
       },
       {
@@ -1715,8 +1715,8 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$Q$", meaning: "debit", unit: "m^3/s" },
-          { symbol: "$A_i,v_i$", meaning: "luas dan kecepatan di titik i", unit: "m^2, m/s" },
+          { symbol: "$$Q$", meaning: "debit", unit: "m^3/s" },
+          { symbol: "$$A_i,v_i$", meaning: "luas dan kecepatan di titik i", unit: "m^2, m/s" },
         ],
       },
       {
@@ -1726,21 +1726,21 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Bola kecil yang jatuh dalam fluida kental mengalami gaya gesek viscous $F = 6\\pi \\eta r v$ (Stokes). Pada kecepatan terminal, berat = gaya apung + gaya gesek.",
+        text: "Bola kecil yang jatuh dalam fluida kental mengalami gaya gesek viscous $$F = 6\\pi \\eta r v$ (Stokes). Pada kecepatan terminal, berat = gaya apung + gaya gesek.",
       },
       {
         type: "formula",
         latex: "F_{\\text{gesek}} = 6\\pi \\eta r v",
-        description: "Gaya Stokes pada bola radius $r$ bergerak dengan kecepatan $v$.",
+        description: "Gaya Stokes pada bola radius $$r$ bergerak dengan kecepatan $$v$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$F_{\\text{gesek}}$", meaning: "gaya gesek viskos", unit: "N" },
-          { symbol: "$\\eta$", meaning: "viskositas dinamis", unit: "Pa s" },
-          { symbol: "$r$", meaning: "jari-jari bola", unit: "m" },
-          { symbol: "$v$", meaning: "kecepatan", unit: "m/s" },
+          { symbol: "$$F_{\\text{gesek}}$", meaning: "gaya gesek viskos", unit: "N" },
+          { symbol: "$$\\eta$", meaning: "viskositas dinamis", unit: "Pa s" },
+          { symbol: "$$r$", meaning: "jari-jari bola", unit: "m" },
+          { symbol: "$$v$", meaning: "kecepatan", unit: "m/s" },
         ],
       },
       {
@@ -1752,16 +1752,16 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v_t$", meaning: "kecepatan terminal", unit: "m/s" },
-          { symbol: "$\\rho_b,\\rho_f$", meaning: "massa jenis bola/fluida", unit: "kg/m^3" },
-          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$r$", meaning: "jari-jari bola", unit: "m" },
-          { symbol: "$\\eta$", meaning: "viskositas dinamis", unit: "Pa s" },
+          { symbol: "$$v_t$", meaning: "kecepatan terminal", unit: "m/s" },
+          { symbol: "$$\\rho_b,\\rho_f$", meaning: "massa jenis bola/fluida", unit: "kg/m^3" },
+          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$$r$", meaning: "jari-jari bola", unit: "m" },
+          { symbol: "$$\\eta$", meaning: "viskositas dinamis", unit: "Pa s" },
         ],
       },
       {
         type: "note",
-        text: "Strategi TKA fluida: (1) identifikasi statis/dinamis; (2) pilih rumus ($P_h$, Pascal, Archimedes, kontinuitas, Bernoulli); (3) perhatikan satuan dan konversi; (4) untuk Bernoulli pilih dua titik yang diketahui.",
+        text: "Strategi TKA fluida: (1) identifikasi statis/dinamis; (2) pilih rumus ($$P_h$, Pascal, Archimedes, kontinuitas, Bernoulli); (3) perhatikan satuan dan konversi; (4) untuk Bernoulli pilih dua titik yang diketahui.",
         variant: "tip",
       },
     ],
@@ -1784,7 +1784,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Cepat rambat bunyi di udara kira-kira bertambah 0,6 m/s per derajat Celcius: $v \\approx 331 + 0{,}6 T$ (m/s).",
+        text: "Cepat rambat bunyi di udara kira-kira bertambah 0,6 m/s per derajat Celcius: $$v \\approx 331 + 0{,}6 T$ (m/s).",
         variant: "info",
       },
       {
@@ -1794,7 +1794,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Tiga besaran dasar gelombang saling terkait: panjang gelombang $\\lambda$, frekuensi $f$, dan cepat rambat $v$. Serta amplitudo sebagai ukuran energi.",
+        text: "Tiga besaran dasar gelombang saling terkait: panjang gelombang $$\\lambda$, frekuensi $$f$, dan cepat rambat $$v$. Serta amplitudo sebagai ukuran energi.",
       },
       {
         type: "formula",
@@ -1805,27 +1805,27 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$v$", meaning: "cepat rambat", unit: "m/s" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m" },
-          { symbol: "$f$", meaning: "frekuensi", unit: "Hz (s^{-1})" },
-          { symbol: "$T$", meaning: "periode", unit: "s" },
+          { symbol: "$$v$", meaning: "cepat rambat", unit: "m/s" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang", unit: "m" },
+          { symbol: "$$f$", meaning: "frekuensi", unit: "Hz (s^{-1})" },
+          { symbol: "$$T$", meaning: "periode", unit: "s" },
         ],
       },
       {
         type: "formula",
         latex: "y = A \\sin(\\omega t - k x)",
-        description: "Persamaan gelombang berjalan ke arah +x; $\\omega=2\\pi/T$, $k=2\\pi/\\lambda$, $v=\\omega/k$.",
+        description: "Persamaan gelombang berjalan ke arah +x; $$\\omega=2\\pi/T$, $$k=2\\pi/\\lambda$, $$v=\\omega/k$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$y$", meaning: "simpangan pada posisi $x$ dan waktu $t$", unit: "m" },
-          { symbol: "$A$", meaning: "amplitudo", unit: "m" },
-          { symbol: "$\\omega$", meaning: "frekuensi sudut", unit: "rad/s" },
-          { symbol: "$t$", meaning: "waktu", unit: "s" },
-          { symbol: "$k$", meaning: "bilangan gelombang vektor", unit: "rad/m" },
-          { symbol: "$x$", meaning: "posisi", unit: "m" },
+          { symbol: "$$y$", meaning: "simpangan pada posisi $$x$ dan waktu $$t$", unit: "m" },
+          { symbol: "$$A$", meaning: "amplitudo", unit: "m" },
+          { symbol: "$$\\omega$", meaning: "frekuensi sudut", unit: "rad/s" },
+          { symbol: "$$t$", meaning: "waktu", unit: "s" },
+          { symbol: "$$k$", meaning: "bilangan gelombang vektor", unit: "rad/m" },
+          { symbol: "$$x$", meaning: "posisi", unit: "m" },
         ],
       },
       {
@@ -1849,9 +1849,9 @@ export const materiGelombang: Materi[] = [
         type: "table",
         headers: ["Sumber", "Rumus Frekuensi (Harmonik ke-n)", "Rasio Harmonik"],
         rows: [
-          ["Dawai (kedua ujung bebas)", "$f_n = \\frac{n}{2L}\\sqrt{\\frac{F}{\\mu}}$", "$1:2:3:\\ldots$ (semua)"],
-          ["Pipa organa terbuka (kedua ujung terbuka)", "$f_n = \\frac{n v}{2 L}$", "$1:2:3:\\ldots$ (semua)"],
-          ["Pipa organa tertutup (satu ujung tertutup)", "$f_n = \\frac{(2n-1) v}{4 L}$", "$1:3:5:\\ldots$ (ganjil saja)"],
+          ["Dawai (kedua ujung bebas)", "$$f_n = \\frac{n}{2L}\\sqrt{\\frac{F}{\\mu}}$", "$$1:2:3:\\ldots$ (semua)"],
+          ["Pipa organa terbuka (kedua ujung terbuka)", "$$f_n = \\frac{n v}{2 L}$", "$$1:2:3:\\ldots$ (semua)"],
+          ["Pipa organa tertutup (satu ujung tertutup)", "$$f_n = \\frac{(2n-1) v}{4 L}$", "$$1:3:5:\\ldots$ (ganjil saja)"],
         ],
       },
       {
@@ -1863,19 +1863,19 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f_1$", meaning: "frekuensi nada dasar", unit: "Hz" },
-          { symbol: "$L$", meaning: "panjang dawai yang bergetar", unit: "m" },
-          { symbol: "$F$", meaning: "gaya tegang dawai", unit: "N" },
-          { symbol: "$\\mu$", meaning: "massa per panjang dawai", unit: "kg/m" },
+          { symbol: "$$f_1$", meaning: "frekuensi nada dasar", unit: "Hz" },
+          { symbol: "$$L$", meaning: "panjang dawai yang bergetar", unit: "m" },
+          { symbol: "$$F$", meaning: "gaya tegang dawai", unit: "N" },
+          { symbol: "$$\\mu$", meaning: "massa per panjang dawai", unit: "kg/m" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Pada dawai: frekuensi naik jika $L$ dipendek, $F$ diperbesar, atau $\\mu$ diperkecil." },
+          { text: "Pada dawai: frekuensi naik jika $$L$ dipendek, $$F$ diperbesar, atau $$\\mu$ diperkecil." },
           { text: "Pipa tertutup hanya memiliki harmonik ganjil (1, 3, 5, ...). Pipa terbuka memiliki semua harmonik." },
           { text: "Dua kali panjang pipa â†’ frekuensi turun separuh." },
-          { text: "Suhu udara naik â†’ $v$ naik â†’ frekuensi pipa naik (dawai tidak terpengaruh langsung)." },
+          { text: "Suhu udara naik â†’ $$v$ naik â†’ frekuensi pipa naik (dawai tidak terpengaruh langsung)." },
         ],
       },
       {
@@ -1895,16 +1895,16 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "I = \\frac{P}{A} = \\frac{P}{4\\pi r^2}",
-        description: "Intensitas bunyi pada jarak $r$ dari sumber daya $P$.",
+        description: "Intensitas bunyi pada jarak $$r$ dari sumber daya $$P$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I$", meaning: "intensitas bunyi", unit: "W/m^2" },
-          { symbol: "$P$", meaning: "daya sumber", unit: "W" },
-          { symbol: "$A$", meaning: "luas permukaan penyerap", unit: "m^2" },
-          { symbol: "$r$", meaning: "jarak dari sumber", unit: "m" },
+          { symbol: "$$I$", meaning: "intensitas bunyi", unit: "W/m^2" },
+          { symbol: "$$P$", meaning: "daya sumber", unit: "W" },
+          { symbol: "$$A$", meaning: "luas permukaan penyerap", unit: "m^2" },
+          { symbol: "$$r$", meaning: "jarak dari sumber", unit: "m" },
         ],
       },
       {
@@ -1916,36 +1916,36 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I_1,I_2$", meaning: "intensitas pada jarak 1 dan 2", unit: "W/m^2" },
-          { symbol: "$r_1,r_2$", meaning: "jarak dari sumber", unit: "m" },
+          { symbol: "$$I_1,I_2$", meaning: "intensitas pada jarak 1 dan 2", unit: "W/m^2" },
+          { symbol: "$$r_1,r_2$", meaning: "jarak dari sumber", unit: "m" },
         ],
       },
       {
         type: "formula",
         latex: "TI = 10 \\log_{10}\\left(\\frac{I}{I_0}\\right)",
-        description: "Taraf intensitas (Sound Pressure Level) dalam dB, $I_0=10^{-12}$ W/m^2 (ambang dengar).",
+        description: "Taraf intensitas (Sound Pressure Level) dalam dB, $$I_0=10^{-12}$ W/m^2 (ambang dengar).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$TI$", meaning: "taraf intensitas", unit: "dB" },
-          { symbol: "$I$", meaning: "intensitas bunyi", unit: "W/m^2" },
-          { symbol: "$I_0$", meaning: "intensitas acuan (ambang dengar)", unit: "W/m^2" },
+          { symbol: "$$TI$", meaning: "taraf intensitas", unit: "dB" },
+          { symbol: "$$I$", meaning: "intensitas bunyi", unit: "W/m^2" },
+          { symbol: "$$I_0$", meaning: "intensitas acuan (ambang dengar)", unit: "W/m^2" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "$n$ sumber identik: $TI_n = TI_1 + 10\\log_{10} n$." },
-          { text: "Jarak berubah: $TI_2 = TI_1 - 20 \\log_{10}(r_2/r_1)$." },
-          { text: "Tambahan 3 dB â†’ intensitas menjadi $2\\times$; tambahan 10 dB â†’ intensitas menjadi $10\\times$." },
+          { text: "$$n$ sumber identik: $$TI_n = TI_1 + 10\\log_{10} n$." },
+          { text: "Jarak berubah: $$TI_2 = TI_1 - 20 \\log_{10}(r_2/r_1)$." },
+          { text: "Tambahan 3 dB â†’ intensitas menjadi $$2\\times$; tambahan 10 dB â†’ intensitas menjadi $$10\\times$." },
           { text: "Bunyi sehari-hari: percakapan ~60 dB, musik ~80â€“100 dB, pesawat ~120â€“140 dB." },
         ],
       },
       {
         type: "note",
-        text: "Logaritma basis 10: $TI$ naik 10 dB gdy intensitas naik 10 kali, bukan 3 dB. Ingat $10\\log$, bukan $20\\log$ (kecuali tekanan).",
+        text: "Logaritma basis 10: $$TI$ naik 10 dB gdy intensitas naik 10 kali, bukan 3 dB. Ingat $$10\\log$, bukan $$20\\log$ (kecuali tekanan).",
         variant: "tip",
       },
       {
@@ -1960,27 +1960,27 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "f_p = f_s \\frac{v \\pm v_p}{v \\pm v_s}",
-        description: "Frekuensi pendengar. $f_s$ frekuensi sumber, $v$ cepat rambat bunyi, $v_p, v_s$ kecepatan pendengar/sumber relatif medium.",
+        description: "Frekuensi pendengar. $$f_s$ frekuensi sumber, $$v$ cepat rambat bunyi, $$v_p, v_s$ kecepatan pendengar/sumber relatif medium.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f_p$", meaning: "frekuensi terdengar pendengar", unit: "Hz" },
-          { symbol: "$f_s$", meaning: "frekuensi sumber", unit: "Hz" },
-          { symbol: "$v$", meaning: "cepat rambat bunyi di medium", unit: "m/s" },
-          { symbol: "$v_p$", meaning: "kecepatan pendengar", unit: "m/s" },
-          { symbol: "$v_s$", meaning: "kecepatan sumber", unit: "m/s" },
+          { symbol: "$$f_p$", meaning: "frekuensi terdengar pendengar", unit: "Hz" },
+          { symbol: "$$f_s$", meaning: "frekuensi sumber", unit: "Hz" },
+          { symbol: "$$v$", meaning: "cepat rambat bunyi di medium", unit: "m/s" },
+          { symbol: "$$v_p$", meaning: "kecepatan pendengar", unit: "m/s" },
+          { symbol: "$$v_s$", meaning: "kecepatan sumber", unit: "m/s" },
         ],
       },
       {
         type: "table",
         headers: ["Arah Gerak", "Tanda", "Efek (Frekuensi Terdengar)"],
         rows: [
-          ["Pendengar mendekati sumber", "$+v_p$ (pembilang)", "naik"],
-          ["Pendengar menjauhi sumber", "$-v_p$", "turun"],
-          ["Sumber mendekati pendengar", "$-v_s$ (penyebut)", "naik"],
-          ["Sumber menjauhi pendengar", "$+v_s$", "turun"],
+          ["Pendengar mendekati sumber", "$$+v_p$ (pembilang)", "naik"],
+          ["Pendengar menjauhi sumber", "$$-v_p$", "turun"],
+          ["Sumber mendekati pendengar", "$$-v_s$ (penyebut)", "naik"],
+          ["Sumber menjauhi pendengar", "$$+v_s$", "turun"],
         ],
       },
       {
@@ -2006,26 +2006,26 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f_{\\text{layang}}$", meaning: "frekuensi pelayangan/amplitudo modulasi", unit: "Hz" },
-          { symbol: "$f_1, f_2$", meaning: "frekuensi dua sumber", unit: "Hz" },
+          { symbol: "$$f_{\\text{layang}}$", meaning: "frekuensi pelayangan/amplitudo modulasi", unit: "Hz" },
+          { symbol: "$$f_1, f_2$", meaning: "frekuensi dua sumber", unit: "Hz" },
         ],
       },
       {
         type: "formula",
         latex: "f_{\\text{layang}}^{\\text{detak}} = \\frac{|f_1 - f_2|}{2}? \\text{ (salah)}",
-        description: "Catatan: detak yang terdengar per detik = $|f_1-f_2|$ (bukan dibagi 2).",
+        description: "Catatan: detak yang terdengar per detik = $$|f_1-f_2|$ (bukan dibagi 2).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f_{\\text{layang}}$", meaning: "detak per sekon", unit: "Hz" },
-          { symbol: "$f_1, f_2$", meaning: "frekuensi sumber", unit: "Hz" },
+          { symbol: "$$f_{\\text{layang}}$", meaning: "detak per sekon", unit: "Hz" },
+          { symbol: "$$f_1, f_2$", meaning: "frekuensi sumber", unit: "Hz" },
         ],
       },
       {
         type: "note",
-        text: "Recal: pelayangan frekuensi dasar = $|f_1 - f_2|$ bukan $|f_1 - f_2|/2$. Beberapa buku menghitung intensitas (kuadrat) sehingga modulasi intensitas dua kali, tetapi telinga mendeteksi amplitude envelope sehingga frekuensi detak = $|f_1-f_2|$.",
+        text: "Recal: pelayangan frekuensi dasar = $$|f_1 - f_2|$ bukan $$|f_1 - f_2|/2$. Beberapa buku menghitung intensitas (kuadrat) sehingga modulasi intensitas dua kali, tetapi telinga mendeteksi amplitude envelope sehingga frekuensi detak = $$|f_1-f_2|$.",
         variant: "warning",
       },
       {
@@ -2040,15 +2040,15 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "d = \\frac{v \\, t}{2}",
-        description: "Jarak ke pantulan = cepat rambat $\\times$ waktu total pergi-pulang dibagi 2.",
+        description: "Jarak ke pantulan = cepat rambat $$\\times$ waktu total pergi-pulang dibagi 2.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$d$", meaning: "jarak ke permukaan pantul", unit: "m" },
-          { symbol: "$v$", meaning: "cepat rambat bunyi di medium", unit: "m/s" },
-          { symbol: "$t$", meaning: "waktu total pergi-pulang", unit: "s" },
+          { symbol: "$$d$", meaning: "jarak ke permukaan pantul", unit: "m" },
+          { symbol: "$$v$", meaning: "cepat rambat bunyi di medium", unit: "m/s" },
+          { symbol: "$$t$", meaning: "waktu total pergi-pulang", unit: "s" },
         ],
       },
       {
@@ -2063,15 +2063,15 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "\\Delta x = \\frac{n \\lambda}{2}?",
-        description: "Catatan: interferensi konstruktif bila beda jarak lintasan = $n\\lambda$; destruktif bila $(m+\\tfrac12)\\lambda$.",
+        description: "Catatan: interferensi konstruktif bila beda jarak lintasan = $$n\\lambda$; destruktif bila $$(m+\\tfrac12)\\lambda$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\Delta x$", meaning: "beda jarak sumber-ke-titik", unit: "m" },
-          { symbol: "$n,m$", meaning: "bilangan bulat (0,1,2,...)", unit: "tanpa satuan" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m" },
+          { symbol: "$$\\Delta x$", meaning: "beda jarak sumber-ke-titik", unit: "m" },
+          { symbol: "$$n,m$", meaning: "bilangan bulat (0,1,2,...)", unit: "tanpa satuan" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang", unit: "m" },
         ],
       },
       {
@@ -2080,7 +2080,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Sirene ambulans $f_s = 680$ Hz bergerak menjauhi pendengar diam dengan $v_s = 20$ m/s. Cepat rambat bunyi $v = 340$ m/s. Berapa frekuensi yang terdengar?",
+            text: "Sirene ambulans $$f_s = 680$ Hz bergerak menjauhi pendengar diam dengan $$v_s = 20$ m/s. Cepat rambat bunyi $$v = 340$ m/s. Berapa frekuensi yang terdengar?",
           },
           {
             type: "formula",
@@ -2091,10 +2091,10 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$f_p$", meaning: "frekuensi terdengar", unit: "Hz" },
-              { symbol: "$f_s$", meaning: "frekuensi sumber", unit: "Hz" },
-              { symbol: "$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
-              { symbol: "$v_s$", meaning: "kecepatan sumber", unit: "m/s" },
+              { symbol: "$$f_p$", meaning: "frekuensi terdengar", unit: "Hz" },
+              { symbol: "$$f_s$", meaning: "frekuensi sumber", unit: "Hz" },
+              { symbol: "$$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
+              { symbol: "$$v_s$", meaning: "kecepatan sumber", unit: "m/s" },
             ],
           },
           { type: "paragraph", text: "Frekuensi terdengar lebih rendah (nada rendah) karena sumber menjauh." },
@@ -2117,9 +2117,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$f_{\\text{tertutup}}$", meaning: "frekuensi nada dasar tertutup", unit: "Hz" },
-              { symbol: "$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
-              { symbol: "$L$", meaning: "panjang pipa", unit: "m" },
+              { symbol: "$$f_{\\text{tertutup}}$", meaning: "frekuensi nada dasar tertutup", unit: "Hz" },
+              { symbol: "$$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
+              { symbol: "$$L$", meaning: "panjang pipa", unit: "m" },
             ],
           },
           {
@@ -2131,9 +2131,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$f_{\\text{terbuka}}$", meaning: "frekuensi nada dasar terbuka", unit: "Hz" },
-              { symbol: "$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
-              { symbol: "$L$", meaning: "panjang pipa", unit: "m" },
+              { symbol: "$$f_{\\text{terbuka}}$", meaning: "frekuensi nada dasar terbuka", unit: "Hz" },
+              { symbol: "$$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
+              { symbol: "$$L$", meaning: "panjang pipa", unit: "m" },
             ],
           },
           { type: "paragraph", text: "Pipa terbuka nada dasarnya satu oktaf lebih tinggi (400 = 2 x 200) dibanding tertutup panjang sama." },
@@ -2156,8 +2156,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$TI_5$", meaning: "taraf intensitas 5 sumber", unit: "dB" },
-              { symbol: "$TI_1$", meaning: "taraf intensitas satu sumber", unit: "dB" },
+              { symbol: "$$TI_5$", meaning: "taraf intensitas 5 sumber", unit: "dB" },
+              { symbol: "$$TI_1$", meaning: "taraf intensitas satu sumber", unit: "dB" },
             ],
           },
           { type: "paragraph", text: "Jadi total ~87 dB. (Bukan 400 dB! Karena logaritmik.)" },
@@ -2180,9 +2180,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$d$", meaning: "kedalaman laut", unit: "m" },
-              { symbol: "$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
-              { symbol: "$t$", meaning: "waktu pulang-pergi", unit: "s" },
+              { symbol: "$$d$", meaning: "kedalaman laut", unit: "m" },
+              { symbol: "$$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
+              { symbol: "$$t$", meaning: "waktu pulang-pergi", unit: "s" },
             ],
           },
           { type: "paragraph", text: "Laut sedalam 3 km (contoh Samudra). Sonar ultrasonik dimanfaatkan karena tidak didengar ikan/penumpang dan daya tinggi." },
@@ -2195,7 +2195,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Pada resonansi kolom udara dalam pipa, antinode tekanan/simpangan sedikit keluar dari ujung geometrik. Koreksi ujung $e \\approx 0{,}6 r$ (pipa terbuka) atau $0{,}4 r$ (tertutup) harus ditambahkan ke panjang efektif.",
+        text: "Pada resonansi kolom udara dalam pipa, antinode tekanan/simpangan sedikit keluar dari ujung geometrik. Koreksi ujung $$e \\approx 0{,}6 r$ (pipa terbuka) atau $$0{,}4 r$ (tertutup) harus ditambahkan ke panjang efektif.",
       },
       {
         type: "formula",
@@ -2206,9 +2206,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$L_{\\text{eff}}$", meaning: "panjang efektif kolom", unit: "m" },
-          { symbol: "$L$", meaning: "panjang geometrik pipa", unit: "m" },
-          { symbol: "$r$", meaning: "jari-jari pipa", unit: "m" },
+          { symbol: "$$L_{\\text{eff}}$", meaning: "panjang efektif kolom", unit: "m" },
+          { symbol: "$$L$", meaning: "panjang geometrik pipa", unit: "m" },
+          { symbol: "$$r$", meaning: "jari-jari pipa", unit: "m" },
         ],
       },
       {
@@ -2229,10 +2229,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f_{\\text{terima}}$", meaning: "frekuensi akhir", unit: "Hz" },
-          { symbol: "$f_s$", meaning: "frekuensi sumber", unit: "Hz" },
-          { symbol: "$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
-          { symbol: "$v_{\\text{obs}}, v_s$", meaning: "kecepatan pendengar/sumber", unit: "m/s" },
+          { symbol: "$$f_{\\text{terima}}$", meaning: "frekuensi akhir", unit: "Hz" },
+          { symbol: "$$f_s$", meaning: "frekuensi sumber", unit: "Hz" },
+          { symbol: "$$v$", meaning: "cepat rambat bunyi", unit: "m/s" },
+          { symbol: "$$v_{\\text{obs}}, v_s$", meaning: "kecepatan pendengar/sumber", unit: "m/s" },
         ],
       },
       {
@@ -2247,7 +2247,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Untuk sumber bunyi terarah (bukan isotropik), intensitas pada jarak $r$ arah $\\phi$ adalah $I = \\frac{P}{4\\pi r^2}\\,D(\\phi)$, dengan $D$ directivity factor. Pada TKA cukup asumsi isotropik ($D=1$) kecuali soal menyebut pola.",
+        text: "Untuk sumber bunyi terarah (bukan isotropik), intensitas pada jarak $$r$ arah $$\\phi$ adalah $$I = \\frac{P}{4\\pi r^2}\\,D(\\phi)$, dengan $$D$ directivity factor. Pada TKA cukup asumsi isotropik ($$D=1$) kecuali soal menyebut pola.",
       },
       {
         type: "note",
@@ -2270,7 +2270,7 @@ export const materiGelombang: Materi[] = [
     blocks: [
       {
         type: "paragraph",
-        text: "Cahaya adalah gelombang elektromagnetik transversal yang tidak memerlukan medium untuk merambat. Di ruang hampa, cepat rambat cahaya $c = 3 \\times 10^8$ m/s. Cahaya merupakan bukti sifat gelombang (interferensi, difraksi, polarisasi) sekaligus foton (efek fotolistrik).",
+        text: "Cahaya adalah gelombang elektromagnetik transversal yang tidak memerlukan medium untuk merambat. Di ruang hampa, cepat rambat cahaya $$c = 3 \\times 10^8$ m/s. Cahaya merupakan bukti sifat gelombang (interferensi, difraksi, polarisasi) sekaligus foton (efek fotolistrik).",
       },
       {
         type: "definition",
@@ -2279,7 +2279,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "note",
-        text: "Untuk semua soal optik geometrik, gunakan $c = 3\\times 10^8$ m/s dan (bila perlu) frekuensi cahaya tampak sekitar $4\\times 10^{14}$ - $7{,}5\\times 10^{14}$ Hz.",
+        text: "Untuk semua soal optik geometrik, gunakan $$c = 3\\times 10^8$ m/s dan (bila perlu) frekuensi cahaya tampak sekitar $$4\\times 10^{14}$ - $$7{,}5\\times 10^{14}$ Hz.",
         variant: "info",
       },
       {
@@ -2289,13 +2289,13 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Spektrum elektromagnetik diurutkan menurut frekuensi (atau panjang gelombang). Semakin tinggi frekuensi, semakin besar energi per foton ($E = hf$) dan semakin potensial berbahaya.",
+        text: "Spektrum elektromagnetik diurutkan menurut frekuensi (atau panjang gelombang). Semakin tinggi frekuensi, semakin besar energi per foton ($$E = hf$) dan semakin potensial berbahaya.",
       },
       {
         type: "list",
         items: [
           { text: "Urutan frekuensi naik (panjang gelombang turun): Radio, Mikro, Inframerah, Cahaya tampak (merahâ†’ungu), Ultraviolet, Sinar-X, Sinar Gamma." },
-          { text: "Cahaya tampak: merah ($\\lambda$ terpanjang, $f$ terendah) hingga ungu ($\\lambda$ terpendek, $f$ tertinggi)." },
+          { text: "Cahaya tampak: merah ($$\\lambda$ terpanjang, $$f$ terendah) hingga ungu ($$\\lambda$ terpendek, $$f$ tertinggi)." },
           { text: "Merah ~700 nm, hijau ~550 nm, biru/ungu ~400 nm." },
           { text: "Infra merah dipakai remote/termovisi, UV sterilisasi, sinar-X foto medis/CT, gamma sterilisasi radioterapi." },
         ],
@@ -2303,30 +2303,30 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "c = \\lambda \\, f",
-        description: "Relasi dasar gelombang EM di ruang hampa ($c$ konstan).",
+        description: "Relasi dasar gelombang EM di ruang hampa ($$c$ konstan).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$c$", meaning: "cepat rambat cahaya di ruang hampa", unit: "m/s ($3\\times 10^8$)" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m (sering nm)" },
-          { symbol: "$f$", meaning: "frekuensi", unit: "Hz" },
+          { symbol: "$$c$", meaning: "cepat rambat cahaya di ruang hampa", unit: "m/s ($$3\\times 10^8$)" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang", unit: "m (sering nm)" },
+          { symbol: "$$f$", meaning: "frekuensi", unit: "Hz" },
         ],
       },
       {
         type: "formula",
         latex: "E = h \\, f = \\frac{h c}{\\lambda}",
-        description: "Energi foton (kuantum), $h = 6{,}63\\times 10^{-34}$ J s.",
+        description: "Energi foton (kuantum), $$h = 6{,}63\\times 10^{-34}$ J s.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$E$", meaning: "energi foton", unit: "J" },
-          { symbol: "$h$", meaning: "konstanta Planck", unit: "J s" },
-          { symbol: "$f$", meaning: "frekuensi", unit: "Hz" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m" },
+          { symbol: "$$E$", meaning: "energi foton", unit: "J" },
+          { symbol: "$$h$", meaning: "konstanta Planck", unit: "J s" },
+          { symbol: "$$f$", meaning: "frekuensi", unit: "Hz" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang", unit: "m" },
         ],
       },
       {
@@ -2347,8 +2347,8 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\theta_i$", meaning: "sudut datang (dari normal)", unit: "derajat/rad" },
-          { symbol: "$\\theta_r$", meaning: "sudut pantul (dari normal)", unit: "derajat/rad" },
+          { symbol: "$$\\theta_i$", meaning: "sudut datang (dari normal)", unit: "derajat/rad" },
+          { symbol: "$$\\theta_r$", meaning: "sudut pantul (dari normal)", unit: "derajat/rad" },
         ],
       },
       {
@@ -2358,7 +2358,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Saat memasuki medium berbeda, kecepatan cahaya berubah sehingga arahnya dibelokkan. Indeks bias $n = c/v$; ke medium lebih rapat (n besar) cahaya mendekati normal.",
+        text: "Saat memasuki medium berbeda, kecepatan cahaya berubah sehingga arahnya dibelokkan. Indeks bias $$n = c/v$; ke medium lebih rapat (n besar) cahaya mendekati normal.",
       },
       {
         type: "formula",
@@ -2369,18 +2369,18 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$n_1,n_2$", meaning: "indeks bias medium 1 dan 2", unit: "tanpa satuan" },
-          { symbol: "$\\theta_1,\\theta_2$", meaning: "sudut datang dan bias (dari normal)", unit: "derajat/rad" },
-          { symbol: "$c$", meaning: "cepat rambat cahaya di ruang hampa", unit: "m/s" },
-          { symbol: "$v$", meaning: "cepat rambat cahaya di medium", unit: "m/s" },
+          { symbol: "$$n_1,n_2$", meaning: "indeks bias medium 1 dan 2", unit: "tanpa satuan" },
+          { symbol: "$$\\theta_1,\\theta_2$", meaning: "sudut datang dan bias (dari normal)", unit: "derajat/rad" },
+          { symbol: "$$c$", meaning: "cepat rambat cahaya di ruang hampa", unit: "m/s" },
+          { symbol: "$$v$", meaning: "cepat rambat cahaya di medium", unit: "m/s" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Air $n \\approx 1{,}33$, kaca $n \\approx 1{,}5$, intan $n \\approx 2{,}42$, udara $n \\approx 1$." },
+          { text: "Air $$n \\approx 1{,}33$, kaca $$n \\approx 1{,}5$, intan $$n \\approx 2{,}42$, udara $$n \\approx 1$." },
           { text: "Ke medium rapat (n naik) â†’ mendekati normal; ke medium renggang (n turun) â†’ menjauhi normal." },
-          { text: "Sinar datang normal ($\\theta=0$) tidak dibelokkan." },
+          { text: "Sinar datang normal ($$\\theta=0$) tidak dibelokkan." },
         ],
       },
       {
@@ -2401,23 +2401,23 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\theta_c$", meaning: "sudut kritis", unit: "derajat/rad" },
-          { symbol: "$n_1$", meaning: "indeks bias medium asal (rapat)", unit: "tanpa satuan" },
-          { symbol: "$n_2$", meaning: "indeks bias medium tujuan (renggang)", unit: "tanpa satuan", note: "syarat $n_1>n_2$" },
+          { symbol: "$$\\theta_c$", meaning: "sudut kritis", unit: "derajat/rad" },
+          { symbol: "$$n_1$", meaning: "indeks bias medium asal (rapat)", unit: "tanpa satuan" },
+          { symbol: "$$n_2$", meaning: "indeks bias medium tujuan (renggang)", unit: "tanpa satuan", note: "syarat $$n_1>n_2$" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Difraksi celah tunggal (gelap): $d \\sin\\theta = m\\lambda$ dengan $m=1,2,3,\\ldots$ (bukan 0)." },
-          { text: "Interferensi celah ganda Young: terang $d\\sin\\theta = m\\lambda$; gelap $d\\sin\\theta = (m-\\tfrac12)\\lambda$; m = 0, Â±1, Â±2, ..." },
-          { text: "Dispersi: penguraian cahaya putih oleh prisma (n bergantung $\\lambda$)." },
+          { text: "Difraksi celah tunggal (gelap): $$d \\sin\\theta = m\\lambda$ dengan $$m=1,2,3,\\ldots$ (bukan 0)." },
+          { text: "Interferensi celah ganda Young: terang $$d\\sin\\theta = m\\lambda$; gelap $$d\\sin\\theta = (m-\\tfrac12)\\lambda$; m = 0, Â±1, Â±2, ..." },
+          { text: "Dispersi: penguraian cahaya putih oleh prisma (n bergantung $$\\lambda$)." },
           { text: "Polarisasi: cahaya transversal dapat berpolarisasi linear; bukti sifat gelombang." },
         ],
       },
       {
         type: "note",
-        text: "Hati-hati: pada celah ganda, 'terang' dan 'gelap' beda jarak lintasan sebesar $m\\lambda$ vs $(m+\\tfrac12)\\lambda$. Sering tertukar di TKA.",
+        text: "Hati-hati: pada celah ganda, 'terang' dan 'gelap' beda jarak lintasan sebesar $$m\\lambda$ vs $$(m+\\tfrac12)\\lambda$. Sering tertukar di TKA.",
         variant: "warning",
       },
       {
@@ -2438,31 +2438,31 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f$", meaning: "jarak fokus (focal length)", unit: "m (atau cm)" },
-          { symbol: "$s$", meaning: "jarak benda dari cermin/lensa", unit: "m (atau cm)", note: "selalu positif untuk benda nyata" },
-          { symbol: "$s'$", meaning: "jarak bayangan dari cermin/lensa", unit: "m (atau cm)", note: "+ nyata, - maya" },
-          { symbol: "$M$", meaning: "perbesaran lateral", unit: "tanpa satuan" },
-          { symbol: "$h, h'$", meaning: "tinggi benda dan bayangan", unit: "m/cm", note: "tanda menunjukkan tegak/terbalik" },
+          { symbol: "$$f$", meaning: "jarak fokus (focal length)", unit: "m (atau cm)" },
+          { symbol: "$$s$", meaning: "jarak benda dari cermin/lensa", unit: "m (atau cm)", note: "selalu positif untuk benda nyata" },
+          { symbol: "$$s'$", meaning: "jarak bayangan dari cermin/lensa", unit: "m (atau cm)", note: "+ nyata, - maya" },
+          { symbol: "$$M$", meaning: "perbesaran lateral", unit: "tanpa satuan" },
+          { symbol: "$$h, h'$", meaning: "tinggi benda dan bayangan", unit: "m/cm", note: "tanda menunjukkan tegak/terbalik" },
         ],
       },
       {
         type: "table",
-        headers: ["Tipe", "Tanda $f$", "Karakteristik Bayangan"],
+        headers: ["Tipe", "Tanda $$f$", "Karakteristik Bayangan"],
         rows: [
-          ["Cermin cekung (konkaf)", "positif ($+$)", "mengumpulkan; bisa nyata/maya, terbalik/tegak tergantung s"],
-          ["Cermin cembung (konveks)", "negatif ($-$)", "menyebar; selalu maya, tegak, diperkecil"],
-          ["Lensa cembung (konveks)", "positif ($+$)", "mengumpulkan; bisa nyata/maya"],
-          ["Lensa cekung (konkaf)", "negatif ($-$)", "menyebar; selalu maya, tegak, diperkecil"],
+          ["Cermin cekung (konkaf)", "positif ($$+$)", "mengumpulkan; bisa nyata/maya, terbalik/tegak tergantung s"],
+          ["Cermin cembung (konveks)", "negatif ($$-$)", "menyebar; selalu maya, tegak, diperkecil"],
+          ["Lensa cembung (konveks)", "positif ($$+$)", "mengumpulkan; bisa nyata/maya"],
+          ["Lensa cekung (konkaf)", "negatif ($$-$)", "menyebar; selalu maya, tegak, diperkecil"],
         ],
       },
       {
         type: "list",
         items: [
-          { text: "$s'$ positif â†’ bayangan nyata (dapat ditangkap layar); $s'$ negatif â†’ maya." },
-          { text: "Cermin datar: maya, tegak, sama besar, $s' = -s$ (f = Â∞)." },
-          { text: "Dua cermin membentuk sudut $\\theta$: jumlah bayangan $n = 360^\\circ/\\theta - 1$ (untuk $\\theta$ pembagi 360)." },
-          { text: "Kekuatan lensa: $P = 1/f$ (dioptri) dengan $f$ dalam meter; atau $P = 100/f(\\text{cm})$." },
-          { text: "Kombinasi lensa berdekatan: $1/f = 1/f_1 + 1/f_2$ (kekuatan bertambah)." },
+          { text: "$$s'$ positif â†’ bayangan nyata (dapat ditangkap layar); $$s'$ negatif â†’ maya." },
+          { text: "Cermin datar: maya, tegak, sama besar, $$s' = -s$ (f = Â∞)." },
+          { text: "Dua cermin membentuk sudut $$\\theta$: jumlah bayangan $$n = 360^\\circ/\\theta - 1$ (untuk $$\\theta$ pembagi 360)." },
+          { text: "Kekuatan lensa: $$P = 1/f$ (dioptri) dengan $$f$ dalam meter; atau $$P = 100/f(\\text{cm})$." },
+          { text: "Kombinasi lensa berdekatan: $$1/f = 1/f_1 + 1/f_2$ (kekuatan bertambah)." },
         ],
       },
       {
@@ -2498,26 +2498,26 @@ export const materiGelombang: Materi[] = [
         type: "table",
         headers: ["Pernyataan", "Tanda", "Makna"],
         rows: [
-          ["$s > 0$", "selalu", "Benda nyata di depan optik"],
-          ["$s' > 0$", "nyata", "Bayangan nyata (dapat ditangkap layar)"],
-          ["$s' < 0$", "maya", "Bayangan maya (tidak dapat ditangkap layar)"],
-          ["$f > 0$", "cermin cekung, lensa cembung", "Bersifat mengumpulkan"],
-          ["$f < 0$", "cermin cembung, lensa cekung", "Bersifat menyebar"],
-          ["$M > 0$", "tegak", "$M < 0$ terbalik; $|M|>1$ diperbesar"],
+          ["$$s > 0$", "selalu", "Benda nyata di depan optik"],
+          ["$$s' > 0$", "nyata", "Bayangan nyata (dapat ditangkap layar)"],
+          ["$$s' < 0$", "maya", "Bayangan maya (tidak dapat ditangkap layar)"],
+          ["$$f > 0$", "cermin cekung, lensa cembung", "Bersifat mengumpulkan"],
+          ["$$f < 0$", "cermin cembung, lensa cekung", "Bersifat menyebar"],
+          ["$$M > 0$", "tegak", "$$M < 0$ terbalik; $$|M|>1$ diperbesar"],
         ],
       },
       {
         type: "formula",
         latex: "\\frac{1}{f} = \\frac{n_{\\text{lensa}}}{n_{\\text{medium}}} \\cdot \\dots \\text{ (ingat: } f \\propto 1/(n-1)\\text{)}",
-        description: "Catatan: kekuatan lensa berubah bila dicelupkan dalam medium (mis. air) karena $n_{\\text{relatif}}$ berubah.",
+        description: "Catatan: kekuatan lensa berubah bila dicelupkan dalam medium (mis. air) karena $$n_{\\text{relatif}}$ berubah.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$f$", meaning: "jarak fokus lensa", unit: "m/cm" },
-          { symbol: "$n_{\\text{lensa}}$", meaning: "indeks bias bahan lensa", unit: "tanpa satuan" },
-          { symbol: "$n_{\\text{medium}}$", meaning: "indeks bias medium sekitar", unit: "tanpa satuan" },
+          { symbol: "$$f$", meaning: "jarak fokus lensa", unit: "m/cm" },
+          { symbol: "$$n_{\\text{lensa}}$", meaning: "indeks bias bahan lensa", unit: "tanpa satuan" },
+          { symbol: "$$n_{\\text{medium}}$", meaning: "indeks bias medium sekitar", unit: "tanpa satuan" },
         ],
       },
       {
@@ -2529,11 +2529,11 @@ export const materiGelombang: Materi[] = [
         type: "table",
         headers: ["Posisi Benda", "Posisi Bayangan", "Sifat Bayangan"],
         rows: [
-          ["$s > 2f$", "$f < s' < 2f$", "Nyata, terbalik, diperkecil"],
-          ["$s = 2f$", "$s' = 2f$", "Nyata, terbalik, sama besar"],
-          ["$f < s < 2f$", "$s' > 2f$", "Nyata, terbalik, diperbesar"],
-          ["$s = f$", "$s' = \\infty$", "Sinar sejajar (tidak berpotongan)"],
-          ["$s < f$", "$s' < 0$ (maya)", "Maya, tegak, diperbesar"],
+          ["$$s > 2f$", "$$f < s' < 2f$", "Nyata, terbalik, diperkecil"],
+          ["$$s = 2f$", "$$s' = 2f$", "Nyata, terbalik, sama besar"],
+          ["$$f < s < 2f$", "$$s' > 2f$", "Nyata, terbalik, diperbesar"],
+          ["$$s = f$", "$$s' = \\infty$", "Sinar sejajar (tidak berpotongan)"],
+          ["$$s < f$", "$$s' < 0$ (maya)", "Maya, tegak, diperbesar"],
         ],
       },
       {
@@ -2545,34 +2545,34 @@ export const materiGelombang: Materi[] = [
         type: "table",
         headers: ["Alat", "Rumus Perbesaran", "Keterangan"],
         rows: [
-          ["Mata normal", "titik dekat $PP \\approx 25$ cm, titik jauh $PR = \\infty$", "Miopi/hipermetropi dikoreksi dengan lensa"],
-          ["Lup (kaca pembesar)", "$M = 25/f$ (tak berakomodasi), $M = 25/f + 1$ (akomodasi maks)", "Bayangan maya, tegak, diperbesar dekat mata"],
-          ["Mikroskop", "$M = M_{ob} \\times M_{ok}$", "Tubus $d \\approx s'_{ob} + f_{ok}$ (panjang tabung)"],
-          ["Teleskop bintang", "$M = f_{ob}/f_{ok}$", "$d = f_{ob}+f_{ok}$ (tak berakomodasi)"],
+          ["Mata normal", "titik dekat $$PP \\approx 25$ cm, titik jauh $$PR = \\infty$", "Miopi/hipermetropi dikoreksi dengan lensa"],
+          ["Lup (kaca pembesar)", "$$M = 25/f$ (tak berakomodasi), $$M = 25/f + 1$ (akomodasi maks)", "Bayangan maya, tegak, diperbesar dekat mata"],
+          ["Mikroskop", "$$M = M_{ob} \\times M_{ok}$", "Tubus $$d \\approx s'_{ob} + f_{ok}$ (panjang tabung)"],
+          ["Teleskop bintang", "$$M = f_{ob}/f_{ok}$", "$$d = f_{ob}+f_{ok}$ (tak berakomodasi)"],
           ["Teleskop terestrial", "lensa pembalik tambahan", "bayangan akhir tegak"],
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Miopi (rabun jauh): titik jauh berhingga, dikoreksi dengan lensa cekung. Kekuatan lensa $P = -1/PR$ (dengan PR dalam meter) atau $P = -100/PR(\\text{cm})$." },
-          { text: "Hipermetropi (rabun dekat): titik dekat >25 cm, dikoreksi lensa cembung. $P = (1/f) = (1/0{,}25) - (1/PP) = 4 - 100/PP(\\text{cm})$." },
+          { text: "Miopi (rabun jauh): titik jauh berhingga, dikoreksi dengan lensa cekung. Kekuatan lensa $$P = -1/PR$ (dengan PR dalam meter) atau $$P = -100/PR(\\text{cm})$." },
+          { text: "Hipermetropi (rabun dekat): titik dekat >25 cm, dikoreksi lensa cembung. $$P = (1/f) = (1/0{,}25) - (1/PP) = 4 - 100/PP(\\text{cm})$." },
           { text: "Presbiopi: sulit fokus dekat akibat penuaan; astigmatisma: kornea/lensa tidak sferis." },
-          { text: "Mata emetrop (normal): dapat melihat jelas benda 25 cm - $\\infty$." },
+          { text: "Mata emetrop (normal): dapat melihat jelas benda 25 cm - $$\\infty$." },
         ],
       },
       {
         type: "formula",
         latex: "M_{\\text{lup}} = \\frac{25}{f} \\quad (\\text{tak berakomodasi}), \\qquad M_{\\text{lup}} = \\frac{25}{f} + 1 \\quad (\\text{akomodasi maks})",
-        description: "Perbesaran lup (sudut) untuk mata normal ($PP=25$ cm).",
+        description: "Perbesaran lup (sudut) untuk mata normal ($$PP=25$ cm).",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$M_{\\text{lup}}$", meaning: "perbesaran sudut lup", unit: "tanpa satuan" },
-          { symbol: "$f$", meaning: "jarak fokus lup", unit: "cm" },
-          { symbol: "$25$", meaning: "jarak baca (titik dekat mata normal)", unit: "cm" },
+          { symbol: "$$M_{\\text{lup}}$", meaning: "perbesaran sudut lup", unit: "tanpa satuan" },
+          { symbol: "$$f$", meaning: "jarak fokus lup", unit: "cm" },
+          { symbol: "$$25$", meaning: "jarak baca (titik dekat mata normal)", unit: "cm" },
         ],
       },
       {
@@ -2584,10 +2584,10 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$M_{\\text{mikroskop}}$", meaning: "perbesaran total mikroskop", unit: "tanpa satuan" },
-          { symbol: "$d$", meaning: "panjang tubus (jarak antara fokus)", unit: "cm" },
-          { symbol: "$f_{ob}, f_{ok}$", meaning: "jarak fokus obyektif dan okuler", unit: "cm" },
-          { symbol: "$25$", meaning: "jarak baca mata normal", unit: "cm" },
+          { symbol: "$$M_{\\text{mikroskop}}$", meaning: "perbesaran total mikroskop", unit: "tanpa satuan" },
+          { symbol: "$$d$", meaning: "panjang tubus (jarak antara fokus)", unit: "cm" },
+          { symbol: "$$f_{ob}, f_{ok}$", meaning: "jarak fokus obyektif dan okuler", unit: "cm" },
+          { symbol: "$$25$", meaning: "jarak baca mata normal", unit: "cm" },
         ],
       },
       {
@@ -2596,7 +2596,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Benda setinggi 4 cm diletakkan 15 cm di depan lensa cembung $f = 10$ cm. Tentukan jarak bayangan, tinggi bayangan, dan besaran perbesaran.",
+            text: "Benda setinggi 4 cm diletakkan 15 cm di depan lensa cembung $$f = 10$ cm. Tentukan jarak bayangan, tinggi bayangan, dan besaran perbesaran.",
           },
           {
             type: "formula",
@@ -2607,9 +2607,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$f$", meaning: "jarak fokus", unit: "cm" },
-              { symbol: "$s$", meaning: "jarak benda", unit: "cm" },
-              { symbol: "$s'$", meaning: "jarak bayangan", unit: "cm" },
+              { symbol: "$$f$", meaning: "jarak fokus", unit: "cm" },
+              { symbol: "$$s$", meaning: "jarak benda", unit: "cm" },
+              { symbol: "$$s'$", meaning: "jarak bayangan", unit: "cm" },
             ],
           },
           {
@@ -2621,7 +2621,7 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$s'$", meaning: "jarak bayangan", unit: "cm", note: "positif â†’ nyata" },
+              { symbol: "$$s'$", meaning: "jarak bayangan", unit: "cm", note: "positif â†’ nyata" },
             ],
           },
           {
@@ -2633,9 +2633,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$M$", meaning: "perbesaran lateral", unit: "tanpa satuan" },
-              { symbol: "$h'$", meaning: "tinggi bayangan", unit: "cm", note: "terbalik (negatif jika diperhatikan tanda)" },
-              { symbol: "$h$", meaning: "tinggi benda", unit: "cm" },
+              { symbol: "$$M$", meaning: "perbesaran lateral", unit: "tanpa satuan" },
+              { symbol: "$$h'$", meaning: "tinggi bayangan", unit: "cm", note: "terbalik (negatif jika diperhatikan tanda)" },
+              { symbol: "$$h$", meaning: "tinggi benda", unit: "cm" },
             ],
           },
           { type: "paragraph", text: "Bayangan nyata, terbalik, diperbesar 2x, terletak 30 cm di belakang lensa." },
@@ -2647,7 +2647,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Cermin cekung memiliki jari-jari kelengkungan $R = 40$ cm ($f = 20$ cm). Benda diletakkan 60 cm di depan cermin. Tentukan posisi dan sifat bayangan.",
+            text: "Cermin cekung memiliki jari-jari kelengkungan $$R = 40$ cm ($$f = 20$ cm). Benda diletakkan 60 cm di depan cermin. Tentukan posisi dan sifat bayangan.",
           },
           {
             type: "formula",
@@ -2658,9 +2658,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$f$", meaning: "jarak fokus", unit: "cm" },
-              { symbol: "$R$", meaning: "jari-jari kelengkungan", unit: "cm" },
-              { symbol: "$s, s'$", meaning: "jarak benda/bayangan", unit: "cm" },
+              { symbol: "$$f$", meaning: "jarak fokus", unit: "cm" },
+              { symbol: "$$R$", meaning: "jari-jari kelengkungan", unit: "cm" },
+              { symbol: "$$s, s'$", meaning: "jarak benda/bayangan", unit: "cm" },
             ],
           },
           {
@@ -2672,8 +2672,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$s'$", meaning: "jarak bayangan", unit: "cm" },
-              { symbol: "$M$", meaning: "perbesaran", unit: "tanpa satuan", note: "<1 diperkecil" },
+              { symbol: "$$s'$", meaning: "jarak bayangan", unit: "cm" },
+              { symbol: "$$M$", meaning: "perbesaran", unit: "tanpa satuan", note: "<1 diperkecil" },
             ],
           },
           { type: "paragraph", text: "Bayangan nyata, terbalik, diperkecil setengah, terletak 30 cm di depan cermin." },
@@ -2694,14 +2694,14 @@ export const materiGelombang: Materi[] = [
           {
             type: "formula",
             latex: "P = -\\frac{1}{PR} = -\\frac{1}{0{,}50} = -2 \\text{ dioptri}",
-            description: "Kekuatan lensa koreksi miopi ($PR$ dalam meter).",
+            description: "Kekuatan lensa koreksi miopi ($$PR$ dalam meter).",
           },
           {
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$P$", meaning: "kekuatan lensa", unit: "dioptri (m^{-1})" },
-              { symbol: "$PR$", meaning: "titik jauh penderita miopi", unit: "m", note: "harus dalam meter" },
+              { symbol: "$$P$", meaning: "kekuatan lensa", unit: "dioptri (m^{-1})" },
+              { symbol: "$$PR$", meaning: "titik jauh penderita miopi", unit: "m", note: "harus dalam meter" },
             ],
           },
           { type: "paragraph", text: "Jadi diperlukan lensa cekung -2 dioptri. (Kacamata miopi bertanda negatif.)" },
@@ -2724,8 +2724,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$P$", meaning: "kekuatan lensa", unit: "dioptri" },
-              { symbol: "$0{,}25,1{,}00$", meaning: "jarak baca normal dan titik dekat penderita", unit: "m" },
+              { symbol: "$$P$", meaning: "kekuatan lensa", unit: "dioptri" },
+              { symbol: "$$0{,}25,1{,}00$", meaning: "jarak baca normal dan titik dekat penderita", unit: "m" },
             ],
           },
           { type: "paragraph", text: "Jadi diperlukan lensa cembung +3 dioptri." },
@@ -2734,11 +2734,11 @@ export const materiGelombang: Materi[] = [
       {
         type: "definition",
         term: "Persamaan Pembentuk Bayangan (ringkasan)",
-        definition: "Gunakan $1/f = 1/s + 1/s'$ dengan konvensi tanda sesuai tabel. Perbesaran $M = -s'/s$ (tanda membedakan tegak/terbalik); besar perbesaran $|M|$.",
+        definition: "Gunakan $$1/f = 1/s + 1/s'$ dengan konvensi tanda sesuai tabel. Perbesaran $$M = -s'/s$ (tanda membedakan tegak/terbalik); besar perbesaran $$|M|$.",
       },
       {
         type: "note",
-        text: "Strategi TKA optik: (1) tentukan jenis cermin/lensa â†’ tanda $f$; (2) tulis persamaan; (3) selesaikan $s'$; (4) tentukan sifat bayangan (nyata/maya, tegak/terbalik, diperbesar/diperkecil) lewat tanda dan $|M|$; (5) untuk mata, hitung dioptri dengan $f$ dalam meter.",
+        text: "Strategi TKA optik: (1) tentukan jenis cermin/lensa â†’ tanda $$f$; (2) tulis persamaan; (3) selesaikan $$s'$; (4) tentukan sifat bayangan (nyata/maya, tegak/terbalik, diperbesar/diperkecil) lewat tanda dan $$|M|$; (5) untuk mata, hitung dioptri dengan $$f$ dalam meter.",
         variant: "tip",
       },
       {
@@ -2748,22 +2748,22 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Dua celah sempit berjarak $d$ dari layar/layar jauh $L$ menghasilkan pola terang-gelap. Jarak antar pita terang (fringe spacing) terukur di layar.",
+        text: "Dua celah sempit berjarak $$d$ dari layar/layar jauh $$L$ menghasilkan pola terang-gelap. Jarak antar pita terang (fringe spacing) terukur di layar.",
       },
       {
         type: "formula",
         latex: "\\Delta y = \\frac{\\lambda L}{d}, \\qquad y_m = m \\frac{\\lambda L}{d}",
-        description: "Jarak antar pita terang; posisi pita terang ke-$m$.",
+        description: "Jarak antar pita terang; posisi pita terang ke-$$m$.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$\\Delta y$", meaning: "jarak antar pita terang", unit: "m" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m" },
-          { symbol: "$L$", meaning: "jarak celah ke layar", unit: "m" },
-          { symbol: "$d$", meaning: "jarak antar celah", unit: "m" },
-          { symbol: "$m$", meaning: "orde pita (0, Â±1, ...)", unit: "tanpa satuan" },
+          { symbol: "$$\\Delta y$", meaning: "jarak antar pita terang", unit: "m" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang", unit: "m" },
+          { symbol: "$$L$", meaning: "jarak celah ke layar", unit: "m" },
+          { symbol: "$$d$", meaning: "jarak antar celah", unit: "m" },
+          { symbol: "$$m$", meaning: "orde pita (0, Â±1, ...)", unit: "tanpa satuan" },
         ],
       },
       {
@@ -2780,11 +2780,11 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$d$", meaning: "jarak antar garis kisi", unit: "m" },
-          { symbol: "$a$", meaning: "lebar celah tunggal", unit: "m" },
-          { symbol: "$\\theta$", meaning: "sudut terhadap normal", unit: "derajat/rad" },
-          { symbol: "$m$", meaning: "orde", unit: "tanpa satuan (m=1,2,...)" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m" },
+          { symbol: "$$d$", meaning: "jarak antar garis kisi", unit: "m" },
+          { symbol: "$$a$", meaning: "lebar celah tunggal", unit: "m" },
+          { symbol: "$$\\theta$", meaning: "sudut terhadap normal", unit: "derajat/rad" },
+          { symbol: "$$m$", meaning: "orde", unit: "tanpa satuan (m=1,2,...)" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang", unit: "m" },
         ],
       },
       {
@@ -2799,17 +2799,17 @@ export const materiGelombang: Materi[] = [
       {
         type: "formula",
         latex: "2 n t \\cos r = (m+\\tfrac12)\\lambda_{\\text{film?}} \\text{ atau } m\\lambda",
-        description: "Teori umum: beda lintasan $2nt\\cos r$ plus fase pemantulan $\\pi$ menentukan terang/gelap.",
+        description: "Teori umum: beda lintasan $$2nt\\cos r$ plus fase pemantulan $$\\pi$ menentukan terang/gelap.",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$n$", meaning: "indeks bias film", unit: "tanpa satuan" },
-          { symbol: "$t$", meaning: "ketebalan film", unit: "m" },
-          { symbol: "$r$", meaning: "sudut pembiassan dalam film", unit: "derajat/rad" },
-          { symbol: "$m$", meaning: "orde", unit: "tanpa satuan" },
-          { symbol: "$\\lambda$", meaning: "panjang gelombang (di udara)", unit: "m" },
+          { symbol: "$$n$", meaning: "indeks bias film", unit: "tanpa satuan" },
+          { symbol: "$$t$", meaning: "ketebalan film", unit: "m" },
+          { symbol: "$$r$", meaning: "sudut pembiassan dalam film", unit: "derajat/rad" },
+          { symbol: "$$m$", meaning: "orde", unit: "tanpa satuan" },
+          { symbol: "$$\\lambda$", meaning: "panjang gelombang (di udara)", unit: "m" },
         ],
       },
       {
@@ -2831,9 +2831,9 @@ export const materiGelombang: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol/Variabel",
         items: [
-          { symbol: "$I$", meaning: "intensitas tertransmit", unit: "W/m^2" },
-          { symbol: "$I_0$", meaning: "intensitas masuk", unit: "W/m^2" },
-          { symbol: "$\\theta$", meaning: "sudut antar sumbu polarisasi", unit: "derajat/rad" },
+          { symbol: "$$I$", meaning: "intensitas tertransmit", unit: "W/m^2" },
+          { symbol: "$$I_0$", meaning: "intensitas masuk", unit: "W/m^2" },
+          { symbol: "$$\\theta$", meaning: "sudut antar sumbu polarisasi", unit: "derajat/rad" },
         ],
       },
       {
@@ -2852,7 +2852,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Mikroskop memiliki obyektif $f_{ob}=4$ mm dan okuler $f_{ok}=25$ mm, panjang tubus $d=16$ cm. Berapa perbesaran total (mata normal, tak berakomodasi)?",
+            text: "Mikroskop memiliki obyektif $$f_{ob}=4$ mm dan okuler $$f_{ok}=25$ mm, panjang tubus $$d=16$ cm. Berapa perbesaran total (mata normal, tak berakomodasi)?",
           },
           {
             type: "formula",
@@ -2863,10 +2863,10 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$M$", meaning: "perbesaran total", unit: "tanpa satuan" },
-              { symbol: "$d$", meaning: "panjang tubus", unit: "mm" },
-              { symbol: "$f_{ob},f_{ok}$", meaning: "jarak fokus obyektif/okuler", unit: "mm" },
-              { symbol: "$25$", meaning: "jarak baca mata normal", unit: "mm" },
+              { symbol: "$$M$", meaning: "perbesaran total", unit: "tanpa satuan" },
+              { symbol: "$$d$", meaning: "panjang tubus", unit: "mm" },
+              { symbol: "$$f_{ob},f_{ok}$", meaning: "jarak fokus obyektif/okuler", unit: "mm" },
+              { symbol: "$$25$", meaning: "jarak baca mata normal", unit: "mm" },
             ],
           },
           { type: "paragraph", text: "Jadi perbesaran total 4000x." },
@@ -2878,7 +2878,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Teleskop astronomi memiliki obyektif $f_{ob}=100$ cm dan okuler $f_{ok}=2{,}5$ cm. Tentukan perbesaran angular dan panjang teleskop tak berakomodasi.",
+            text: "Teleskop astronomi memiliki obyektif $$f_{ob}=100$ cm dan okuler $$f_{ok}=2{,}5$ cm. Tentukan perbesaran angular dan panjang teleskop tak berakomodasi.",
           },
           {
             type: "formula",
@@ -2889,8 +2889,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$M$", meaning: "perbesaran angular", unit: "tanpa satuan" },
-              { symbol: "$f_{ob},f_{ok}$", meaning: "jarak fokus obyektif/okuler", unit: "cm" },
+              { symbol: "$$M$", meaning: "perbesaran angular", unit: "tanpa satuan" },
+              { symbol: "$$f_{ob},f_{ok}$", meaning: "jarak fokus obyektif/okuler", unit: "cm" },
             ],
           },
           {
@@ -2902,8 +2902,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$d$", meaning: "panjang teleskop", unit: "cm" },
-              { symbol: "$f_{ob},f_{ok}$", meaning: "jarak fokus", unit: "cm" },
+              { symbol: "$$d$", meaning: "panjang teleskop", unit: "cm" },
+              { symbol: "$$f_{ob},f_{ok}$", meaning: "jarak fokus", unit: "cm" },
             ],
           },
           { type: "paragraph", text: "Jadi perbesaran 40x dan panjang tabung 102,5 cm." },
@@ -2915,7 +2915,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Serat optik memiliki inti indeks bias $n_1=1{,}48$ dan selubung $n_2=1{,}46$. Hitung sudut kritis untuk pemantulan sempurna.",
+            text: "Serat optik memiliki inti indeks bias $$n_1=1{,}48$ dan selubung $$n_2=1{,}46$. Hitung sudut kritis untuk pemantulan sempurna.",
           },
           {
             type: "formula",
@@ -2926,8 +2926,8 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$\\theta_c$", meaning: "sudut kritis", unit: "derajat" },
-              { symbol: "$n_1,n_2$", meaning: "indeks bias inti/selubung", unit: "tanpa satuan" },
+              { symbol: "$$\\theta_c$", meaning: "sudut kritis", unit: "derajat" },
+              { symbol: "$$n_1,n_2$", meaning: "indeks bias inti/selubung", unit: "tanpa satuan" },
             ],
           },
           { type: "paragraph", text: "Cahaya yang datang dengan sudut (terhadap sumbu) lebih besar dari 9,4 derajat terhadap sumbu inti akan dipantulkan sempurna." },
@@ -2939,7 +2939,7 @@ export const materiGelombang: Materi[] = [
         blocks: [
           {
             type: "paragraph",
-            text: "Sinar datang dari udara ($n_1=1$) ke air ($n_2=1{,}33$) dengan sudut datang 40 derajat terhadap normal. Berapa sudut bias?",
+            text: "Sinar datang dari udara ($$n_1=1$) ke air ($$n_2=1{,}33$) dengan sudut datang 40 derajat terhadap normal. Berapa sudut bias?",
           },
           {
             type: "formula",
@@ -2950,9 +2950,9 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$n_1,n_2$", meaning: "indeks bias udara/air", unit: "tanpa satuan" },
-              { symbol: "$\\theta_1$", meaning: "sudut datang", unit: "derajat" },
-              { symbol: "$\\theta_2$", meaning: "sudut bias", unit: "derajat" },
+              { symbol: "$$n_1,n_2$", meaning: "indeks bias udara/air", unit: "tanpa satuan" },
+              { symbol: "$$\\theta_1$", meaning: "sudut datang", unit: "derajat" },
+              { symbol: "$$\\theta_2$", meaning: "sudut bias", unit: "derajat" },
             ],
           },
           {
@@ -2964,7 +2964,7 @@ export const materiGelombang: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol/Variabel",
             items: [
-              { symbol: "$\\theta_2$", meaning: "sudut bias", unit: "derajat" },
+              { symbol: "$$\\theta_2$", meaning: "sudut bias", unit: "derajat" },
             ],
           },
           { type: "paragraph", text: "Sudut bias 28,9 derajat (lebih kecil dari sudut datang) karena ke medium rapat." },
@@ -2977,15 +2977,15 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Rangkuman optik: pemantulan $\\theta_i=\\theta_r$; pembiasan Snell $n_1\\sin\\theta_1=n_2\\sin\\theta_2$; cermin/lensa $1/f=1/s+1/s'$; perbesaran $M=|s'/s|$; kekuatan lensa $P=1/f$ dioptri. Kuasai konvensi tanda untuk menyelesaikan soal.",
+        text: "Rangkuman optik: pemantulan $$\\theta_i=\\theta_r$; pembiasan Snell $$n_1\\sin\\theta_1=n_2\\sin\\theta_2$; cermin/lensa $$1/f=1/s+1/s'$; perbesaran $$M=|s'/s|$; kekuatan lensa $$P=1/f$ dioptri. Kuasai konvensi tanda untuk menyelesaikan soal.",
       },
       {
         type: "list",
         items: [
-          { text: "Cermin cekung: $f>0$; cembung: $f<0$." },
-          { text: "Lensa cembung: $f>0$; cekung: $f<0$." },
-          { text: "Bayangan nyata $s'>0$; maya $s'<0$." },
-          { text: "Tegak $M>0$; terbalik $M<0$; diperbesar $|M|>1$." },
+          { text: "Cermin cekung: $$f>0$; cembung: $$f<0$." },
+          { text: "Lensa cembung: $$f>0$; cekung: $$f<0$." },
+          { text: "Bayangan nyata $$s'>0$; maya $$s'<0$." },
+          { text: "Tegak $$M>0$; terbalik $$M<0$; diperbesar $$|M|>1$." },
         ],
       },
       { type: "paragraph", text: "Dengan merangkum asas pemantulan, pembiasan, dan persamaan cermin/lensa, mayoritas soal optik dapat diselesaikan secara sistematis." },

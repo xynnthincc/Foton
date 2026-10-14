@@ -3,6 +3,8 @@ import Link from "next/link";
 import { materiList } from "@/lib/materi";
 import { ContentRenderer } from "@/components/ContentRenderer";
 
+export const instant = false;
+
 export function generateStaticParams() {
   return materiList.map((m) => ({ slug: m.slug }));
 }

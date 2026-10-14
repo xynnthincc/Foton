@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { latihanList } from "@/lib/soal";
 import { QuizRunner } from "@/components/QuizRunner";
 
+export const instant = false;
+
 export function generateStaticParams() {
   return latihanList.map((l) => ({ slug: l.slug }));
 }
