@@ -103,16 +103,16 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$\\Delta x$", meaning: "ketidakpastian pengukuran", unit: "mm atau cm (sesuai alat)" },
+          { symbol: "$\\Delta x$", meaning: "ketidakpastian pengukuran", unit: "mm atau cm (sesuai alat)" },
           { symbol: "skala terkecil", meaning: "nilai terkecil yang dapat diukur alat", unit: "mm atau cm", note: "ditentukan oleh jenis alat ukur" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Mistar: ketidakpastian $$\\pm 0{,}5$ mm." },
-          { text: "Jangka sorong: ketidakpastian $$\\pm 0{,}05$ mm." },
-          { text: "Mikrometer sekrup: ketidakpastian $$\\pm 0{,}005$ mm." },
+          { text: "Mistar: ketidakpastian $\\pm 0{,}5$ mm." },
+          { text: "Jangka sorong: ketidakpastian $\\pm 0{,}05$ mm." },
+          { text: "Mikrometer sekrup: ketidakpastian $\\pm 0{,}005$ mm." },
         ],
       },
       {
@@ -135,7 +135,7 @@ export const materiMekanika: Materi[] = [
           { text: "Nol di antara angka bukan nol adalah angka penting, misal 2005 memiliki 4 AP." },
           { text: "Nol di depan bukan angka penting, misal 0,0025 memiliki 2 AP." },
           { text: "Nol di belakang koma adalah angka penting, misal 2,500 memiliki 4 AP." },
-          { text: "Nol di belakang angka bulat tanpa koma bersifat ambigu; gunakan notasi ilmiah untuk kepastian. 1200 bisa 2, 3, atau 4 AP. Teks $$1{,}2 \\times 10^3 = $ 2 AP; $$1{,}20 \\times 10^3 = $ 3 AP; $$1{,}200 \\times 10^3 = $ 4 AP." },
+          { text: "Nol di belakang angka bulat tanpa koma bersifat ambigu; gunakan notasi ilmiah untuk kepastian. 1200 bisa 2, 3, atau 4 AP. Teks $1{,}2 \\times 10^3 = $ 2 AP; $1{,}20 \\times 10^3 = $ 3 AP; $1{,}200 \\times 10^3 = $ 4 AP." },
         ],
       },
       {
@@ -175,9 +175,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$d$", meaning: "diameter benda yang diukur", unit: "mm" },
-              { symbol: "$$ST$", meaning: "pembacaan skala tetap", unit: "mm" },
-              { symbol: "$$SP$", meaning: "pembacaan skala putar", unit: "tanpa satuan (angka)", note: "dikalikan ketelitian 0,01 mm" },
+              { symbol: "$d$", meaning: "diameter benda yang diukur", unit: "mm" },
+              { symbol: "$ST$", meaning: "pembacaan skala tetap", unit: "mm" },
+              { symbol: "$SP$", meaning: "pembacaan skala putar", unit: "tanpa satuan (angka)", note: "dikalikan ketelitian 0,01 mm" },
             ],
           },
           {
@@ -189,9 +189,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$2{,}5$", meaning: "pembacaan skala tetap", unit: "mm" },
-              { symbol: "$$23$", meaning: "pembacaan skala putar", unit: "tanpa satuan" },
-              { symbol: "$$0{,}01$", meaning: "ketelitian mikrometer", unit: "mm" },
+              { symbol: "$2{,}5$", meaning: "pembacaan skala tetap", unit: "mm" },
+              { symbol: "$23$", meaning: "pembacaan skala putar", unit: "tanpa satuan" },
+              { symbol: "$0{,}01$", meaning: "ketelitian mikrometer", unit: "mm" },
             ],
           },
           { type: "paragraph", text: "Jawaban: diameter kawat = 2,73 mm, yang memiliki 3 angka penting sesuai ketelitian alat." },
@@ -211,10 +211,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$x$", meaning: "hasil pengukuran", unit: "mm" },
-              { symbol: "$$SU$", meaning: "skala utama", unit: "mm" },
-              { symbol: "$$SN$", meaning: "skala nonius", unit: "tanpa satuan" },
-              { symbol: "$$0{,}1$", meaning: "ketelitian jangka sorong", unit: "mm" },
+              { symbol: "$x$", meaning: "hasil pengukuran", unit: "mm" },
+              { symbol: "$SU$", meaning: "skala utama", unit: "mm" },
+              { symbol: "$SN$", meaning: "skala nonius", unit: "tanpa satuan" },
+              { symbol: "$0{,}1$", meaning: "ketelitian jangka sorong", unit: "mm" },
             ],
           },
           {
@@ -226,17 +226,17 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$12$", meaning: "skala utama", unit: "mm" },
-              { symbol: "$$4$", meaning: "skala nonius", unit: "tanpa satuan" },
+              { symbol: "$12$", meaning: "skala utama", unit: "mm" },
+              { symbol: "$4$", meaning: "skala nonius", unit: "tanpa satuan" },
             ],
           },
-          { type: "paragraph", text: "Ketidakpastian: $$\\Delta x = \\frac{1}{2} \\times 0{,}1 = 0{,}05$ mm. Jadi hasil pengukuran = $$(12{,}4 \\pm 0{,}05)$ mm." },
-          { type: "paragraph", text: "Jawaban: 12,4 mm dengan ketidakpastian $$\\pm 0{,}05$ mm." },
+          { type: "paragraph", text: "Ketidakpastian: $\\Delta x = \\frac{1}{2} \\times 0{,}1 = 0{,}05$ mm. Jadi hasil pengukuran = $(12{,}4 \\pm 0{,}05)$ mm." },
+          { type: "paragraph", text: "Jawaban: 12,4 mm dengan ketidakpastian $\\pm 0{,}05$ mm." },
         ],
       },
       {
         type: "note",
-        text: "Notasi ilmiah ditulis $$a \\times 10^n$ dengan $$1 \\le a < 10$. Berguna untuk menulis angka sangat besar atau sangat kecil dan menentukan jumlah AP dengan pasti, misal $$0{,}000250 = 2{,}50 \\times 10^{-4}$ (3 AP).",
+        text: "Notasi ilmiah ditulis $a \\times 10^n$ dengan $1 \\le a < 10$. Berguna untuk menulis angka sangat besar atau sangat kecil dan menentukan jumlah AP dengan pasti, misal $0{,}000250 = 2{,}50 \\times 10^{-4}$ (3 AP).",
         variant: "info",
       },
     ],
@@ -255,7 +255,7 @@ export const materiMekanika: Materi[] = [
       {
         type: "definition",
         term: "Perpindahan",
-        definition: "Perubahan posisi benda, yaitu selisih posisi akhir dan posisi awal ($$\\Delta x = x_2 - x_1$). Nilai perpindahan dapat negatif, nol, atau positif tergantung arah gerak.",
+        definition: "Perubahan posisi benda, yaitu selisih posisi akhir dan posisi awal ($\\Delta x = x_2 - x_1$). Nilai perpindahan dapat negatif, nol, atau positif tergantung arah gerak.",
       },
       {
         type: "heading",
@@ -266,11 +266,11 @@ export const materiMekanika: Materi[] = [
         type: "table",
         headers: ["Besaran", "Tipe", "Rumus", "Satuan"],
         rows: [
-          ["Jarak ($$s$)", "Skalar", "panjang lintasan total", "m"],
-          ["Perpindahan ($$\\Delta x$)", "Vektor", "$$\\Delta x = x_f - x_i$", "m"],
-          ["Kelajuan rata-rata", "Skalar", "$$v = s/t$", "m/s"],
-          ["Kecepatan rata-rata", "Vektor", "$$\\vec v = \\Delta x / \\Delta t$", "m/s"],
-          ["Percepatan", "Vektor", "$$a = \\Delta v / \\Delta t$", "m/s^2"],
+          ["Jarak ($s$)", "Skalar", "panjang lintasan total", "m"],
+          ["Perpindahan ($\\Delta x$)", "Vektor", "$\\Delta x = x_f - x_i$", "m"],
+          ["Kelajuan rata-rata", "Skalar", "$v = s/t$", "m/s"],
+          ["Kecepatan rata-rata", "Vektor", "$\\vec v = \\Delta x / \\Delta t$", "m/s"],
+          ["Percepatan", "Vektor", "$a = \\Delta v / \\Delta t$", "m/s^2"],
         ],
       },
       {
@@ -296,9 +296,9 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$s$", meaning: "jarak tempuh", unit: "m" },
-          { symbol: "$$v$", meaning: "kecepatan konstan", unit: "m/s" },
-          { symbol: "$$t$", meaning: "waktu tempuh", unit: "s" },
+          { symbol: "$s$", meaning: "jarak tempuh", unit: "m" },
+          { symbol: "$v$", meaning: "kecepatan konstan", unit: "m/s" },
+          { symbol: "$t$", meaning: "waktu tempuh", unit: "s" },
         ],
       },
       {
@@ -308,7 +308,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "GLBB adalah gerak dengan percepatan konstan. Benda dipercepat maupun diperlambat dengan percepatan tetap. Tiga persamaan utama GLBB menghubungkan kecepatan awal ($$v_0$), kecepatan akhir ($$v_t$), percepatan ($$a$), waktu ($$t$), dan jarak ($$s$). Pilih persamaan yang tidak memuat besaran yang tidak diketahui dan tidak ditanyakan.",
+        text: "GLBB adalah gerak dengan percepatan konstan. Benda dipercepat maupun diperlambat dengan percepatan tetap. Tiga persamaan utama GLBB menghubungkan kecepatan awal ($v_0$), kecepatan akhir ($v_t$), percepatan ($a$), waktu ($t$), dan jarak ($s$). Pilih persamaan yang tidak memuat besaran yang tidak diketahui dan tidak ditanyakan.",
       },
       {
         type: "formula",
@@ -319,10 +319,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$v_t$", meaning: "kecepatan akhir", unit: "m/s" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-          { symbol: "$$a$", meaning: "percepatan konstan", unit: "m/s^2", note: "positif = dipercepat, negatif = diperlambat" },
-          { symbol: "$$t$", meaning: "waktu", unit: "s" },
+          { symbol: "$v_t$", meaning: "kecepatan akhir", unit: "m/s" },
+          { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$a$", meaning: "percepatan konstan", unit: "m/s^2", note: "positif = dipercepat, negatif = diperlambat" },
+          { symbol: "$t$", meaning: "waktu", unit: "s" },
         ],
       },
       {
@@ -334,10 +334,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$s$", meaning: "jarak (perpindahan) yang ditempuh", unit: "m" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-          { symbol: "$$t$", meaning: "waktu", unit: "s" },
-          { symbol: "$$a$", meaning: "percepatan konstan", unit: "m/s^2" },
+          { symbol: "$s$", meaning: "jarak (perpindahan) yang ditempuh", unit: "m" },
+          { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$t$", meaning: "waktu", unit: "s" },
+          { symbol: "$a$", meaning: "percepatan konstan", unit: "m/s^2" },
         ],
       },
       {
@@ -349,19 +349,19 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$v_t$", meaning: "kecepatan akhir", unit: "m/s" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-          { symbol: "$$a$", meaning: "percepatan konstan", unit: "m/s^2" },
-          { symbol: "$$s$", meaning: "jarak tempuh", unit: "m" },
+          { symbol: "$v_t$", meaning: "kecepatan akhir", unit: "m/s" },
+          { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$a$", meaning: "percepatan konstan", unit: "m/s^2" },
+          { symbol: "$s$", meaning: "jarak tempuh", unit: "m" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Dipercepat: $$a$ positif, kecepatan bertambah terhadap waktu." },
-          { text: "Diperlambat: $$a$ negatif, kecepatan berkurang terhadap waktu." },
-          { text: "Dari diam: $$v_0 = 0$, sehingga $$s = \\frac{1}{2} a t^2$ dan $$v_t = a t$." },
-          { text: "Kecepatan rata-rata pada GLBB: $$\\bar v = (v_0 + v_t)/2$." },
+          { text: "Dipercepat: $a$ positif, kecepatan bertambah terhadap waktu." },
+          { text: "Diperlambat: $a$ negatif, kecepatan berkurang terhadap waktu." },
+          { text: "Dari diam: $v_0 = 0$, sehingga $s = \\frac{1}{2} a t^2$ dan $v_t = a t$." },
+          { text: "Kecepatan rata-rata pada GLBB: $\\bar v = (v_0 + v_t)/2$." },
         ],
       },
       {
@@ -373,9 +373,9 @@ export const materiMekanika: Materi[] = [
         type: "table",
         headers: ["Grafik", "Arti Gradien", "Arti Luas"],
         rows: [
-          ["$$v$-$$t$", "gradien = percepatan $$a$", "luas di bawah grafik = jarak $$s$"],
-          ["$$s$-$$t$", "gradien = kecepatan $$v$", "kurva melengkung menunjukkan ada percepatan"],
-          ["$$a$-$$t$", "gradien = perubahan percepatan", "luas di bawah grafik = perubahan kecepatan $$\\Delta v$"],
+          ["$v$-$t$", "gradien = percepatan $a$", "luas di bawah grafik = jarak $s$"],
+          ["$s$-$t$", "gradien = kecepatan $v$", "kurva melengkung menunjukkan ada percepatan"],
+          ["$a$-$t$", "gradien = perubahan percepatan", "luas di bawah grafik = perubahan kecepatan $\\Delta v$"],
         ],
       },
       {
@@ -390,7 +390,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Gerak vertikal adalah kasus khusus GLBB dengan percepatan gravitasi $$g \\approx 10$ m/s^2 ke bawah. Ada dua jenis utama: jatuh bebas dan lempar vertikal (ke atas atau ke bawah). Tanda positif/negatif bergantung sistem koordinat yang dipilih; konvensi umum: ke atas positif, ke bawah negatif, atau sebaliknya dengan konsisten.",
+        text: "Gerak vertikal adalah kasus khusus GLBB dengan percepatan gravitasi $g \\approx 10$ m/s^2 ke bawah. Ada dua jenis utama: jatuh bebas dan lempar vertikal (ke atas atau ke bawah). Tanda positif/negatif bergantung sistem koordinat yang dipilih; konvensi umum: ke atas positif, ke bawah negatif, atau sebaliknya dengan konsisten.",
       },
       {
         type: "heading",
@@ -399,15 +399,15 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Benda dijatuhkan dari ketinggian $$h$ dengan kecepatan awal nol, tanpa hambatan udara. Semua benda, terlepas masanya, jatuh dengan percepatan yang sama (dalam vakum). Rumus yang digunakan:",
+        text: "Benda dijatuhkan dari ketinggian $h$ dengan kecepatan awal nol, tanpa hambatan udara. Semua benda, terlepas masanya, jatuh dengan percepatan yang sama (dalam vakum). Rumus yang digunakan:",
       },
       {
         type: "list",
         items: [
-          { text: "Kecepatan setelah t: $$v = g t$." },
-          { text: "Ketinggian: $$h = \\frac{1}{2} g t^2$." },
-          { text: "Kecepatan saat sampai tanah: $$v = \\sqrt{2 g h}$." },
-          { text: "Waktu jatuh: $$t = \\sqrt{2 h / g}$." },
+          { text: "Kecepatan setelah t: $v = g t$." },
+          { text: "Ketinggian: $h = \\frac{1}{2} g t^2$." },
+          { text: "Kecepatan saat sampai tanah: $v = \\sqrt{2 g h}$." },
+          { text: "Waktu jatuh: $t = \\sqrt{2 h / g}$." },
         ],
       },
       {
@@ -417,7 +417,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Benda dilempar ke atas dengan kecepatan awal $$v_0$, mengalami perlambatan $$a = -g$ (jika ke atas positif). Karena simetri gerak, waktu naik sama dengan waktu turun dan kecepatan saat sampai titik lempar sama besar berlawanan arah.",
+        text: "Benda dilempar ke atas dengan kecepatan awal $v_0$, mengalami perlambatan $a = -g$ (jika ke atas positif). Karena simetri gerak, waktu naik sama dengan waktu turun dan kecepatan saat sampai titik lempar sama besar berlawanan arah.",
       },
       {
         type: "formula",
@@ -428,9 +428,9 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$t_{naik}$", meaning: "waktu naik ke puncak", unit: "s" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal lempar", unit: "m/s" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2", note: "diambil $$g \\approx 10$ m/s^2" },
+          { symbol: "$t_{naik}$", meaning: "waktu naik ke puncak", unit: "s" },
+          { symbol: "$v_0$", meaning: "kecepatan awal lempar", unit: "m/s" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2", note: "diambil $g \\approx 10$ m/s^2" },
         ],
       },
       {
@@ -442,16 +442,16 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$h_{maks}$", meaning: "ketinggian maksimum", unit: "m" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$h_{maks}$", meaning: "ketinggian maksimum", unit: "m" },
+          { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Di puncak trajektori: kecepatan sesaat $$v = 0$, tetapi percepatan tetap $$g$ ke bawah." },
-          { text: "Waktu total di udara (hingga kembali ke titik lempar): $$t_{total} = 2 t_{naik} = 2 v_0 / g$." },
+          { text: "Di puncak trajektori: kecepatan sesaat $v = 0$, tetapi percepatan tetap $g$ ke bawah." },
+          { text: "Waktu total di udara (hingga kembali ke titik lempar): $t_{total} = 2 t_{naik} = 2 v_0 / g$." },
           { text: "Kecepatan saat kembali ke titik lempar sama besar dengan kecepatan awal, arah berlawanan." },
         ],
       },
@@ -467,14 +467,14 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Soal kejar-kejaran diselesaikan dengan menyamakan posisi kedua benda pada waktu yang sama. Tentukan titik acuan dan arah positif yang konsisten, lalu gunakan $$s_1 = s_2 + s_{awal}$ (atau selisih sesuai posisi awal). Pastikan waktu dihitung dari titik awal masing-masing.",
+        text: "Soal kejar-kejaran diselesaikan dengan menyamakan posisi kedua benda pada waktu yang sama. Tentukan titik acuan dan arah positif yang konsisten, lalu gunakan $s_1 = s_2 + s_{awal}$ (atau selisih sesuai posisi awal). Pastikan waktu dihitung dari titik awal masing-masing.",
       },
       {
         type: "example",
         title: "Mobil Rem Darurat",
         blocks: [
           { type: "paragraph", text: "Diketahui: mobil melaju 20 m/s lalu direm dengan perlambatan konstan 4 m/s^2. Ditanyakan: jarak yang ditempuh hingga berhenti?" },
-          { type: "paragraph", text: "Penyelesaian: gunakan persamaan GLBB yang menghubungkan kecepatan akhir, kecepatan awal, percepatan, dan jarak. Pada saat berhenti, kecepatan akhir $$v_t = 0$." },
+          { type: "paragraph", text: "Penyelesaian: gunakan persamaan GLBB yang menghubungkan kecepatan akhir, kecepatan awal, percepatan, dan jarak. Pada saat berhenti, kecepatan akhir $v_t = 0$." },
           {
             type: "formula",
             latex: "v_t^2 = v_0^2 + 2 a s",
@@ -484,10 +484,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$v_t$", meaning: "kecepatan akhir (nol saat berhenti)", unit: "m/s" },
-              { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$a$", meaning: "percepatan (perlambatan)", unit: "m/s^2" },
-              { symbol: "$$s$", meaning: "jarak pengereman", unit: "m" },
+              { symbol: "$v_t$", meaning: "kecepatan akhir (nol saat berhenti)", unit: "m/s" },
+              { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$a$", meaning: "percepatan (perlambatan)", unit: "m/s^2" },
+              { symbol: "$s$", meaning: "jarak pengereman", unit: "m" },
             ],
           },
           {
@@ -499,8 +499,8 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$20$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$-4$", meaning: "perlambatan", unit: "m/s^2" },
+              { symbol: "$20$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$-4$", meaning: "perlambatan", unit: "m/s^2" },
             ],
           },
           {
@@ -512,7 +512,7 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$s$", meaning: "jarak pengereman", unit: "m" },
+              { symbol: "$s$", meaning: "jarak pengereman", unit: "m" },
             ],
           },
           { type: "paragraph", text: "Jawaban: mobil menempuh 50 m sebelum berhenti." },
@@ -522,7 +522,7 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Benda Dilempar Vertikal ke Atas",
         blocks: [
-          { type: "paragraph", text: "Diketahui: bola dilempar ke atas dengan kecepatan 20 m/s. Gunakan $$g = 10$ m/s^2. Ditanyakan: ketinggian maksimum dan waktu total di udara?" },
+          { type: "paragraph", text: "Diketahui: bola dilempar ke atas dengan kecepatan 20 m/s. Gunakan $g = 10$ m/s^2. Ditanyakan: ketinggian maksimum dan waktu total di udara?" },
           {
             type: "formula",
             latex: "h_{maks} = \\frac{v_0^2}{2 g}",
@@ -532,9 +532,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$h_{maks}$", meaning: "ketinggian maksimum", unit: "m" },
-              { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$h_{maks}$", meaning: "ketinggian maksimum", unit: "m" },
+              { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -546,8 +546,8 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$20$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$20$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -559,9 +559,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$t_{total}$", meaning: "waktu total di udara", unit: "s" },
-              { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t_{total}$", meaning: "waktu total di udara", unit: "s" },
+              { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -573,9 +573,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$t_{total}$", meaning: "waktu total di udara", unit: "s", note: "hasil perhitungan" },
-              { symbol: "$$20$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t_{total}$", meaning: "waktu total di udara", unit: "s", note: "hasil perhitungan" },
+              { symbol: "$20$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           { type: "paragraph", text: "Jawaban: ketinggian maksimum 20 m dan waktu total di udara 4 s." },
@@ -585,7 +585,7 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Jatuh Bebas dari Ketinggian",
         blocks: [
-          { type: "paragraph", text: "Diketahui: batu dijatuhkan dari ketinggian 45 m. Gunakan $$g = 10$ m/s^2. Ditanyakan: waktu jatuh dan kecepatan saat sampai tanah?" },
+          { type: "paragraph", text: "Diketahui: batu dijatuhkan dari ketinggian 45 m. Gunakan $g = 10$ m/s^2. Ditanyakan: waktu jatuh dan kecepatan saat sampai tanah?" },
           {
             type: "formula",
             latex: "h = \\frac{1}{2} g t^2",
@@ -595,9 +595,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$h$", meaning: "ketinggian jatuh", unit: "m" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$h$", meaning: "ketinggian jatuh", unit: "m" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           {
@@ -609,9 +609,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$45$", meaning: "ketinggian jatuh", unit: "m" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s", note: "hasil 3 s" },
+              { symbol: "$45$", meaning: "ketinggian jatuh", unit: "m" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s", note: "hasil 3 s" },
             ],
           },
           {
@@ -623,9 +623,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$v$", meaning: "kecepatan akhir", unit: "m/s" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$v$", meaning: "kecepatan akhir", unit: "m/s" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           {
@@ -637,9 +637,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$v$", meaning: "kecepatan saat sampai tanah", unit: "m/s", note: "hasil perhitungan" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$3$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$v$", meaning: "kecepatan saat sampai tanah", unit: "m/s", note: "hasil perhitungan" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$3$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           { type: "paragraph", text: "Jawaban: waktu jatuh 3 s dan kecepatan saat sampai tanah 30 m/s." },
@@ -670,7 +670,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Benda dilempar horizontal dari ketinggian $$h$ dengan kecepatan awal $$v_0$. Sumbu x adalah GLB (percepatan nol), sumbu y adalah jatuh bebas (percepatan $$g$). Kecepatan awal vertikal nol.",
+        text: "Benda dilempar horizontal dari ketinggian $h$ dengan kecepatan awal $v_0$. Sumbu x adalah GLB (percepatan nol), sumbu y adalah jatuh bebas (percepatan $g$). Kecepatan awal vertikal nol.",
       },
       {
         type: "formula",
@@ -681,32 +681,32 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$v_x$", meaning: "kecepatan horizontal (konstan)", unit: "m/s" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal lempar horizontal", unit: "m/s" },
-          { symbol: "$$v_y$", meaning: "kecepatan vertikal", unit: "m/s" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$$t$", meaning: "waktu sejak dilempar", unit: "s" },
-          { symbol: "$$x$", meaning: "posisi horizontal", unit: "m" },
-          { symbol: "$$y$", meaning: "posisi vertikal (jatuh)", unit: "m" },
+          { symbol: "$v_x$", meaning: "kecepatan horizontal (konstan)", unit: "m/s" },
+          { symbol: "$v_0$", meaning: "kecepatan awal lempar horizontal", unit: "m/s" },
+          { symbol: "$v_y$", meaning: "kecepatan vertikal", unit: "m/s" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$t$", meaning: "waktu sejak dilempar", unit: "s" },
+          { symbol: "$x$", meaning: "posisi horizontal", unit: "m" },
+          { symbol: "$y$", meaning: "posisi vertikal (jatuh)", unit: "m" },
         ],
       },
       {
         type: "list",
         items: [
-          { text: "Waktu jatuh: $$t = \\sqrt{2 h / g}$, tidak bergantung pada $$v_0$." },
-          { text: "Jangkauan horizontal: $$x = v_0 \\sqrt{2 h / g}$." },
-          { text: "Kecepatan resultan saat sampai tanah: $$v = \\sqrt{v_x^2 + v_y^2}$." },
-          { text: "Arah kecepatan: $$\\tan \\theta = v_y / v_x$." },
+          { text: "Waktu jatuh: $t = \\sqrt{2 h / g}$, tidak bergantung pada $v_0$." },
+          { text: "Jangkauan horizontal: $x = v_0 \\sqrt{2 h / g}$." },
+          { text: "Kecepatan resultan saat sampai tanah: $v = \\sqrt{v_x^2 + v_y^2}$." },
+          { text: "Arah kecepatan: $\\tan \\theta = v_y / v_x$." },
         ],
       },
       {
         type: "heading",
         level: 2,
-        text: "Gerak Parabola - Sudut Elevasi $$\\alpha$",
+        text: "Gerak Parabola - Sudut Elevasi $\\alpha$",
       },
       {
         type: "paragraph",
-        text: "Benda dilempar dengan kecepatan $$v_0$ dan sudut elevasi $$\\alpha$ terhadap horizontal. Komponen awal: $$v_{0x} = v_0 \\cos \\alpha$ (konstan, GLB) dan $$v_{0y} = v_0 \\sin \\alpha$ (GLBB dengan $$a = -g$).",
+        text: "Benda dilempar dengan kecepatan $v_0$ dan sudut elevasi $\\alpha$ terhadap horizontal. Komponen awal: $v_{0x} = v_0 \\cos \\alpha$ (konstan, GLB) dan $v_{0y} = v_0 \\sin \\alpha$ (GLBB dengan $a = -g$).",
       },
       {
         type: "formula",
@@ -717,10 +717,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$t_{puncak}$", meaning: "waktu mencapai puncak", unit: "s" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal lempar", unit: "m/s" },
-          { symbol: "$$\\alpha$", meaning: "sudut elevasi terhadap horizontal", unit: "derajat (Â°)", note: "konversi ke radian jika perlu" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$t_{puncak}$", meaning: "waktu mencapai puncak", unit: "s" },
+          { symbol: "$v_0$", meaning: "kecepatan awal lempar", unit: "m/s" },
+          { symbol: "$\\alpha$", meaning: "sudut elevasi terhadap horizontal", unit: "derajat (Â°)", note: "konversi ke radian jika perlu" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
         ],
       },
       {
@@ -732,10 +732,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$h_{maks}$", meaning: "ketinggian maksimum", unit: "m" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-          { symbol: "$$\\alpha$", meaning: "sudut elevasi", unit: "derajat (Â°)" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$h_{maks}$", meaning: "ketinggian maksimum", unit: "m" },
+          { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$\\alpha$", meaning: "sudut elevasi", unit: "derajat (Â°)" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
         ],
       },
       {
@@ -747,10 +747,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$R$", meaning: "jangkauan horizontal", unit: "m" },
-          { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-          { symbol: "$$\\alpha$", meaning: "sudut elevasi", unit: "derajat (Â°)" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$R$", meaning: "jangkauan horizontal", unit: "m" },
+          { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+          { symbol: "$\\alpha$", meaning: "sudut elevasi", unit: "derajat (Â°)" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
         ],
       },
       {
@@ -760,7 +760,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "note",
-        text: "Perhatian: waktu total di udara untuk lempar sudut adalah $$t_{total} = 2 t_{puncak} = 2 v_0 \\sin\\alpha / g$. Jangan gunakan waktu jatuh bebas murni kecuali jika sudut 90 derajat (lempar vertikal).",
+        text: "Perhatian: waktu total di udara untuk lempar sudut adalah $t_{total} = 2 t_{puncak} = 2 v_0 \\sin\\alpha / g$. Jangan gunakan waktu jatuh bebas murni kecuali jika sudut 90 derajat (lempar vertikal).",
         variant: "warning",
       },
       {
@@ -775,10 +775,10 @@ export const materiMekanika: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Periode: $$T = t / n$ (waktu untuk satu putaran penuh)." },
-          { text: "Frekuensi: $$f = n / t = 1 / T$ (jumlah putaran per satuan waktu)." },
-          { text: "Kecepatan sudut: $$\\omega = 2\\pi / T = 2\\pi f$." },
-          { text: "Kecepatan linear: $$v = \\omega r$." },
+          { text: "Periode: $T = t / n$ (waktu untuk satu putaran penuh)." },
+          { text: "Frekuensi: $f = n / t = 1 / T$ (jumlah putaran per satuan waktu)." },
+          { text: "Kecepatan sudut: $\\omega = 2\\pi / T = 2\\pi f$." },
+          { text: "Kecepatan linear: $v = \\omega r$." },
         ],
       },
       {
@@ -790,10 +790,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2" },
-          { symbol: "$$v$", meaning: "kecepatan linear", unit: "m/s" },
-          { symbol: "$$r$", meaning: "jari-jari lingkaran", unit: "m" },
-          { symbol: "$$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
+          { symbol: "$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2" },
+          { symbol: "$v$", meaning: "kecepatan linear", unit: "m/s" },
+          { symbol: "$r$", meaning: "jari-jari lingkaran", unit: "m" },
+          { symbol: "$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
         ],
       },
       {
@@ -805,11 +805,11 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$F_s$", meaning: "gaya sentripetal", unit: "N" },
-          { symbol: "$$m$", meaning: "massa benda", unit: "kg" },
-          { symbol: "$$v$", meaning: "kecepatan linear", unit: "m/s" },
-          { symbol: "$$r$", meaning: "jari-jari lintasan", unit: "m" },
-          { symbol: "$$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
+          { symbol: "$F_s$", meaning: "gaya sentripetal", unit: "N" },
+          { symbol: "$m$", meaning: "massa benda", unit: "kg" },
+          { symbol: "$v$", meaning: "kecepatan linear", unit: "m/s" },
+          { symbol: "$r$", meaning: "jari-jari lintasan", unit: "m" },
+          { symbol: "$\\omega$", meaning: "kecepatan sudut", unit: "rad/s" },
         ],
       },
       {
@@ -825,16 +825,16 @@ export const materiMekanika: Materi[] = [
         type: "table",
         headers: ["Hubungan", "Besaran Sama", "Rumus"],
         rows: [
-          ["Sepusat (seporos)", "$$\\omega$ dan $$T$", "$$\\omega_1 = \\omega_2$, $$v = \\omega r$"],
-          ["Bersinggungan", "$$v$ linear", "$$v_1 = v_2$, $$\\omega_1 r_1 = \\omega_2 r_2$"],
-          ["Sabuk / rantai", "$$v$ linear", "$$v_1 = v_2$, $$\\omega_1 r_1 = \\omega_2 r_2$"],
+          ["Sepusat (seporos)", "$\\omega$ dan $T$", "$\\omega_1 = \\omega_2$, $v = \\omega r$"],
+          ["Bersinggungan", "$v$ linear", "$v_1 = v_2$, $\\omega_1 r_1 = \\omega_2 r_2$"],
+          ["Sabuk / rantai", "$v$ linear", "$v_1 = v_2$, $\\omega_1 r_1 = \\omega_2 r_2$"],
         ],
       },
       {
         type: "example",
         title: "Jangkauan Maksimum",
         blocks: [
-          { type: "paragraph", text: "Diketahui: peluru ditembakkan dengan $$v_0 = 20$ m/s pada sudut 30 derajat ($$g = 10$ m/s^2). Ditanyakan: jangkauan horizontal?" },
+          { type: "paragraph", text: "Diketahui: peluru ditembakkan dengan $v_0 = 20$ m/s pada sudut 30 derajat ($g = 10$ m/s^2). Ditanyakan: jangkauan horizontal?" },
           {
             type: "formula",
             latex: "R = \\frac{v_0^2 \\sin 2\\alpha}{g}",
@@ -844,10 +844,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$R$", meaning: "jangkauan horizontal", unit: "m" },
-              { symbol: "$$v_0$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$\\alpha$", meaning: "sudut elevasi", unit: "derajat (Â°)" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$R$", meaning: "jangkauan horizontal", unit: "m" },
+              { symbol: "$v_0$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$\\alpha$", meaning: "sudut elevasi", unit: "derajat (Â°)" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -859,10 +859,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$R$", meaning: "jangkauan horizontal", unit: "m", note: "hasil perhitungan" },
-              { symbol: "$$20$", meaning: "kecepatan awal", unit: "m/s" },
-              { symbol: "$$60^\\circ$", meaning: "dua kali sudut elevasi (sin 60)", unit: "derajat" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$R$", meaning: "jangkauan horizontal", unit: "m", note: "hasil perhitungan" },
+              { symbol: "$20$", meaning: "kecepatan awal", unit: "m/s" },
+              { symbol: "$60^\\circ$", meaning: "dua kali sudut elevasi (sin 60)", unit: "derajat" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           { type: "paragraph", text: "Jawaban: jangkauan maksimum 34,64 m." },
@@ -872,7 +872,7 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Lempar Horizontal dari Gedung",
         blocks: [
-          { type: "paragraph", text: "Diketahui: bola dilempar horizontal dari gedung setinggi 20 m dengan kecepatan 15 m/s ($$g = 10$ m/s^2). Ditanyakan: waktu jatuh, jangkauan horizontal, dan kecepatan saat sampai tanah?" },
+          { type: "paragraph", text: "Diketahui: bola dilempar horizontal dari gedung setinggi 20 m dengan kecepatan 15 m/s ($g = 10$ m/s^2). Ditanyakan: waktu jatuh, jangkauan horizontal, dan kecepatan saat sampai tanah?" },
           {
             type: "formula",
             latex: "t = \\sqrt{\\frac{2 h}{g}}",
@@ -882,9 +882,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s" },
-              { symbol: "$$h$", meaning: "ketinggian", unit: "m" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$h$", meaning: "ketinggian", unit: "m" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -896,9 +896,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s", note: "hasil perhitungan" },
-              { symbol: "$$20$", meaning: "ketinggian", unit: "m" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s", note: "hasil perhitungan" },
+              { symbol: "$20$", meaning: "ketinggian", unit: "m" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -910,9 +910,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$x$", meaning: "jangkauan horizontal", unit: "m" },
-              { symbol: "$$v_0$", meaning: "kecepatan awal horizontal", unit: "m/s" },
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$x$", meaning: "jangkauan horizontal", unit: "m" },
+              { symbol: "$v_0$", meaning: "kecepatan awal horizontal", unit: "m/s" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           {
@@ -924,9 +924,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$x$", meaning: "jangkauan horizontal", unit: "m", note: "hasil perhitungan" },
-              { symbol: "$$15$", meaning: "kecepatan awal horizontal", unit: "m/s" },
-              { symbol: "$$2$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$x$", meaning: "jangkauan horizontal", unit: "m", note: "hasil perhitungan" },
+              { symbol: "$15$", meaning: "kecepatan awal horizontal", unit: "m/s" },
+              { symbol: "$2$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           {
@@ -938,10 +938,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$v$", meaning: "kecepatan resultan", unit: "m/s" },
-              { symbol: "$$v_x$", meaning: "kecepatan horizontal (konstan)", unit: "m/s" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$t$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$v$", meaning: "kecepatan resultan", unit: "m/s" },
+              { symbol: "$v_x$", meaning: "kecepatan horizontal (konstan)", unit: "m/s" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$t$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           {
@@ -953,10 +953,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$v$", meaning: "kecepatan resultan akhir", unit: "m/s", note: "hasil perhitungan" },
-              { symbol: "$$15$", meaning: "kecepatan horizontal", unit: "m/s" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$2$", meaning: "waktu jatuh", unit: "s" },
+              { symbol: "$v$", meaning: "kecepatan resultan akhir", unit: "m/s", note: "hasil perhitungan" },
+              { symbol: "$15$", meaning: "kecepatan horizontal", unit: "m/s" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$2$", meaning: "waktu jatuh", unit: "s" },
             ],
           },
           { type: "paragraph", text: "Jawaban: waktu jatuh 2 s, jangkauan 30 m, kecepatan akhir 25 m/s." },
@@ -976,9 +976,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2" },
-              { symbol: "$$v$", meaning: "kecepatan linear", unit: "m/s" },
-              { symbol: "$$r$", meaning: "jari-jari lintasan", unit: "m" },
+              { symbol: "$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2" },
+              { symbol: "$v$", meaning: "kecepatan linear", unit: "m/s" },
+              { symbol: "$r$", meaning: "jari-jari lintasan", unit: "m" },
             ],
           },
           {
@@ -990,9 +990,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2", note: "hasil perhitungan" },
-              { symbol: "$$8$", meaning: "kecepatan linear", unit: "m/s" },
-              { symbol: "$$4$", meaning: "jari-jari lintasan", unit: "m" },
+              { symbol: "$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2", note: "hasil perhitungan" },
+              { symbol: "$8$", meaning: "kecepatan linear", unit: "m/s" },
+              { symbol: "$4$", meaning: "jari-jari lintasan", unit: "m" },
             ],
           },
           {
@@ -1004,9 +1004,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$F_s$", meaning: "gaya sentripetal", unit: "N" },
-              { symbol: "$$m$", meaning: "massa", unit: "kg" },
-              { symbol: "$$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2" },
+              { symbol: "$F_s$", meaning: "gaya sentripetal", unit: "N" },
+              { symbol: "$m$", meaning: "massa", unit: "kg" },
+              { symbol: "$a_s$", meaning: "percepatan sentripetal", unit: "m/s^2" },
             ],
           },
           {
@@ -1018,9 +1018,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$F_s$", meaning: "gaya sentripetal", unit: "N", note: "hasil perhitungan" },
-              { symbol: "$$2$", meaning: "massa benda", unit: "kg" },
-              { symbol: "$$16$", meaning: "percepatan sentripetal", unit: "m/s^2" },
+              { symbol: "$F_s$", meaning: "gaya sentripetal", unit: "N", note: "hasil perhitungan" },
+              { symbol: "$2$", meaning: "massa benda", unit: "kg" },
+              { symbol: "$16$", meaning: "percepatan sentripetal", unit: "m/s^2" },
             ],
           },
           { type: "paragraph", text: "Jawaban: percepatan sentripetal 16 m/s^2 dan gaya sentripetal 32 N." },
@@ -1037,7 +1037,7 @@ export const materiMekanika: Materi[] = [
     blocks: [
       {
         type: "paragraph",
-        text: "Hukum Newton menghubungkan gaya dengan gerak benda. Dinamika mempelajari penyebab gerak, yaitu gaya. Langkah umum: gambar diagram benda bebas (free body diagram), pilih sumbu, tulis $$\\Sigma F = m a$ pada setiap sumbu, lalu selesaikan sistem persamaan.",
+        text: "Hukum Newton menghubungkan gaya dengan gerak benda. Dinamika mempelajari penyebab gerak, yaitu gaya. Langkah umum: gambar diagram benda bebas (free body diagram), pilih sumbu, tulis $\\Sigma F = m a$ pada setiap sumbu, lalu selesaikan sistem persamaan.",
       },
       {
         type: "image",
@@ -1053,9 +1053,9 @@ export const materiMekanika: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Hukum I (Kelembaman): $$\\Sigma F = 0$ maka benda diam atau bergerak lurus beraturan. Benda cenderung mempertahankan keadaan geraknya." },
-          { text: "Hukum II: $$\\Sigma F = m a$. Percepatan berbanding lurus dengan gaya total dan berbanding terbalik dengan massa." },
-          { text: "Hukum III (Aksi-Reaksi): $$F_{aksi} = -F_{reaksi}$. Sama besar, berlawanan arah, bekerja pada dua benda berbeda." },
+          { text: "Hukum I (Kelembaman): $\\Sigma F = 0$ maka benda diam atau bergerak lurus beraturan. Benda cenderung mempertahankan keadaan geraknya." },
+          { text: "Hukum II: $\\Sigma F = m a$. Percepatan berbanding lurus dengan gaya total dan berbanding terbalik dengan massa." },
+          { text: "Hukum III (Aksi-Reaksi): $F_{aksi} = -F_{reaksi}$. Sama besar, berlawanan arah, bekerja pada dua benda berbeda." },
         ],
       },
       {
@@ -1072,12 +1072,12 @@ export const materiMekanika: Materi[] = [
         type: "table",
         headers: ["Gaya", "Rumus", "Keterangan"],
         rows: [
-          ["Berat ($$w$)", "$$w = m g$", "selalu ke bawah, $$g \\approx 10$ m/s^2"],
-          ["Normal ($$N$)", "disesuaikan", "tegak lurus permukaan sentuh"],
-          ["Tegangan tali ($$T$)", "disesuaikan", "sepanjang tali, arah menjauhi benda"],
-          ["Gesek statis ($$f_s$)", "$$f_s \\le \\mu_s N$", "maksimum saat benda hampir bergerak"],
-          ["Gesek kinetis ($$f_k$)", "$$f_k = \\mu_k N$", "saat benda sudah bergerak"],
-          ["Pegas (Hooke)", "$$F = k x$", "arah berlawanan dengan simpangan dari titik setimbang"],
+          ["Berat ($w$)", "$w = m g$", "selalu ke bawah, $g \\approx 10$ m/s^2"],
+          ["Normal ($N$)", "disesuaikan", "tegak lurus permukaan sentuh"],
+          ["Tegangan tali ($T$)", "disesuaikan", "sepanjang tali, arah menjauhi benda"],
+          ["Gesek statis ($f_s$)", "$f_s \\le \\mu_s N$", "maksimum saat benda hampir bergerak"],
+          ["Gesek kinetis ($f_k$)", "$f_k = \\mu_k N$", "saat benda sudah bergerak"],
+          ["Pegas (Hooke)", "$F = k x$", "arah berlawanan dengan simpangan dari titik setimbang"],
         ],
       },
       {
@@ -1092,7 +1092,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Benda bermassa $$m$ pada bidang miring bersudut $$\\theta$. Gaya berat diuraikan menjadi komponen sejajar bidang ($$mg \\sin\\theta$) dan tegak lurus bidang ($$mg \\cos\\theta$). Gesekan (jika ada) bekerja melawan gerak.",
+        text: "Benda bermassa $m$ pada bidang miring bersudut $\\theta$. Gaya berat diuraikan menjadi komponen sejajar bidang ($mg \\sin\\theta$) dan tegak lurus bidang ($mg \\cos\\theta$). Gesekan (jika ada) bekerja melawan gerak.",
       },
       {
         type: "formula",
@@ -1103,9 +1103,9 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$a$", meaning: "percepatan benda sepanjang bidang miring", unit: "m/s^2" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$$\\theta$", meaning: "sudut bidang miring terhadap horizontal", unit: "derajat (Â°)" },
+          { symbol: "$a$", meaning: "percepatan benda sepanjang bidang miring", unit: "m/s^2" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$\\theta$", meaning: "sudut bidang miring terhadap horizontal", unit: "derajat (Â°)" },
         ],
       },
       {
@@ -1117,10 +1117,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$a$", meaning: "percepatan benda", unit: "m/s^2" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$$\\theta$", meaning: "sudut bidang miring", unit: "derajat (Â°)" },
-          { symbol: "$$\\mu_k$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
+          { symbol: "$a$", meaning: "percepatan benda", unit: "m/s^2" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$\\theta$", meaning: "sudut bidang miring", unit: "derajat (Â°)" },
+          { symbol: "$\\mu_k$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
         ],
       },
       {
@@ -1132,10 +1132,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$N$", meaning: "gaya normal (tegak lurus bidang)", unit: "N" },
-          { symbol: "$$m$", meaning: "massa benda", unit: "kg" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$$\\theta$", meaning: "sudut bidang miring", unit: "derajat (Â°)" },
+          { symbol: "$N$", meaning: "gaya normal (tegak lurus bidang)", unit: "N" },
+          { symbol: "$m$", meaning: "massa benda", unit: "kg" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$\\theta$", meaning: "sudut bidang miring", unit: "derajat (Â°)" },
         ],
       },
       {
@@ -1145,7 +1145,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Untuk katrol ideal (tanpa massa dan tanpa gesekan), dua massa $$m_1$ dan $$m_2$ ($$m_2 > m_1$) dihubungkan tali. Sistem bergerak dengan percepatan yang sama besar pada kedua massa (ke arah massa yang lebih besar).",
+        text: "Untuk katrol ideal (tanpa massa dan tanpa gesekan), dua massa $m_1$ dan $m_2$ ($m_2 > m_1$) dihubungkan tali. Sistem bergerak dengan percepatan yang sama besar pada kedua massa (ke arah massa yang lebih besar).",
       },
       {
         type: "formula",
@@ -1156,9 +1156,9 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$a$", meaning: "percepatan sistem", unit: "m/s^2" },
-          { symbol: "$$m_1, m_2$", meaning: "massa kedua benda", unit: "kg", note: "$$m_2 > m_1$" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$a$", meaning: "percepatan sistem", unit: "m/s^2" },
+          { symbol: "$m_1, m_2$", meaning: "massa kedua benda", unit: "kg", note: "$m_2 > m_1$" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
         ],
       },
       {
@@ -1170,9 +1170,9 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$T$", meaning: "tegangan tali", unit: "N" },
-          { symbol: "$$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$T$", meaning: "tegangan tali", unit: "N" },
+          { symbol: "$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
         ],
       },
       {
@@ -1188,12 +1188,12 @@ export const materiMekanika: Materi[] = [
         type: "table",
         headers: ["Keadaan", "Gaya Normal", "Berat Semu"],
         rows: [
-          ["Naik dipercepat", "$$N = m(g + a)$", "lebih berat"],
-          ["Naik diperlambat", "$$N = m(g - a)$", "lebih ringan"],
-          ["Turun dipercepat", "$$N = m(g - a)$", "lebih ringan"],
-          ["Turun diperlambat", "$$N = m(g + a)$", "lebih berat"],
-          ["Diam / GLB", "$$N = m g$", "normal"],
-          ["Hambat bebas", "$$N = 0$", "tanpa berat"],
+          ["Naik dipercepat", "$N = m(g + a)$", "lebih berat"],
+          ["Naik diperlambat", "$N = m(g - a)$", "lebih ringan"],
+          ["Turun dipercepat", "$N = m(g - a)$", "lebih ringan"],
+          ["Turun diperlambat", "$N = m(g + a)$", "lebih berat"],
+          ["Diam / GLB", "$N = m g$", "normal"],
+          ["Hambat bebas", "$N = 0$", "tanpa berat"],
         ],
       },
       {
@@ -1203,7 +1203,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Untuk dua benda bersentuhan yang didorong gaya $$F$, cari percepatan bersama terlebih dahulu karena kedua benda bergerak bersama (asumsi tidak terpisah). Kemudian cari gaya kontak antara dua benda.",
+        text: "Untuk dua benda bersentuhan yang didorong gaya $F$, cari percepatan bersama terlebih dahulu karena kedua benda bergerak bersama (asumsi tidak terpisah). Kemudian cari gaya kontak antara dua benda.",
       },
       {
         type: "formula",
@@ -1214,30 +1214,30 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$a$", meaning: "percepatan bersama", unit: "m/s^2" },
-          { symbol: "$$F$", meaning: "gaya dorong total", unit: "N" },
-          { symbol: "$$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
+          { symbol: "$a$", meaning: "percepatan bersama", unit: "m/s^2" },
+          { symbol: "$F$", meaning: "gaya dorong total", unit: "N" },
+          { symbol: "$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
         ],
       },
       {
         type: "formula",
         latex: "F_{kontak} = m_2 \\cdot a",
-        description: "Gaya kontak (jika F mendorong $$m_1$ di depan $$m_2$)",
+        description: "Gaya kontak (jika F mendorong $m_1$ di depan $m_2$)",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$F_{kontak}$", meaning: "gaya kontak antara kedua benda", unit: "N" },
-          { symbol: "$$m_2$", meaning: "massa benda di depan", unit: "kg" },
-          { symbol: "$$a$", meaning: "percepatan bersama", unit: "m/s^2" },
+          { symbol: "$F_{kontak}$", meaning: "gaya kontak antara kedua benda", unit: "N" },
+          { symbol: "$m_2$", meaning: "massa benda di depan", unit: "kg" },
+          { symbol: "$a$", meaning: "percepatan bersama", unit: "m/s^2" },
         ],
       },
       {
         type: "example",
         title: "Bidang Miring Kasar",
         blocks: [
-          { type: "paragraph", text: "Diketahui: benda bermassa 2 kg berada di bidang miring bersudut 30 derajat dengan $$\\mu_k = 0{,}2$. Ditanyakan: percepatan benda? (g = 10 m/s^2)" },
+          { type: "paragraph", text: "Diketahui: benda bermassa 2 kg berada di bidang miring bersudut 30 derajat dengan $\\mu_k = 0{,}2$. Ditanyakan: percepatan benda? (g = 10 m/s^2)" },
           {
             type: "formula",
             latex: "a = g (\\sin \\theta - \\mu_k \\cos \\theta)",
@@ -1247,10 +1247,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan benda", unit: "m/s^2" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$\\theta$", meaning: "sudut bidang miring", unit: "derajat (Â°)" },
-              { symbol: "$$\\mu_k$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
+              { symbol: "$a$", meaning: "percepatan benda", unit: "m/s^2" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$\\theta$", meaning: "sudut bidang miring", unit: "derajat (Â°)" },
+              { symbol: "$\\mu_k$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
             ],
           },
           {
@@ -1262,11 +1262,11 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan benda", unit: "m/s^2" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$\\sin 30^\\circ$", meaning: "sinus sudut bidang", note: "0,5", unit: "tanpa satuan" },
-              { symbol: "$$0{,}2$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
-              { symbol: "$$\\cos 30^\\circ$", meaning: "kosinus sudut bidang", note: "0,866", unit: "tanpa satuan" },
+              { symbol: "$a$", meaning: "percepatan benda", unit: "m/s^2" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$\\sin 30^\\circ$", meaning: "sinus sudut bidang", note: "0,5", unit: "tanpa satuan" },
+              { symbol: "$0{,}2$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
+              { symbol: "$\\cos 30^\\circ$", meaning: "kosinus sudut bidang", note: "0,866", unit: "tanpa satuan" },
             ],
           },
           {
@@ -1278,10 +1278,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan benda", unit: "m/s^2", note: "hasil perhitungan" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$0{,}5$", meaning: "$$\\sin 30^\\circ$", unit: "tanpa satuan" },
-              { symbol: "$$0{,}173$", meaning: "$$\\mu_k \\cos 30^\\circ$", unit: "tanpa satuan" },
+              { symbol: "$a$", meaning: "percepatan benda", unit: "m/s^2", note: "hasil perhitungan" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$0{,}5$", meaning: "$\\sin 30^\\circ$", unit: "tanpa satuan" },
+              { symbol: "$0{,}173$", meaning: "$\\mu_k \\cos 30^\\circ$", unit: "tanpa satuan" },
             ],
           },
           { type: "paragraph", text: "Jawaban: percepatan benda = 3,27 m/s^2 ke bawah sepanjang bidang." },
@@ -1291,7 +1291,7 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Sistem Atwood",
         blocks: [
-          { type: "paragraph", text: "Diketahui: $$m_1 = 2$ kg dan $$m_2 = 4$ kg dihubungkan dengan tali pada katrol ideal. Ditanyakan: percepatan sistem dan tegangan tali? (g = 10 m/s^2)" },
+          { type: "paragraph", text: "Diketahui: $m_1 = 2$ kg dan $m_2 = 4$ kg dihubungkan dengan tali pada katrol ideal. Ditanyakan: percepatan sistem dan tegangan tali? (g = 10 m/s^2)" },
           {
             type: "formula",
             latex: "a = \\frac{(m_2 - m_1) g}{m_1 + m_2}",
@@ -1301,9 +1301,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan sistem", unit: "m/s^2" },
-              { symbol: "$$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$a$", meaning: "percepatan sistem", unit: "m/s^2" },
+              { symbol: "$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -1315,9 +1315,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan sistem", unit: "m/s^2", note: "hasil perhitungan" },
-              { symbol: "$$4, 2$", meaning: "massa kedua benda", unit: "kg" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$a$", meaning: "percepatan sistem", unit: "m/s^2", note: "hasil perhitungan" },
+              { symbol: "$4, 2$", meaning: "massa kedua benda", unit: "kg" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -1329,9 +1329,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$T$", meaning: "tegangan tali", unit: "N" },
-              { symbol: "$$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$T$", meaning: "tegangan tali", unit: "N" },
+              { symbol: "$m_1, m_2$", meaning: "massa kedua benda", unit: "kg" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           {
@@ -1343,9 +1343,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$T$", meaning: "tegangan tali", unit: "N", note: "hasil perhitungan" },
-              { symbol: "$$2, 4$", meaning: "massa kedua benda", unit: "kg" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$T$", meaning: "tegangan tali", unit: "N", note: "hasil perhitungan" },
+              { symbol: "$2, 4$", meaning: "massa kedua benda", unit: "kg" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
             ],
           },
           { type: "paragraph", text: "Jawaban: percepatan 3,33 m/s^2 dan tegangan tali 26,67 N." },
@@ -1365,10 +1365,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$N$", meaning: "gaya normal / pembacaan timbangan", unit: "N" },
-              { symbol: "$$m$", meaning: "massa orang", unit: "kg" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$a$", meaning: "percepatan lift", unit: "m/s^2" },
+              { symbol: "$N$", meaning: "gaya normal / pembacaan timbangan", unit: "N" },
+              { symbol: "$m$", meaning: "massa orang", unit: "kg" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$a$", meaning: "percepatan lift", unit: "m/s^2" },
             ],
           },
           {
@@ -1380,10 +1380,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$N$", meaning: "gaya normal / pembacaan timbangan", unit: "N", note: "hasil perhitungan" },
-              { symbol: "$$60$", meaning: "massa orang", unit: "kg" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$2$", meaning: "percepatan lift", unit: "m/s^2" },
+              { symbol: "$N$", meaning: "gaya normal / pembacaan timbangan", unit: "N", note: "hasil perhitungan" },
+              { symbol: "$60$", meaning: "massa orang", unit: "kg" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$2$", meaning: "percepatan lift", unit: "m/s^2" },
             ],
           },
           { type: "paragraph", text: "Jawaban: timbangan menunjukkan 720 N (setara 72 kg), lebih berat dari berat sebenarnya 600 N." },
@@ -1393,7 +1393,7 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Benda Bersentuhan",
         blocks: [
-          { type: "paragraph", text: "Diketahui: dua balok masses $$m_1 = 3$ kg dan $$m_2 = 5$ kg bersentuhan di permukaan licin. Diberi gaya dorong $$F = 16$ N pada $$m_1$ sehingga mendorong $$m_2$. Ditanyakan: percepatan sistem dan gaya kontak?" },
+          { type: "paragraph", text: "Diketahui: dua balok masses $m_1 = 3$ kg dan $m_2 = 5$ kg bersentuhan di permukaan licin. Diberi gaya dorong $F = 16$ N pada $m_1$ sehingga mendorong $m_2$. Ditanyakan: percepatan sistem dan gaya kontak?" },
           {
             type: "formula",
             latex: "a = \\frac{F}{m_1 + m_2}",
@@ -1403,9 +1403,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan bersama", unit: "m/s^2" },
-              { symbol: "$$F$", meaning: "gaya dorong", unit: "N" },
-              { symbol: "$$m_1, m_2$", meaning: "massa kedua balok", unit: "kg" },
+              { symbol: "$a$", meaning: "percepatan bersama", unit: "m/s^2" },
+              { symbol: "$F$", meaning: "gaya dorong", unit: "N" },
+              { symbol: "$m_1, m_2$", meaning: "massa kedua balok", unit: "kg" },
             ],
           },
           {
@@ -1417,9 +1417,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$a$", meaning: "percepatan bersama", unit: "m/s^2", note: "hasil perhitungan" },
-              { symbol: "$$16$", meaning: "gaya dorong", unit: "N" },
-              { symbol: "$$3, 5$", meaning: "massa kedua balok", unit: "kg" },
+              { symbol: "$a$", meaning: "percepatan bersama", unit: "m/s^2", note: "hasil perhitungan" },
+              { symbol: "$16$", meaning: "gaya dorong", unit: "N" },
+              { symbol: "$3, 5$", meaning: "massa kedua balok", unit: "kg" },
             ],
           },
           {
@@ -1431,9 +1431,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$F_{kontak}$", meaning: "gaya kontak antar balok", unit: "N" },
-              { symbol: "$$m_2$", meaning: "massa balok di depan", unit: "kg" },
-              { symbol: "$$a$", meaning: "percepatan bersama", unit: "m/s^2" },
+              { symbol: "$F_{kontak}$", meaning: "gaya kontak antar balok", unit: "N" },
+              { symbol: "$m_2$", meaning: "massa balok di depan", unit: "kg" },
+              { symbol: "$a$", meaning: "percepatan bersama", unit: "m/s^2" },
             ],
           },
           {
@@ -1445,9 +1445,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$F_{kontak}$", meaning: "gaya kontak antar balok", unit: "N", note: "hasil perhitungan" },
-              { symbol: "$$5$", meaning: "massa balok di depan", unit: "kg" },
-              { symbol: "$$2$", meaning: "percepatan bersama", unit: "m/s^2" },
+              { symbol: "$F_{kontak}$", meaning: "gaya kontak antar balok", unit: "N", note: "hasil perhitungan" },
+              { symbol: "$5$", meaning: "massa balok di depan", unit: "kg" },
+              { symbol: "$2$", meaning: "percepatan bersama", unit: "m/s^2" },
             ],
           },
           { type: "paragraph", text: "Jawaban: percepatan 2 m/s^2 dan gaya kontak 10 N." },
@@ -1455,7 +1455,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "note",
-        text: "Tips TKA: selalu gambar diagram benda bebas sebelum menulis persamaan. Gaya gesek statis tidak selalu $$\\mu_s N$; itu adalah nilai maksimum, gaya sebenarnya menyesuaikan hingga ambang gerak.",
+        text: "Tips TKA: selalu gambar diagram benda bebas sebelum menulis persamaan. Gaya gesek statis tidak selalu $\\mu_s N$; itu adalah nilai maksimum, gaya sebenarnya menyesuaikan hingga ambang gerak.",
         variant: "tip",
       },
     ],
@@ -1474,7 +1474,7 @@ export const materiMekanika: Materi[] = [
       {
         type: "definition",
         term: "Energi Mekanik",
-        definition: "Jumlah energi kinetik dan energi potensial pada suatu keadaan ($$E_m = E_k + E_p$). Pada sistem dengan hanya gaya konservatif, energi mekanik kekal.",
+        definition: "Jumlah energi kinetik dan energi potensial pada suatu keadaan ($E_m = E_k + E_p$). Pada sistem dengan hanya gaya konservatif, energi mekanik kekal.",
       },
       {
         type: "heading",
@@ -1494,15 +1494,15 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$W$", meaning: "usaha", unit: "Joule (J)" },
-          { symbol: "$$F$", meaning: "besar gaya", unit: "N" },
-          { symbol: "$$s$", meaning: "besar perpindahan", unit: "m" },
-          { symbol: "$$\\theta$", meaning: "sudut antara gaya dan perpindahan", unit: "derajat (Â°)" },
+          { symbol: "$W$", meaning: "usaha", unit: "Joule (J)" },
+          { symbol: "$F$", meaning: "besar gaya", unit: "N" },
+          { symbol: "$s$", meaning: "besar perpindahan", unit: "m" },
+          { symbol: "$\\theta$", meaning: "sudut antara gaya dan perpindahan", unit: "derajat (Â°)" },
         ],
       },
       {
         type: "table",
-        headers: ["Sudut $$\\theta$", "Nilai $$\\cos \\theta$", "Usaha", "Contoh"],
+        headers: ["Sudut $\\theta$", "Nilai $\\cos \\theta$", "Usaha", "Contoh"],
         rows: [
           ["0 derajat", "1", "positif maksimum", "gaya searah gerak"],
           ["90 derajat", "0", "nol", "gaya normal, gaya sentripetal"],
@@ -1511,7 +1511,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Usaha total adalah jumlah usaha dari semua gaya atau $$W_{net} = \\Sigma F \\cdot s$ (gaya total dikali perpindahan) pada GLBB. Pada grafik F-s, luas di bawah kurva menyatakan usaha.",
+        text: "Usaha total adalah jumlah usaha dari semua gaya atau $W_{net} = \\Sigma F \\cdot s$ (gaya total dikali perpindahan) pada GLBB. Pada grafik F-s, luas di bawah kurva menyatakan usaha.",
       },
       {
         type: "heading",
@@ -1526,23 +1526,23 @@ export const materiMekanika: Materi[] = [
         type: "table",
         headers: ["Jenis Energi", "Rumus", "Keterangan"],
         rows: [
-          ["Kinetik ($$E_k$)", "$$\\frac{1}{2} m v^2$", "energi karena gerak"],
-          ["Potensial gravitasi ($$E_p$)", "$$m g h$", "energi karena ketinggian"],
-          ["Potensial pegas", "$$\\frac{1}{2} k x^2$", "energi tersimpan dalam pegas"],
+          ["Kinetik ($E_k$)", "$\\frac{1}{2} m v^2$", "energi karena gerak"],
+          ["Potensial gravitasi ($E_p$)", "$m g h$", "energi karena ketinggian"],
+          ["Potensial pegas", "$\\frac{1}{2} k x^2$", "energi tersimpan dalam pegas"],
         ],
       },
       {
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$E_k$", meaning: "energi kinetik", unit: "J" },
-          { symbol: "$$m$", meaning: "massa", unit: "kg" },
-          { symbol: "$$v$", meaning: "kecepatan", unit: "m/s" },
-          { symbol: "$$E_p$", meaning: "energi potensial gravitasi", unit: "J" },
-          { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-          { symbol: "$$h$", meaning: "ketinggian terhadap acuan", unit: "m" },
-          { symbol: "$$k$", meaning: "konstanta pegas", unit: "N/m" },
-          { symbol: "$$x$", meaning: "simpangan / kompresi pegas", unit: "m" },
+          { symbol: "$E_k$", meaning: "energi kinetik", unit: "J" },
+          { symbol: "$m$", meaning: "massa", unit: "kg" },
+          { symbol: "$v$", meaning: "kecepatan", unit: "m/s" },
+          { symbol: "$E_p$", meaning: "energi potensial gravitasi", unit: "J" },
+          { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+          { symbol: "$h$", meaning: "ketinggian terhadap acuan", unit: "m" },
+          { symbol: "$k$", meaning: "konstanta pegas", unit: "N/m" },
+          { symbol: "$x$", meaning: "simpangan / kompresi pegas", unit: "m" },
         ],
       },
       {
@@ -1557,9 +1557,9 @@ export const materiMekanika: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Seri: $$1/k_s = 1/k_1 + 1/k_2$ (lebih lunak, rentang lebih panjang)." },
-          { text: "Paralel: $$k_p = k_1 + k_2$ (lebih kaku, deformasi sama)." },
-          { text: "Untuk n pegas identik k: seri $$k_s = k/n$, paralel $$k_p = n k$." },
+          { text: "Seri: $1/k_s = 1/k_1 + 1/k_2$ (lebih lunak, rentang lebih panjang)." },
+          { text: "Paralel: $k_p = k_1 + k_2$ (lebih kaku, deformasi sama)." },
+          { text: "Untuk n pegas identik k: seri $k_s = k/n$, paralel $k_p = n k$." },
         ],
       },
       {
@@ -1580,10 +1580,10 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$W_{net}$", meaning: "usaha total (neto)", unit: "J" },
-          { symbol: "$$\\Delta E_k$", meaning: "perubahan energi kinetik", unit: "J" },
-          { symbol: "$$m$", meaning: "massa", unit: "kg" },
-          { symbol: "$$v_1, v_2$", meaning: "kecepatan awal dan akhir", unit: "m/s" },
+          { symbol: "$W_{net}$", meaning: "usaha total (neto)", unit: "J" },
+          { symbol: "$\\Delta E_k$", meaning: "perubahan energi kinetik", unit: "J" },
+          { symbol: "$m$", meaning: "massa", unit: "kg" },
+          { symbol: "$v_1, v_2$", meaning: "kecepatan awal dan akhir", unit: "m/s" },
         ],
       },
       {
@@ -1598,14 +1598,14 @@ export const materiMekanika: Materi[] = [
       {
         type: "formula",
         latex: "E_{p1} + E_{k1} = E_{p2} + E_{k2}",
-        description: "$$E_m = E_p + E_k$ konstan",
+        description: "$E_m = E_p + E_k$ konstan",
       },
       {
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$E_{p1}, E_{p2}$", meaning: "energi potensial gravitasi keadaan 1 dan 2", unit: "J" },
-          { symbol: "$$E_{k1}, E_{k2}$", meaning: "energi kinetik keadaan 1 dan 2", unit: "J" },
+          { symbol: "$E_{p1}, E_{p2}$", meaning: "energi potensial gravitasi keadaan 1 dan 2", unit: "J" },
+          { symbol: "$E_{k1}, E_{k2}$", meaning: "energi kinetik keadaan 1 dan 2", unit: "J" },
         ],
       },
       {
@@ -1621,15 +1621,15 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$W_{gesek}$", meaning: "usaha gaya gesek (negatif)", unit: "J" },
-          { symbol: "$$\\Delta E_m$", meaning: "perubahan energi mekanik", unit: "J" },
-          { symbol: "$$f_k$", meaning: "gaya gesek kinetis", unit: "N" },
-          { symbol: "$$s$", meaning: "jarak tempuh", unit: "m" },
+          { symbol: "$W_{gesek}$", meaning: "usaha gaya gesek (negatif)", unit: "J" },
+          { symbol: "$\\Delta E_m$", meaning: "perubahan energi mekanik", unit: "J" },
+          { symbol: "$f_k$", meaning: "gaya gesek kinetis", unit: "N" },
+          { symbol: "$s$", meaning: "jarak tempuh", unit: "m" },
         ],
       },
       {
         type: "note",
-        text: "Aplikasi penting: benda yang meluncur dari ketinggian h di bidang miring licin memiliki kecepatan $$v = \\sqrt{2 g h}$ di bawah, tidak bergantung pada sudut bidang miring maupun massa benda.",
+        text: "Aplikasi penting: benda yang meluncur dari ketinggian h di bidang miring licin memiliki kecepatan $v = \\sqrt{2 g h}$ di bawah, tidak bergantung pada sudut bidang miring maupun massa benda.",
         variant: "tip",
       },
       {
@@ -1650,11 +1650,11 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$P$", meaning: "daya", unit: "Watt (W)" },
-          { symbol: "$$W$", meaning: "usaha", unit: "J" },
-          { symbol: "$$t$", meaning: "waktu", unit: "s" },
-          { symbol: "$$F$", meaning: "gaya", unit: "N" },
-          { symbol: "$$v$", meaning: "kecepatan", unit: "m/s" },
+          { symbol: "$P$", meaning: "daya", unit: "Watt (W)" },
+          { symbol: "$W$", meaning: "usaha", unit: "J" },
+          { symbol: "$t$", meaning: "waktu", unit: "s" },
+          { symbol: "$F$", meaning: "gaya", unit: "N" },
+          { symbol: "$v$", meaning: "kecepatan", unit: "m/s" },
         ],
       },
       {
@@ -1666,11 +1666,11 @@ export const materiMekanika: Materi[] = [
         type: "glossary",
         title: "Keterangan Simbol",
         items: [
-          { symbol: "$$\\eta$", meaning: "efisiensi", unit: "persen (%)" },
-          { symbol: "$$P_{keluar}$", meaning: "daya berguna keluaran", unit: "W" },
-          { symbol: "$$P_{masuk}$", meaning: "daya masukan", unit: "W" },
-          { symbol: "$$W_{berguna}$", meaning: "kerja berguna", unit: "J" },
-          { symbol: "$$W_{total}$", meaning: "kerja total masukan", unit: "J" },
+          { symbol: "$\\eta$", meaning: "efisiensi", unit: "persen (%)" },
+          { symbol: "$P_{keluar}$", meaning: "daya berguna keluaran", unit: "W" },
+          { symbol: "$P_{masuk}$", meaning: "daya masukan", unit: "W" },
+          { symbol: "$W_{berguna}$", meaning: "kerja berguna", unit: "J" },
+          { symbol: "$W_{total}$", meaning: "kerja total masukan", unit: "J" },
         ],
       },
       {
@@ -1681,18 +1681,18 @@ export const materiMekanika: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Jatuh bebas dan meluncur licin dari tinggi h: $$v = \\sqrt{2 g h}$." },
-          { text: "Bandul/ayunan: titik terendah $$E_k$ maksimum, titik tertinggi $$E_p$ maksimum." },
-          { text: "Looping lingkaran vertikal: kecepatan minimum di puncak $$v = \\sqrt{g R}$ (saat $$N = 0$)." },
-          { text: "Benda menabrak pegas: $$\\frac{1}{2} m v^2 = \\frac{1}{2} k x^2$ (lintasan licin)." },
-          { text: "Bidang miring kasar: $$m g h - f_k s = \\frac{1}{2} m v^2$." },
+          { text: "Jatuh bebas dan meluncur licin dari tinggi h: $v = \\sqrt{2 g h}$." },
+          { text: "Bandul/ayunan: titik terendah $E_k$ maksimum, titik tertinggi $E_p$ maksimum." },
+          { text: "Looping lingkaran vertikal: kecepatan minimum di puncak $v = \\sqrt{g R}$ (saat $N = 0$)." },
+          { text: "Benda menabrak pegas: $\\frac{1}{2} m v^2 = \\frac{1}{2} k x^2$ (lintasan licin)." },
+          { text: "Bidang miring kasar: $m g h - f_k s = \\frac{1}{2} m v^2$." },
         ],
       },
       {
         type: "example",
         title: "Benda Meluncur ke Pegas",
         blocks: [
-          { type: "paragraph", text: "Diketahui: benda 1 kg meluncur dari ketinggian 0,8 m di bidang licin dan menabrak pegas $$k = 200$ N/m. Ditanyakan: kompresi maksimum pegas? ($$g = 10$ m/s^2)" },
+          { type: "paragraph", text: "Diketahui: benda 1 kg meluncur dari ketinggian 0,8 m di bidang licin dan menabrak pegas $k = 200$ N/m. Ditanyakan: kompresi maksimum pegas? ($g = 10$ m/s^2)" },
           { type: "paragraph", text: "Gunakan kekekalan energi mekanik: energi potensial awal berubah menjadi energi potensial pegas pada kompresi maksimum (kecepatan nol)." },
           {
             type: "formula",
@@ -1703,11 +1703,11 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$m$", meaning: "massa benda", unit: "kg" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$h$", meaning: "ketinggian awal", unit: "m" },
-              { symbol: "$$k$", meaning: "konstanta pegas", unit: "N/m" },
-              { symbol: "$$x$", meaning: "kompresi maksimum pegas", unit: "m" },
+              { symbol: "$m$", meaning: "massa benda", unit: "kg" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$h$", meaning: "ketinggian awal", unit: "m" },
+              { symbol: "$k$", meaning: "konstanta pegas", unit: "N/m" },
+              { symbol: "$x$", meaning: "kompresi maksimum pegas", unit: "m" },
             ],
           },
           {
@@ -1719,11 +1719,11 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$1$", meaning: "massa benda", unit: "kg" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$0{,}8$", meaning: "ketinggian awal", unit: "m" },
-              { symbol: "$$200$", meaning: "konstanta pegas", unit: "N/m" },
-              { symbol: "$$x$", meaning: "kompresi pegas", unit: "m" },
+              { symbol: "$1$", meaning: "massa benda", unit: "kg" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$0{,}8$", meaning: "ketinggian awal", unit: "m" },
+              { symbol: "$200$", meaning: "konstanta pegas", unit: "N/m" },
+              { symbol: "$x$", meaning: "kompresi pegas", unit: "m" },
             ],
           },
           {
@@ -1735,9 +1735,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$8$", meaning: "energi potensial awal $$mgh$", unit: "J", note: "hasil perhitungan" },
-              { symbol: "$$100$", meaning: "$$\\frac{1}{2}k$", unit: "N/m" },
-              { symbol: "$$x$", meaning: "kompresi maksimum pegas", unit: "m" },
+              { symbol: "$8$", meaning: "energi potensial awal $mgh$", unit: "J", note: "hasil perhitungan" },
+              { symbol: "$100$", meaning: "$\\frac{1}{2}k$", unit: "N/m" },
+              { symbol: "$x$", meaning: "kompresi maksimum pegas", unit: "m" },
             ],
           },
           { type: "paragraph", text: "Jawaban: kompresi maksimum pegas = 0,283 m (28,3 cm)." },
@@ -1747,8 +1747,8 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Usaha-Energi pada Bidang Kasar",
         blocks: [
-          { type: "paragraph", text: "Diketahui: benda 2 kg meluncur dari ketinggian 5 m pada bidang miring kasar dengan panjang lintasan 10 m ($$\\mu_k = 0{,}1$, $$g = 10$ m/sÂ²) dan tiba di bawah dengan kecepatan 6 m/s. Ditanyakan: konsistensi dengan teorema usaha-energi?" },
-          { type: "paragraph", text: "Energi awal $$E_{p1} = m g h = 2 \\times 10 \\times 5 = 100$ J. Energi akhir $$E_{k2} = \\frac{1}{2} m v^2 = \\frac{1}{2} \\times 2 \\times 6^2 = 36$ J. Selisih 64 J merupakan energi yang hilang karena usaha gesekan, sesuai konsep kekekalan energi dengan gaya non-konservatif." },
+          { type: "paragraph", text: "Diketahui: benda 2 kg meluncur dari ketinggian 5 m pada bidang miring kasar dengan panjang lintasan 10 m ($\\mu_k = 0{,}1$, $g = 10$ m/sÂ²) dan tiba di bawah dengan kecepatan 6 m/s. Ditanyakan: konsistensi dengan teorema usaha-energi?" },
+          { type: "paragraph", text: "Energi awal $E_{p1} = m g h = 2 \\times 10 \\times 5 = 100$ J. Energi akhir $E_{k2} = \\frac{1}{2} m v^2 = \\frac{1}{2} \\times 2 \\times 6^2 = 36$ J. Selisih 64 J merupakan energi yang hilang karena usaha gesekan, sesuai konsep kekekalan energi dengan gaya non-konservatif." },
           {
             type: "formula",
             latex: "W_{gesek} = - f_k \\cdot s = - \\mu_k N s = - \\mu_k (m g \\cos \\theta) s",
@@ -1758,12 +1758,12 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$W_{gesek}$", meaning: "usaha gesekan", unit: "J" },
-              { symbol: "$$f_k$", meaning: "gaya gesek kinetis", unit: "N" },
-              { symbol: "$$s$", meaning: "jarak tempuh sepanjang bidang", unit: "m" },
-              { symbol: "$$\\mu_k$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
-              { symbol: "$$N$", meaning: "gaya normal", unit: "N" },
-              { symbol: "$$\\theta$", meaning: "sudut bidang", unit: "derajat (Â°)" },
+              { symbol: "$W_{gesek}$", meaning: "usaha gesekan", unit: "J" },
+              { symbol: "$f_k$", meaning: "gaya gesek kinetis", unit: "N" },
+              { symbol: "$s$", meaning: "jarak tempuh sepanjang bidang", unit: "m" },
+              { symbol: "$\\mu_k$", meaning: "koefisien gesek kinetis", unit: "tanpa satuan" },
+              { symbol: "$N$", meaning: "gaya normal", unit: "N" },
+              { symbol: "$\\theta$", meaning: "sudut bidang", unit: "derajat (Â°)" },
             ],
           },
           { type: "paragraph", text: "Jawaban: kerja gesekan mengurangi energi mekanik; sisanya menjadi energi kinetik." },
@@ -1773,7 +1773,7 @@ export const materiMekanika: Materi[] = [
         type: "example",
         title: "Daya Motor",
         blocks: [
-          { type: "paragraph", text: "Diketahui: motor mengangkat beban 50 kg setinggi 10 m dalam 5 s. Ditanyakan: daya motor jika efisiensi 80%? ($$g = 10$ m/sÂ²)" },
+          { type: "paragraph", text: "Diketahui: motor mengangkat beban 50 kg setinggi 10 m dalam 5 s. Ditanyakan: daya motor jika efisiensi 80%? ($g = 10$ m/sÂ²)" },
           {
             type: "formula",
             latex: "W = m g h",
@@ -1783,10 +1783,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$W$", meaning: "usaha", unit: "J" },
-              { symbol: "$$m$", meaning: "massa beban", unit: "kg" },
-              { symbol: "$$g$", meaning: "percepatan gravitasi", unit: "m/sÂ²" },
-              { symbol: "$$h$", meaning: "ketinggian", unit: "m" },
+              { symbol: "$W$", meaning: "usaha", unit: "J" },
+              { symbol: "$m$", meaning: "massa beban", unit: "kg" },
+              { symbol: "$g$", meaning: "percepatan gravitasi", unit: "m/sÂ²" },
+              { symbol: "$h$", meaning: "ketinggian", unit: "m" },
             ],
           },
           {
@@ -1798,10 +1798,10 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$W$", meaning: "usaha mengangkat beban", unit: "J", note: "hasil perhitungan" },
-              { symbol: "$$50$", meaning: "massa beban", unit: "kg" },
-              { symbol: "$$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
-              { symbol: "$$10$", meaning: "ketinggian", unit: "m" },
+              { symbol: "$W$", meaning: "usaha mengangkat beban", unit: "J", note: "hasil perhitungan" },
+              { symbol: "$50$", meaning: "massa beban", unit: "kg" },
+              { symbol: "$10$", meaning: "percepatan gravitasi", unit: "m/s^2" },
+              { symbol: "$10$", meaning: "ketinggian", unit: "m" },
             ],
           },
           {
@@ -1813,9 +1813,9 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$P_{keluar}$", meaning: "daya berguna", unit: "W" },
-              { symbol: "$$W$", meaning: "usaha", unit: "J" },
-              { symbol: "$$t$", meaning: "waktu", unit: "s" },
+              { symbol: "$P_{keluar}$", meaning: "daya berguna", unit: "W" },
+              { symbol: "$W$", meaning: "usaha", unit: "J" },
+              { symbol: "$t$", meaning: "waktu", unit: "s" },
             ],
           },
           {
@@ -1827,8 +1827,8 @@ export const materiMekanika: Materi[] = [
             type: "glossary",
             title: "Keterangan Simbol",
             items: [
-              { symbol: "$$\\eta$", meaning: "efisiensi", unit: "tanpa satuan (0,8 = 80%)" },
-              { symbol: "$$P_{masuk}$", meaning: "daya masukan motor", unit: "W" },
+              { symbol: "$\\eta$", meaning: "efisiensi", unit: "tanpa satuan (0,8 = 80%)" },
+              { symbol: "$P_{masuk}$", meaning: "daya masukan motor", unit: "W" },
             ],
           },
           { type: "paragraph", text: "Jawaban: daya masukan motor = 1250 W." },
@@ -1836,7 +1836,7 @@ export const materiMekanika: Materi[] = [
       },
       {
         type: "note",
-        text: "Perhatian: kecepatan minimum di puncak looping lingkaran vertikal saat gaya normal nol adalah $$v = \\sqrt{g R}$; di titik puncak, berat semata-mata menyediakan gaya sentripetal.",
+        text: "Perhatian: kecepatan minimum di puncak looping lingkaran vertikal saat gaya normal nol adalah $v = \\sqrt{g R}$; di titik puncak, berat semata-mata menyediakan gaya sentripetal.",
         variant: "warning",
       },
     ],

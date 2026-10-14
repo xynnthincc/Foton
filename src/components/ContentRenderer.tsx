@@ -19,13 +19,13 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
       if (block.level === 2) {
         return (
           <h2 className="mt-10 mb-4 font-serif text-2xl font-semibold text-text">
-            {block.text}
+            <InlineText text={block.text} />
           </h2>
         );
       }
       return (
         <h3 className="mt-7 mb-3 font-serif text-lg font-semibold text-text">
-          {block.text}
+          <InlineText text={block.text} />
         </h3>
       );
     }
@@ -143,7 +143,7 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
           </div>
           {block.caption && (
             <figcaption className="text-sm text-text-muted italic">
-              {block.caption}
+              <InlineText text={block.caption} />
             </figcaption>
           )}
         </figure>
@@ -154,8 +154,8 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
       return (
         <div className="rounded-lg border border-border-subtle bg-surface/40 p-4">
           <p className="text-sm">
-            <span className="font-semibold text-text">{block.term}:</span>{" "}
-            <span className="text-text-secondary">{block.definition}</span>
+            <span className="font-semibold text-text"><InlineText text={block.term} />:</span>{" "}
+            <span className="text-text-secondary"><InlineText text={block.definition} /></span>
           </p>
         </div>
       );
@@ -165,7 +165,7 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
       return (
         <div className="rounded-lg border border-border bg-surface/30 p-4">
           <p className="mb-3 text-sm font-semibold text-accent">
-            Contoh: {block.title}
+            Contoh: <InlineText text={block.title} />
           </p>
           <div className="space-y-3">
             {block.blocks.map((b, i) => (
@@ -208,8 +208,8 @@ function GlossaryRenderer({ block }: { block: { title?: string; items: GlossaryI
                 <td className="px-4 py-2.5 font-mono font-semibold text-accent">
                   <InlineText text={g.symbol} />
                 </td>
-                <td className="px-4 py-2.5 text-text">{g.meaning}</td>
-                <td className="px-4 py-2.5 text-text-muted font-mono">{g.unit ?? "—"}</td>
+                <td className="px-4 py-2.5 text-text"><InlineText text={g.meaning} /></td>
+                <td className="px-4 py-2.5 text-text-muted font-mono"><InlineText text={g.unit ?? "—"} /></td>
                 <td className="px-4 py-2.5 text-text-secondary">
                   {g.note ? <InlineText text={g.note} /> : "—"}
                 </td>

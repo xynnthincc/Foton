@@ -94,7 +94,7 @@ export function QuizRunner({ latihan }: Props) {
                   <div className="min-w-0 flex-1">
                     <p className="text-sm text-text">
                       <span className="text-text-muted">{i + 1}.</span>{" "}
-                      {s.question}
+                      <InlineText text={s.question} />
                     </p>
                     <div className="mt-2 flex flex-wrap gap-2 text-xs">
                       <span className="rounded bg-surface px-2 py-1">
@@ -189,7 +189,7 @@ export function QuizRunner({ latihan }: Props) {
       {/* Question */}
       <div className="rounded-xl border border-border-subtle bg-surface/30 p-6">
         <p className="text-lg leading-relaxed text-text">
-          {soal.question}
+          <InlineText text={soal.question} />
         </p>
         {soal.formulaLatex && (
           <div className="mt-4 overflow-x-auto rounded-lg border border-border-subtle bg-bg-elevated px-4 py-3">
