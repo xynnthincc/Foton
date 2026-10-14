@@ -174,6 +174,12 @@ export const materiTermo: Materi[] = [
         text: 'Pemuaian Zat',
       },
       {
+        type: 'image',
+        src: '/diagrams/kalor-ekspansi-panjang.svg',
+        alt: 'Pemuaian panjang batang dari panjang awal L0 menjadi L dengan pertambahan panjang',
+        caption: 'Pemuaian panjang sebanding dengan panjang awal batang dan dengan kenaikan suhu.',
+      },
+      {
         type: 'paragraph',
         text: 'Pemuaian adalah bertambahnya ukuran benda saat dipanaskan. Penambahan panjang, luas, dan volume sebanding dengan ukuran awal, koefisien pemuaian bahan, dan perubahan suhu. Koefisien muai panjang $\\alpha$ bernilai kecil untuk bahan kaku dan besar untuk bahan lunak.',
       },
@@ -249,6 +255,12 @@ export const materiTermo: Materi[] = [
         type: 'heading',
         level: 2,
         text: 'Perpindahan Kalor',
+      },
+      {
+        type: 'image',
+        src: '/diagrams/kalor-penetapan-panas.svg',
+        alt: 'Tiga jenis perpindahan kalor: konduksi, konveksi, dan radiasi',
+        caption: 'Konduksi memerlukan media padat, konveksi memerlukan fluid, sedangkan radiasi tidak memerlukan media.',
       },
       {
         type: 'paragraph',
@@ -649,6 +661,12 @@ export const materiTermo: Materi[] = [
         text: 'Mekanisme Efek Rumah Kaca',
       },
       {
+        type: 'image',
+        src: '/diagrams/pemanasan-global-rumah-kaca.svg',
+        alt: 'Skema efek rumah kaca dengan radiasi inframerah yang tertahan oleh kaca',
+        caption: 'Cahaya matahari masuk melalui kaca, tetapi radiasi inframerah tertahan sehingga suhu di dalam naik.',
+      },
+      {
         type: 'list',
         ordered: true,
         items: [
@@ -971,6 +989,12 @@ export const materiTermo: Materi[] = [
         type: 'heading',
         level: 2,
         text: 'Persamaan Gas Ideal',
+      },
+      {
+        type: 'image',
+        src: '/diagrams/gas-ideal-partikel.svg',
+        alt: 'Perbandingan jumlah partikel pada volume besar dan volume kecil dengan tekanan berbeda',
+        caption: 'Pada suhu tetap, volume yang lebih kecil menghasilkan tekanan yang lebih besar.',
       },
       {
         type: 'paragraph',
@@ -1411,6 +1435,12 @@ export const materiTermo: Materi[] = [
         type: 'heading',
         level: 2,
         text: 'Empat Proses Termodinamika Dasar',
+      },
+      {
+        type: 'image',
+        src: '/diagrams/termodinamika-siklus.svg',
+        alt: 'Siklus empat proses mesin pembakaran dalam pada diagram tekanan-volume',
+        caption: 'Luas di dalam siklus adalah usaha neto, yaitu kalor masuk dikurangi kalor keluar.',
       },
       {
         type: 'table',
@@ -1890,6 +1920,12 @@ export const materiTermo: Materi[] = [
         text: 'Hukum Coulomb',
       },
       {
+        type: 'image',
+        src: '/diagrams/listrik-statis-coulomb.svg',
+        alt: 'Dua muatan listrik berlawanan tanda dengan gaya Coulomb yang berlawanan arah',
+        caption: 'Besar gaya pada kedua muatan sama tetapi arahnya berlawanan, sesuai Hukum Newton III.',
+      },
+      {
         type: 'paragraph',
         text: 'Gaya elektrostatik antara dua muatan titik sebanding dengan hasil kali kedua muatan dan berbanding terbalik dengan kuadrat jarak antara keduanya. Gaya ini adalah vektor: dua muatan sejenis saling tolak (gaya menjauh), muatan berlawanan saling tarik (gaya mendekat).',
       },
@@ -1938,6 +1974,12 @@ export const materiTermo: Materi[] = [
         type: 'heading',
         level: 2,
         text: 'Medan Listrik (Besaran Vektor)',
+      },
+      {
+        type: 'image',
+        src: '/diagrams/listrik-statis-medan.svg',
+        alt: 'Garis medan listrik antara muatan positif dan muatan negatif titik',
+        caption: 'Garis medan keluar dari muatan positif dan masuk ke muatan negatif, serta makin rapat di dekat muatan.',
       },
       {
         type: 'paragraph',

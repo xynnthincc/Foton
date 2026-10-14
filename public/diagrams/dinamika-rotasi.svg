@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img"
+     aria-label="Dinamika rotasi: roda berputar pada poros dengan kecepatan sudut, kecepatan tangent, dan torsi">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .ax  { stroke: #8a857d; stroke-width: 1; stroke-dasharray: 5 4; }
+      .ln  { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .dim { stroke: #8a857d; stroke-width: 1; fill: none; }
+      .vd  { stroke: #6ba3c0; stroke-width: 1.8; marker-end: url(#vb-mr); }
+      .fa  { stroke: #d97757; stroke-width: 1.8; marker-end: url(#fa-mr); }
+      .hs  { stroke: #e8b86d; stroke-width: 1.8; marker-end: url(#va-mr); }
+      .ext { stroke: #7fb069; stroke-width: 1.8; marker-end: url(#vg-mr); }
+      .gh  { stroke: #d97757; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .gb  { stroke: #6ba3c0; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .sb  { font-size: 11px; }
+    </style>
+    <marker id="vb-mr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+    <marker id="fa-mr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#d97757"/>
+    </marker>
+    <marker id="va-mr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e8b86d"/>
+    </marker>
+    <marker id="vg-mr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#7fb069"/>
+    </marker>
+    <marker id="vd2-mr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#8a857d"/>
+    </marker>
+  </defs>
+
+  <!-- roda / disk -->
+  <circle cx="180" cy="150" r="90" fill="none" stroke="#e5e0d6" stroke-width="2" stroke-opacity="0.45"/>
+  <circle cx="180" cy="150" r="4.5" fill="#d97757"/>
+  <text class="tb" x="172" y="146" text-anchor="end">O</text>
+
+  <!-- 4 titik massa di keliling -->
+  <circle cx="116" cy="86" r="6" fill="#7fb069"/>
+  <circle cx="244" cy="86" r="6" fill="#e5e0d6"/>
+  <circle cx="116" cy="214" r="6" fill="#7fb069"/>
+  <circle cx="244" cy="214" r="6" fill="#e5e0d6"/>
+  <text class="t" x="253" y="82">m</text>
+
+  <!-- jari-jari R ke titik massa -->
+  <line class="dim" stroke-dasharray="4 3" x1="180" y1="150" x2="116" y2="214"/>
+  <text class="ts" x="122" y="206" text-anchor="end">R</text>
+
+  <!-- vektor posisi r dari poros ke m -->
+  <line class="ext" x1="180" y1="150" x2="244" y2="86"/>
+  <text class="t" x="214" y="128" text-anchor="middle" style="fill:#7fb069">r</text>
+
+  <!-- kecepatan v tangent di m (CCW -> ke atas-kiri) -->
+  <line class="vd" x1="244" y1="86" x2="205" y2="47"/>
+  <text class="t" x="196" y="44" text-anchor="middle" style="fill:#6ba3c0">v</text>
+
+  <!-- gaya F ke atas pada titik massa (membuat torsi CCW) -->
+  <line class="gh" x1="244" y1="118" x2="244" y2="264"/>
+  <line class="fa" x1="244" y1="214" x2="244" y2="168"/>
+  <text class="t" x="252" y="196" style="fill:#d97757">F</text>
+
+  <!-- lengan torsi r_per : jarak poros ke garis gaya -->
+  <line x1="180" y1="150" x2="244" y2="150" stroke="#8a857d" stroke-width="1"
+        marker-end="url(#vd2-mr)" marker-start="url(#vd2-mr)"/>
+  <text class="ts" x="212" y="142" text-anchor="middle">r<tspan dy="4" class="sb">per</tspan></text>
+
+  <!-- panah torsi di poros (arah berlawanan jarum jam) -->
+  <path d="M 136.8,134.3 A 46,46 0 0 0 140.2,173" fill="none" stroke="#d97757"
+        stroke-width="1.8" marker-end="url(#fa-mr)"/>
+  <text class="t" x="156" y="158" text-anchor="middle" style="fill:#d97757">&#964;</text>
+
+  <!-- panah kecepatan sudut omega (berlawanan arah jarum jam) -->
+  <path d="M 88.2,85.7 A 112,112 0 0 0 71.8,179" fill="none" stroke="#6ba3c0"
+        stroke-width="1.8" marker-end="url(#vb-mr)"/>
+  <text class="t" x="58" y="138" text-anchor="middle" style="fill:#6ba3c0">&#969;</text>
+
+  <!-- keterangan -->
+  <text class="tb" x="312" y="62">Roda (disk) pada poros O</text>
+  <text class="ts" x="312" y="88">&#969; arah putaran berlawanan arah jarum jam</text>
+  <text class="t" x="312" y="122">v = &#969; r &#160;(tangent di titik m)</text>
+  <text class="t" x="312" y="150">F pada m &#8594; torsi &#964; di poros</text>
+  <text class="t" x="312" y="178">r<tspan dy="4" class="sb">per</tspan><tspan dy="-4"> = jarak poros ke garis gaya F</tspan></text>
+  <text class="t" x="312" y="206">&#964; = F &#183; r<tspan dy="4" class="sb">per</tspan></text>
+
+  <!-- rumus -->
+  <text class="acc" x="170" y="300" text-anchor="middle" style="font-size:16px">&#964; = r F sin &#952;</text>
+  <text class="ts" x="170" y="322" text-anchor="middle">(torsi = gaya &#215; lengan)</text>
+  <text class="acc" x="430" y="300" text-anchor="middle" style="font-size:16px">I = &#189; m R&#178;</text>
+  <text class="ts" x="430" y="322" text-anchor="middle">(momen inersia disk)</text>
+</svg>

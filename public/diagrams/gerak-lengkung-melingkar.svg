@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img"
+     aria-label="Gerak melingkar beraturan dengan jari-jari r, kecepatan v, kecepatan sudut omega, dan gaya sentripetal Fs menuju pusat O">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .ax  { stroke: #8a857d; stroke-width: 1; stroke-dasharray: 5 4; }
+      .ln  { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .dim { stroke: #8a857d; stroke-width: 1; fill: none; }
+      .vd  { stroke: #6ba3c0; stroke-width: 1.8; marker-end: url(#vb-melingkar); }
+      .fa  { stroke: #d97757; stroke-width: 1.8; marker-end: url(#fa-melingkar); }
+      .hs  { stroke: #e8b86d; stroke-width: 1.8; marker-end: url(#va-melingkar); }
+      .ext { stroke: #7fb069; stroke-width: 1.8; marker-end: url(#vg-melingkar); }
+      .gh  { stroke: #d97757; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .gb  { stroke: #6ba3c0; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    </style>
+    <marker id="vb-melingkar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+    <marker id="fa-melingkar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#d97757"/>
+    </marker>
+    <marker id="va-melingkar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e8b86d"/>
+    </marker>
+    <marker id="vg-melingkar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#7fb069"/>
+    </marker>
+  </defs>
+
+  <!-- sumbu x - y yang melewati pusat -->
+  <path class="ax" d="M 56,170 H 376"/>
+  <path class="ax" d="M 250,32 V 318"/>
+  <text class="tb" x="382" y="164">x</text>
+  <text class="tb" x="256" y="30">y</text>
+
+  <!-- lintasan lingkaran -->
+  <circle cx="250" cy="170" r="120" class="ln"/>
+
+  <!-- pusat O -->
+  <circle cx="250" cy="170" r="4.5" fill="#e5e0d6"/>
+  <text class="tb" x="242" y="164" text-anchor="end">O</text>
+
+  <!-- benda m di keliling -->
+  <circle cx="363" cy="129" r="7" fill="#7fb069"/>
+  <text class="tb" x="376" y="124">m</text>
+
+  <!-- jari-jari r dari pusat ke benda -->
+  <line class="ext" x1="250" y1="170" x2="316" y2="146"/>
+  <text class="tb" x="266" y="150">r</text>
+
+  <!-- kecepatan v, tegak lurus r -->
+  <line class="vd" x1="363" y1="129" x2="268" y2="35"/>
+  <text class="t" x="278" y="38">v</text>
+
+  <!-- gaya sentripetal Fs dari benda menuju pusat O -->
+  <line class="fa" x1="363" y1="129" x2="264" y2="165"/>
+  <text class="acc" x="306" y="138" text-anchor="middle">Fs</text>
+
+  <!-- kecepatan sudut omega di pusat, searah putaran -->
+  <path class="vd" d="M 217.1,182 A 35,35 0 0 0 282.9,182"/>
+  <text class="tb" x="290" y="198">ω</text>
+
+  <!-- ============ panel rumus ============ -->
+  <line class="dim" x1="400" y1="44" x2="400" y2="300"/>
+  <text class="acc" x="416" y="60">Gerak melingkar beraturan</text>
+
+  <rect x="404" y="76" width="3" height="22" fill="#e8b86d"/>
+  <text class="tb" x="416" y="92">Fs = m v² / r</text>
+  <text class="tb" x="416" y="122">as = v² / r</text>
+  <text class="tb" x="416" y="152">v = 2π r / T</text>
+  <text class="tb" x="416" y="182">ω = 2π / T</text>
+
+  <text class="ts" x="416" y="214">Fs: gaya sentripetal menuju O</text>
+  <text class="ts" x="416" y="232">as: percepatan sentripetal</text>
+  <text class="ts" x="416" y="250">r: jari-jari lintasan</text>
+  <text class="ts" x="416" y="268">ω: kecepatan sudut</text>
+  <text class="ts" x="416" y="286">besar Fs tetap, arahnya berubah</text>
+
+  <text class="ts" x="30" y="322">v tegak lurus r; Fs hanya mengubah arah v</text>
+</svg>

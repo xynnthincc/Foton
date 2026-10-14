@@ -131,18 +131,21 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
 
     case "image": {
       return (
-        <figure className="my-4 space-y-2">
-          <div className="overflow-hidden rounded-lg border border-border-subtle bg-bg-elevated">
+        <figure className="my-6">
+          {/* Diagram lebarnya 600px; di layar HP diberi lebar minimum agar
+              label tetap terbaca dan bisa digeser horizontally. */}
+          <div className="overflow-x-auto rounded-lg border border-border-subtle bg-bg-elevated px-3 py-4 sm:px-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={block.src}
               alt={block.alt}
-              className="w-full h-auto"
+              className="mx-auto h-auto w-full min-w-[520px] sm:min-w-0"
               loading="lazy"
+              decoding="async"
             />
           </div>
           {block.caption && (
-            <figcaption className="text-sm text-text-muted italic">
+            <figcaption className="mt-2.5 border-l-2 border-border pl-3 text-sm leading-relaxed text-text-muted">
               <InlineText text={block.caption} />
             </figcaption>
           )}

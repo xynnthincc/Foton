@@ -125,6 +125,12 @@ export const materiGelombang: Materi[] = [
         text: "Hukum Kekekalan Momentum",
       },
       {
+        type: "image",
+        src: "/diagrams/momentum-tumbukan.svg",
+        alt: "Tumbukan satu dimensi sebelum dan sesudah tumbukan",
+        caption: "Panjang panah menyatakan besar momentum, sehingga momentum total tetap kekal pada tumbukan tanpa gaya luar.",
+      },
+      {
         type: "paragraph",
         text: "Jika gaya luar pada sistem total bernilai nol (sistem tertutup), total momentum sebelum dan sesudah interaksi adalah sama. Gaya internal (aksi-reaksi antar anggota sistem) saling meniadakan.",
       },
@@ -638,6 +644,12 @@ export const materiGelombang: Materi[] = [
         text: "Momen Gaya (Torsi)",
       },
       {
+        type: "image",
+        src: "/diagrams/dinamika-rotasi.svg",
+        alt: "Roda berputar dengan kecepatan sudut, kecepatan linier tangensial, dan momen gaya",
+        caption: "Kecepatan linier tegak lurus jari-jari, sedangkan momen gaya mempercepat putaran.",
+      },
+      {
         type: "paragraph",
         text: "Torsi adalah ukuran kemampuan gaya untuk memutar benda terhadap sumbu. Torsi bergantung pada besar gaya, jarak dari sumbu, dan sudut antara vektor posisi dan gaya. Torsi adalah besaran vektor (arah sumbu putar).",
       },
@@ -953,7 +965,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "heading",
         level: 2,
-        text: "Analogi Translasi â€“ Rotasi",
+        text: "Analogi Translasi – Rotasi",
       },
       {
         type: "table",
@@ -978,7 +990,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "heading",
         level: 3,
-        text: "Kesetimbangan BendaTegar",
+        text: "Kesetimbangan Benda Tegar",
       },
       {
         type: "paragraph",
@@ -1253,6 +1265,12 @@ export const materiGelombang: Materi[] = [
         text: "Tekanan Hidrostatis",
       },
       {
+        type: "image",
+        src: "/diagrams/fluida-bejana.svg",
+        alt: "Tekanan hidrostatis pada kedalaman h dan mekanisme dongkar hidrolik",
+        caption: "Tekanan bertambah seiring kedalaman, dan tekanan yang sama diteruskan ke seluruh permukaan fluida.",
+      },
+      {
         type: "paragraph",
         text: "Pada fluida diam, tekanan bertambah dengan kedalaman akibat berat fluida di atasnya. Tekanan hidrostatis tidak bergantung pada bentuk wadah, hanya pada kedalaman vertikal (paradoks hidrostatis).",
       },
@@ -1390,6 +1408,12 @@ export const materiGelombang: Materi[] = [
         type: "heading",
         level: 3,
         text: "Persamaan Kontinuitas",
+      },
+      {
+        type: "image",
+        src: "/diagrams/fluida-pipa.svg",
+        alt: "Aliran fluida melalui pipa yang menyempit beserta perubahan kecepatan dan tekanan",
+        caption: "Di bagian yang menyempit aliran lebih cepat dan tekanannya lebih kecil, sesuai asas Bernoulli.",
       },
       {
         type: "paragraph",
@@ -1793,6 +1817,12 @@ export const materiGelombang: Materi[] = [
         text: "Besaran Dasar Gelombang",
       },
       {
+        type: "image",
+        src: "/diagrams/bunyi-gelombang.svg",
+        alt: "Gelombang bunyi longitudinal dengan daerah kompresi dan rarefaksi",
+        caption: "Partikel medium bergerak sejajar arah rambat bunyi, sementara mediumnya sendiri tidak ikut merambat.",
+      },
+      {
         type: "paragraph",
         text: "Tiga besaran dasar gelombang saling terkait: panjang gelombang $\\lambda$, frekuensi $f$, dan cepat rambat $v$. Serta amplitudo sebagai ukuran energi.",
       },
@@ -1831,7 +1861,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "list",
         items: [
-          { text: "Audiosonik: 20â€“20000 Hz (rentang pendengaran manusia)." },
+          { text: "Audiosonik: 20–20000 Hz (rentang pendengaran manusia)." },
           { text: "Infrasonik: < 20 Hz (digunakan gajah, gempa)." },
           { text: "Ultrasonik: > 20000 Hz (kelelawar, USG, SONAR)." },
         ],
@@ -1840,6 +1870,12 @@ export const materiGelombang: Materi[] = [
         type: "heading",
         level: 2,
         text: "Sumber Bunyi: Dawai dan Pipa Organa",
+      },
+      {
+        type: "image",
+        src: "/diagrams/bunyi-resonansi.svg",
+        alt: "Resonansi pada tabung tertutup dan tabung terbuka untuk beberapa harmoni",
+        caption: "Tabung tertutup memiliki panjang efektif seperempat panjang gelombang, sedangkan tabung terbuka setengah panjang gelombang.",
       },
       {
         type: "paragraph",
@@ -1940,7 +1976,7 @@ export const materiGelombang: Materi[] = [
           { text: "$n$ sumber identik: $TI_n = TI_1 + 10\\log_{10} n$." },
           { text: "Jarak berubah: $TI_2 = TI_1 - 20 \\log_{10}(r_2/r_1)$." },
           { text: "Tambahan 3 dB â†’ intensitas menjadi $2\\times$; tambahan 10 dB â†’ intensitas menjadi $10\\times$." },
-          { text: "Bunyi sehari-hari: percakapan ~60 dB, musik ~80â€“100 dB, pesawat ~120â€“140 dB." },
+          { text: "Bunyi sehari-hari: percakapan ~60 dB, musik ~80–100 dB, pesawat ~120–140 dB." },
         ],
       },
       {
@@ -2357,6 +2393,12 @@ export const materiGelombang: Materi[] = [
         text: "Pembiasan (Hukum Snell)",
       },
       {
+        type: "image",
+        src: "/diagrams/cahaya-dispersi.svg",
+        alt: "Dispersi cahaya putih menjadi spektrum warna saat melewati prisma",
+        caption: "Indeks biais berbeda untuk tiap warna, sehingga cahaya menyimpang dengan sudut yang berbeda.",
+      },
+      {
         type: "paragraph",
         text: "Saat memasuki medium berbeda, kecepatan cahaya berubah sehingga arahnya dibelokkan. Indeks bias $n = c/v$; ke medium lebih rapat (n besar) cahaya mendekati normal.",
       },
@@ -2410,7 +2452,7 @@ export const materiGelombang: Materi[] = [
         type: "list",
         items: [
           { text: "Difraksi celah tunggal (gelap): $d \\sin\\theta = m\\lambda$ dengan $m=1,2,3,\\ldots$ (bukan 0)." },
-          { text: "Interferensi celah ganda Young: terang $d\\sin\\theta = m\\lambda$; gelap $d\\sin\\theta = (m-\\tfrac12)\\lambda$; m = 0, Â±1, Â±2, ..." },
+          { text: "Interferensi celah ganda Young: terang $d\\sin\\theta = m\\lambda$; gelap $d\\sin\\theta = (m-\\tfrac12)\\lambda$; m = 0, ±1, ±2, ..." },
           { text: "Dispersi: penguraian cahaya putih oleh prisma (n bergantung $\\lambda$)." },
           { text: "Polarisasi: cahaya transversal dapat berpolarisasi linear; bukti sifat gelombang." },
         ],
@@ -2763,7 +2805,7 @@ export const materiGelombang: Materi[] = [
           { symbol: "$\\lambda$", meaning: "panjang gelombang", unit: "m" },
           { symbol: "$L$", meaning: "jarak celah ke layar", unit: "m" },
           { symbol: "$d$", meaning: "jarak antar celah", unit: "m" },
-          { symbol: "$m$", meaning: "orde pita (0, Â±1, ...)", unit: "tanpa satuan" },
+          { symbol: "$m$", meaning: "orde pita (0, ±1, ...)", unit: "tanpa satuan" },
         ],
       },
       {

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img"
+     aria-label="Dispersi cahaya pada prisma: cahaya putih dipecah menjadi tujuh warna spektrum">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .ax  { stroke: #8a857d; stroke-width: 1; stroke-dasharray: 5 4; }
+      .ln  { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .dim { stroke: #8a857d; stroke-width: 1; fill: none; }
+      .vd  { stroke: #6ba3c0; stroke-width: 1.8; marker-end: url(#vb-cd); }
+      .fa  { stroke: #d97757; stroke-width: 1.8; marker-end: url(#fa-cd); }
+      .hs  { stroke: #e8b86d; stroke-width: 1.8; marker-end: url(#va-cd); }
+      .ext { stroke: #7fb069; stroke-width: 1.8; marker-end: url(#vg-cd); }
+      .gh  { stroke: #d97757; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .gb  { stroke: #6ba3c0; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .sb  { font-size: 11px; }
+    </style>
+    <marker id="vb-cd" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+    <marker id="fa-cd" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#d97757"/>
+    </marker>
+    <marker id="va-cd" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e8b86d"/>
+    </marker>
+    <marker id="vg-cd" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#7fb069"/>
+    </marker>
+    <marker id="vd2-cd" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#8a857d"/>
+    </marker>
+    <marker id="vw-cd" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e5e0d6"/>
+    </marker>
+  </defs>
+
+  <!-- prisma -->
+  <polygon points="235,60 175,205 295,205" fill="#2a2926" stroke="#e5e0d6" stroke-width="2"/>
+  <text class="ts" x="235" y="192" text-anchor="middle">prisma</text>
+
+  <!-- normal pada muka prisma -->
+  <line class="ax" x1="160" y1="123" x2="267" y2="167"/>
+  <text class="ts" x="150" y="112" text-anchor="end">normal</text>
+  <line class="ax" x1="226" y1="169" x2="337" y2="123"/>
+
+  <!-- sudut datang i -->
+  <path d="M 166,140 A 36,36 0 0 1 168.7,126.2" fill="none" stroke="#8a857d" stroke-width="1.2"/>
+  <text class="tb" x="158" y="133" text-anchor="middle">i</text>
+
+  <!-- sudut bias r -->
+  <path d="M 240.6,162.5 A 34,34 0 0 1 238.4,144.9" fill="none" stroke="#8a857d" stroke-width="1.2"/>
+  <text class="tb" x="231" y="158" text-anchor="end">r</text>
+
+  <!-- cahaya putih dari kiri -->
+  <line x1="60" y1="140" x2="198" y2="140" stroke="#e5e0d6" stroke-width="3" marker-end="url(#vw-cd)"/>
+  <text class="tb" x="60" y="126">cahaya putih</text>
+
+  <!-- di dalam prisma -->
+  <line x1="198" y1="140" x2="270" y2="149.5" stroke="#e5e0d6" stroke-width="2.5" marker-end="url(#vw-cd)"/>
+
+  <!-- spektrum setelah prisma (merah paling sedikit menyimpang) -->
+  <line x1="272" y1="149.5" x2="490" y2="237.6" stroke="#c97064" stroke-width="2.5"/>
+  <line x1="272" y1="149.5" x2="490" y2="251.2" stroke="#d97757" stroke-width="2.5"/>
+  <line x1="272" y1="149.5" x2="490" y2="263.0" stroke="#e8b86d" stroke-width="2.5"/>
+  <line x1="272" y1="149.5" x2="490" y2="275.4" stroke="#7fb069" stroke-width="2.5"/>
+  <line x1="272" y1="149.5" x2="490" y2="288.4" stroke="#6ba3c0" stroke-width="2.5"/>
+  <line x1="272" y1="149.5" x2="490" y2="302.2" stroke="#7b7ec4" stroke-width="2.5"/>
+  <line x1="272" y1="149.5" x2="490" y2="316.8" stroke="#9b8ec4" stroke-width="2.5"/>
+
+  <text class="t" x="498" y="241" style="font-size:11px;fill:#c97064">merah</text>
+  <text class="t" x="498" y="255" style="font-size:11px;fill:#d97757">jingga</text>
+  <text class="t" x="498" y="267" style="font-size:11px;fill:#e8b86d">kuning</text>
+  <text class="t" x="498" y="279" style="font-size:11px;fill:#7fb069">hijau</text>
+  <text class="t" x="498" y="292" style="font-size:11px;fill:#6ba3c0">biru</text>
+  <text class="t" x="498" y="306" style="font-size:11px;fill:#7b7ec4">indigo</text>
+  <text class="t" x="498" y="321" style="font-size:11px;fill:#9b8ec4">ungu</text>
+
+  <!-- catatan skala -->
+  <text class="ts" x="460" y="56" text-anchor="middle">penyimpangan warna</text>
+  <text class="ts" x="460" y="72" text-anchor="middle">diperbesar (tidak skala)</text>
+
+  <!-- keterangan indeks bias -->
+  <text class="ts" x="30" y="306">n besar &#8594; v kecil &#8594; lebih menyimpang</text>
+  <text class="acc" x="250" y="330" text-anchor="middle" style="font-size:16px">n = c / v</text>
+</svg>
