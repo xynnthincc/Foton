@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img"
+     aria-label="Empat bentuk lensa dengan jari-jari kelengkungan R1 dan R2 beserta tanda plus dan minusnya">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .ax  { stroke: #8a857d; stroke-width: 1; stroke-dasharray: 5 4; }
+      .ln  { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .dim { stroke: #8a857d; stroke-width: 1; fill: none; }
+      .vd  { stroke: #6ba3c0; stroke-width: 1.8; marker-end: url(#vb-lr); }
+      .fa  { stroke: #d97757; stroke-width: 1.8; marker-end: url(#fa-lr); }
+      .gh  { stroke: #d97757; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .gb  { stroke: #6ba3c0; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    </style>
+    <marker id="vb-lr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+    <marker id="fa-lr" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#d97757"/>
+    </marker>
+  </defs>
+
+  <text class="tb" x="24" y="24">Jari-jari kelengkungan R1 dan R2 pada empat bentuk lensa</text>
+  <text class="ts" x="24" y="42">sinar masuk dari kiri &#8594; muka pertama = R1, muka kedua = R2</text>
+
+  <!-- ================= LENSA 1: BIKONVEX ================= -->
+  <path d="M 75,110 Q 43,150 75,190 Q 107,150 75,110 Z" fill="#2a2926" stroke="#e5e0d6" stroke-width="1.8"/>
+  <line class="gh" x1="33" y1="150" x2="117" y2="150"/>
+  <circle cx="117" cy="150" r="3.5" fill="#d97757"/>
+  <text class="ts" x="117" y="142" text-anchor="middle">C1</text>
+  <circle cx="33" cy="150" r="3.5" fill="#d97757"/>
+  <text class="ts" x="33" y="142" text-anchor="middle">C2</text>
+  <text class="acc" x="99" y="166" text-anchor="middle">R1</text>
+  <text class="acc" x="51" y="166" text-anchor="middle">R2</text>
+  <text class="tb" x="75" y="212" text-anchor="middle">bikonvex</text>
+  <text class="ts" x="75" y="230" text-anchor="middle" style="fill:#7fb069">R1 = +58 (positif)</text>
+  <text class="ts" x="75" y="246" text-anchor="middle" style="fill:#d97757">R2 = -58 (negatif)</text>
+
+  <!-- ================= LENSA 2: PLANOKONVEX ================= -->
+  <path d="M 217,110 Q 185,150 217,190 L 249,190 L 249,110 Z" fill="#2a2926" stroke="#e5e0d6" stroke-width="1.8"/>
+  <line class="gh" x1="201" y1="150" x2="257" y2="150"/>
+  <circle cx="257" cy="150" r="3.5" fill="#d97757"/>
+  <text class="ts" x="257" y="140" text-anchor="middle">C1</text>
+  <text class="acc" x="228" y="166" text-anchor="middle">R1</text>
+  <line class="gh" x1="263" y1="150" x2="290" y2="150"/>
+  <text class="ts" x="277" y="140" text-anchor="middle" style="font-size:14px">&#8734;</text>
+  <text class="acc" x="277" y="166" text-anchor="middle">R2</text>
+  <text class="tb" x="225" y="212" text-anchor="middle">planokonvex</text>
+  <text class="ts" x="225" y="230" text-anchor="middle" style="fill:#7fb069">R1 = +58 (positif)</text>
+  <text class="ts" x="225" y="246" text-anchor="middle" style="fill:#e8b86d">R2 = &#8734; (tak hingga)</text>
+
+  <!-- ================= LENSA 3: BIKONKAF ================= -->
+  <path d="M 359,110 L 391,110 Q 363,150 391,190 L 359,190 Q 387,150 359,110 Z" fill="#2a2926" stroke="#e5e0d6" stroke-width="1.8"/>
+  <line class="gh" x1="309" y1="150" x2="441" y2="150"/>
+  <circle cx="309" cy="150" r="3.5" fill="#d97757"/>
+  <text class="ts" x="309" y="142" text-anchor="middle">C1</text>
+  <circle cx="441" cy="150" r="3.5" fill="#d97757"/>
+  <text class="ts" x="441" y="142" text-anchor="middle">C2</text>
+  <text class="acc" x="340" y="168" text-anchor="middle">R1</text>
+  <text class="acc" x="410" y="168" text-anchor="middle">R2</text>
+  <text class="tb" x="375" y="212" text-anchor="middle">bikonkaf</text>
+  <text class="ts" x="375" y="230" text-anchor="middle" style="fill:#d97757">R1 = -64 (negatif)</text>
+  <text class="ts" x="375" y="246" text-anchor="middle" style="fill:#7fb069">R2 = +64 (positif)</text>
+
+  <!-- ================= LENSA 4: PLANOKONKAF ================= -->
+  <path d="M 501,110 L 501,190 L 533,190 Q 501,150 533,110 Z" fill="#2a2926" stroke="#e5e0d6" stroke-width="1.8"/>
+  <line class="gh" x1="463" y1="150" x2="499" y2="150"/>
+  <text class="ts" x="481" y="142" text-anchor="middle" style="font-size:14px">&#8734;</text>
+  <text class="acc" x="481" y="166" text-anchor="middle">R1</text>
+  <line class="gh" x1="517" y1="150" x2="575" y2="150"/>
+  <circle cx="575" cy="150" r="3.5" fill="#d97757"/>
+  <text class="ts" x="575" y="142" text-anchor="middle">C2</text>
+  <text class="acc" x="546" y="166" text-anchor="middle">R2</text>
+  <text class="tb" x="525" y="212" text-anchor="middle">planokonkaf</text>
+  <text class="ts" x="525" y="230" text-anchor="middle" style="fill:#e8b86d">R1 = &#8734; (tak hingga)</text>
+  <text class="ts" x="525" y="246" text-anchor="middle" style="fill:#7fb069">R2 = +58 (positif)</text>
+
+  <!-- rumus dan aturan tanda -->
+  <line class="dim" x1="24" y1="260" x2="576" y2="260" stroke="#3a3835"/>
+  <text class="acc" x="300" y="282" text-anchor="middle" style="font-size:15px">1/f = (n - 1) (1/R1 - 1/R2)</text>
+  <text class="t" x="300" y="304" text-anchor="middle" style="font-size:12px">R positif bila pusat kelengkungan di kanan muka, R negatif bila di kiri</text>
+  <text class="t" x="300" y="324" text-anchor="middle" style="font-size:12px">muka datar (tidak berkubah) &#8594; R = &#8734; (tak hingga)</text>
+</svg>

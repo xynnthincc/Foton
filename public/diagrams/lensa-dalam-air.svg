@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" role="img"
+     aria-label="Perbandingan jarak fokus dan kekuatan lensa cembung yang sama di udara dan di dalam air">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .ax  { stroke: #8a857d; stroke-width: 1; stroke-dasharray: 5 4; }
+      .ln  { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .dim { stroke: #8a857d; stroke-width: 1; fill: none; }
+      .vd  { stroke: #6ba3c0; stroke-width: 1.8; marker-end: url(#vb-la); }
+      .fa  { stroke: #d97757; stroke-width: 1.8; marker-end: url(#fa-la); }
+      .gh  { stroke: #d97757; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .gb  { stroke: #6ba3c0; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    </style>
+    <marker id="vb-la" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+    <marker id="fa-la" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#d97757"/>
+    </marker>
+  </defs>
+
+  <text class="tb" x="24" y="22">Lensa cembung yang sama: di udara dan di dalam air</text>
+  <text class="ts" x="150" y="44" text-anchor="middle">DI UDARA (n = 1,00)</text>
+  <text class="ts" x="445" y="44" text-anchor="middle">DI DALAM AIR (n = 1,33)</text>
+  <line class="dim" x1="300" y1="56" x2="300" y2="206" stroke="#3a3835"/>
+
+  <!-- ============ PANEL KIRI: DI UDARA ============ -->
+  <line class="ax" x1="34" y1="130" x2="270" y2="130"/>
+  <path d="M 95,96 Q 63,130 95,164 Q 127,130 95,96 Z" fill="#2a2926" stroke="#e5e0d6" stroke-width="1.8"/>
+  <line class="vd" x1="34" y1="100" x2="80" y2="100"/>
+  <line class="vd" x1="80" y1="100" x2="205" y2="130"/>
+  <line class="vd" x1="34" y1="160" x2="80" y2="160"/>
+  <line class="vd" x1="80" y1="160" x2="205" y2="130"/>
+  <circle cx="205" cy="130" r="4" fill="#d97757"/>
+  <text class="t" x="205" y="120" text-anchor="middle" style="font-size:12px;fill:#d97757;font-weight:600">F</text>
+  <text class="ts" x="34" y="88">sinar sejajar</text>
+  <!-- garis dimensi f_udara -->
+  <line class="dim" x1="95" y1="172" x2="95" y2="188"/>
+  <line class="dim" x1="205" y1="172" x2="205" y2="188"/>
+  <line class="dim" x1="95" y1="180" x2="205" y2="180"/>
+  <text class="t" x="150" y="176" text-anchor="middle" style="font-size:12px;fill:#d97757;font-weight:600">f_udara</text>
+  <text class="ts" x="245" y="152" text-anchor="middle" style="fill:#7fb069">P = 1/f (kuat)</text>
+
+  <!-- ============ PANEL KANAN: DI DALAM AIR ============ -->
+  <line class="ax" x1="324" y1="130" x2="570" y2="130"/>
+  <path d="M 385,96 Q 353,130 385,164 Q 417,130 385,96 Z" fill="#2a2926" stroke="#e5e0d6" stroke-width="1.8"/>
+  <line class="vd" x1="324" y1="100" x2="370" y2="100"/>
+  <line class="vd" x1="370" y1="100" x2="475" y2="130"/>
+  <line class="vd" x1="324" y1="160" x2="370" y2="160"/>
+  <line class="vd" x1="370" y1="160" x2="475" y2="130"/>
+  <circle cx="475" cy="130" r="4" fill="#d97757"/>
+  <text class="t" x="475" y="120" text-anchor="middle" style="font-size:12px;fill:#d97757;font-weight:600">F</text>
+  <text class="ts" x="324" y="88">sinar menyimpang lebih lemah</text>
+  <!-- posisi fokus bila di udara, untuk perbandingan -->
+  <line class="gh" x1="515" y1="94" x2="515" y2="168"/>
+  <text class="ts" x="519" y="90">f_udara</text>
+  <!-- garis dimensi f_air -->
+  <line class="dim" x1="385" y1="172" x2="385" y2="188"/>
+  <line class="dim" x1="475" y1="172" x2="475" y2="188"/>
+  <line class="dim" x1="385" y1="180" x2="475" y2="180"/>
+  <text class="t" x="430" y="176" text-anchor="middle" style="font-size:12px;fill:#d97757;font-weight:600">f_air</text>
+  <text class="ts" x="537" y="152" text-anchor="middle" style="fill:#e8b86d">P lebih kecil</text>
+
+  <!-- ============ KESIMPULAN ============ -->
+  <text class="acc" x="24" y="224" style="font-size:14px">f_udara &lt; f_air &#8594; di air fokus lebih jauh</text>
+  <text class="acc" x="24" y="242" style="font-size:14px">P_udara &gt; P_air &#8594; di air lebih lemah</text>
+  <text class="ts" x="576" y="224" text-anchor="end">1/f = (n_lensa / n_surrounding - 1)(1/R1 - 1/R2)</text>
+  <text class="ts" x="576" y="242" text-anchor="end">di air n_surrounding membesar &#8594; selisih (n_relatif - 1) mengecil</text>
+</svg>

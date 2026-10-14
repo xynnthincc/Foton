@@ -2892,7 +2892,7 @@ export const materiGelombang: Materi[] = [
       {
         type: "image",
         src: "/diagrams/lensa-rumus-pembuat.svg",
-        alt: "Empat bentuk lensa dengan jari-jari kelengkungan R1 dan R2 beserta tanda masing-masing",
+        alt: "Lima bentuk lensa dengan jari-jari kelengkungan R1 dan R2 beserta tanda masing-masing",
         caption: "Tanda R1 dan R2 ditentukan oleh letak pusat kelengkungan, bukan oleh bentuk kubahnya.",
       },
       {

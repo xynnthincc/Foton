@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" role="img"
+     aria-label="Tabel panduan lima posisi benda pada cermin cekung dan sifat bayangan yang dihasilkan">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .ax  { stroke: #8a857d; stroke-width: 1; stroke-dasharray: 5 4; }
+      .ln  { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .dim { stroke: #8a857d; stroke-width: 1; fill: none; }
+      .vd  { stroke: #6ba3c0; stroke-width: 1.8; marker-end: url(#vb-pb); }
+      .fa  { stroke: #d97757; stroke-width: 1.8; marker-end: url(#fa-pb); }
+      .gh  { stroke: #d97757; stroke-width: 1.5; stroke-dasharray: 4 3; }
+      .gb  { stroke: #6ba3c0; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    </style>
+    <marker id="vb-pb" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+    <marker id="fa-pb" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#d97757"/>
+    </marker>
+    <marker id="vg-pb" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#7fb069"/>
+    </marker>
+  </defs>
+
+  <text class="tb" x="24" y="26">Menentukan sifat bayangan pada cermin cekung</text>
+  <text class="ts" x="24" y="44">posisi benda menentukan letak dan sifat bayangan</text>
+
+  <!-- pemisah baris -->
+  <line class="dim" x1="20" y1="106" x2="580" y2="106" stroke="#3a3835"/>
+  <line class="dim" x1="20" y1="206" x2="580" y2="206" stroke="#3a3835"/>
+  <line class="dim" x1="20" y1="306" x2="580" y2="306" stroke="#3a3835"/>
+  <line class="dim" x1="20" y1="406" x2="580" y2="406" stroke="#3a3835"/>
+  <line class="dim" x1="20" y1="506" x2="580" y2="506" stroke="#3a3835"/>
+
+  <!-- ================= BARIS 1: s &gt; 2f (sumbu y = 62) ================= -->
+  <line class="ax" x1="130" y1="62" x2="248" y2="62"/>
+  <path class="ln" d="M 243.2,34 A 70,70 0 0 1 243.2,90" stroke-width="2"/>
+  <circle cx="215" cy="62" r="3.5" fill="#d97757"/>
+  <text class="ts" x="215" y="78" text-anchor="middle">F</text>
+  <circle cx="180" cy="62" r="3.5" fill="#d97757"/>
+  <text class="ts" x="180" y="78" text-anchor="middle">C</text>
+  <line x1="155" y1="62" x2="155" y2="36" stroke="#7fb069" stroke-width="2" marker-end="url(#vg-pb)"/>
+  <text class="tb" x="280" y="44">1. s &gt; 2f</text>
+  <text class="ts" x="280" y="60">benda di luar C</text>
+  <text class="t" x="280" y="76" style="font-size:12px;fill:#7fb069;font-weight:600">nyata, terbalik, diperkecil</text>
+
+  <!-- ================= BARIS 2: s = 2f (sumbu y = 162) ================= -->
+  <line class="ax" x1="130" y1="162" x2="248" y2="162"/>
+  <path class="ln" d="M 243.2,134 A 70,70 0 0 1 243.2,190" stroke-width="2"/>
+  <circle cx="215" cy="162" r="3.5" fill="#d97757"/>
+  <text class="ts" x="215" y="178" text-anchor="middle">F</text>
+  <circle cx="180" cy="162" r="3.5" fill="#d97757"/>
+  <text class="ts" x="180" y="178" text-anchor="middle">C</text>
+  <line x1="180" y1="162" x2="180" y2="136" stroke="#7fb069" stroke-width="2" marker-end="url(#vg-pb)"/>
+  <text class="tb" x="280" y="144">2. s = 2f</text>
+  <text class="ts" x="280" y="160">benda tepat di C</text>
+  <text class="t" x="280" y="176" style="font-size:12px;fill:#7fb069;font-weight:600">nyata, terbalik, sama besar</text>
+
+  <!-- ================= BARIS 3: f &lt; s &lt; 2f (sumbu y = 262) ================= -->
+  <line class="ax" x1="130" y1="262" x2="248" y2="262"/>
+  <path class="ln" d="M 243.2,234 A 70,70 0 0 1 243.2,290" stroke-width="2"/>
+  <circle cx="215" cy="262" r="3.5" fill="#d97757"/>
+  <text class="ts" x="215" y="278" text-anchor="middle">F</text>
+  <circle cx="180" cy="262" r="3.5" fill="#d97757"/>
+  <text class="ts" x="180" y="278" text-anchor="middle">C</text>
+  <line x1="197" y1="262" x2="197" y2="236" stroke="#7fb069" stroke-width="2" marker-end="url(#vg-pb)"/>
+  <text class="tb" x="280" y="244">3. f &lt; s &lt; 2f</text>
+  <text class="ts" x="280" y="260">benda antara F dan C</text>
+  <text class="t" x="280" y="276" style="font-size:12px;fill:#7fb069;font-weight:600">nyata, terbalik, diperbesar</text>
+
+  <!-- ================= BARIS 4: s = f (sumbu y = 362) ================= -->
+  <line class="ax" x1="130" y1="362" x2="248" y2="362"/>
+  <path class="ln" d="M 243.2,334 A 70,70 0 0 1 243.2,390" stroke-width="2"/>
+  <circle cx="215" cy="362" r="3.5" fill="#d97757"/>
+  <text class="ts" x="215" y="378" text-anchor="middle">F</text>
+  <circle cx="180" cy="362" r="3.5" fill="#d97757"/>
+  <text class="ts" x="180" y="378" text-anchor="middle">C</text>
+  <line x1="215" y1="362" x2="215" y2="336" stroke="#7fb069" stroke-width="2" marker-end="url(#vg-pb)"/>
+  <text class="tb" x="280" y="344">4. s = f</text>
+  <text class="ts" x="280" y="360">benda tepat di F</text>
+  <text class="t" x="280" y="376" style="font-size:12px;fill:#6ba3c0;font-weight:600">sinar sejajar, bayangan di tak hingga</text>
+
+  <!-- ================= BARIS 5: s &lt; f (sumbu y = 462) ================= -->
+  <line class="ax" x1="130" y1="462" x2="248" y2="462"/>
+  <path class="ln" d="M 243.2,434 A 70,70 0 0 1 243.2,490" stroke-width="2"/>
+  <circle cx="215" cy="462" r="3.5" fill="#d97757"/>
+  <text class="ts" x="215" y="478" text-anchor="middle">F</text>
+  <circle cx="180" cy="462" r="3.5" fill="#d97757"/>
+  <text class="ts" x="180" y="478" text-anchor="middle">C</text>
+  <line x1="229" y1="462" x2="229" y2="436" stroke="#7fb069" stroke-width="2" marker-end="url(#vg-pb)"/>
+  <text class="tb" x="280" y="444">5. s &lt; f</text>
+  <text class="ts" x="280" y="460">benda di dalam F</text>
+  <text class="t" x="280" y="476" style="font-size:12px;fill:#e8b86d;font-weight:600">maya, tegak, diperbesar</text>
+
+  <!-- keterangan -->
+  <text class="ts" x="300" y="528" text-anchor="middle">hijau = bayangan nyata, biru = bayangan di tak hingga, kuning = bayangan maya</text>
+  <text class="ts" x="300" y="546" text-anchor="middle">rumus cermin: 1/f = 1/s + 1/s&#8242; ,  m = -s&#8242;/s</text>
+</svg>
