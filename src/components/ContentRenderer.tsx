@@ -79,7 +79,7 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
                 {block.headers.map((h, i) => (
                   <th
                     key={i}
-                    className="px-4 py-3 text-left font-semibold text-text"
+                    className="whitespace-nowrap px-4 py-3 text-left font-semibold text-text"
                   >
                     <InlineText text={h} />
                   </th>
@@ -188,16 +188,17 @@ function GlossaryRenderer({ block }: { block: { title?: string; items: GlossaryI
         <table className="w-full text-sm">
           <thead>
             <tr className="bg-surface border-b border-border">
-              <th className="px-4 py-2.5 text-left font-semibold text-text w-20">
+              <th className="w-16 px-3 py-2.5 text-left font-semibold text-text sm:w-20 sm:px-4">
                 Simbol
               </th>
-              <th className="px-4 py-2.5 text-left font-semibold text-text">
+              <th className="px-3 py-2.5 text-left font-semibold text-text sm:px-4">
                 Arti
               </th>
-              <th className="px-4 py-2.5 text-left font-semibold text-text w-32">
+              <th className="w-24 px-3 py-2.5 text-left font-semibold text-text sm:w-32 sm:px-4">
                 Satuan
               </th>
-              <th className="px-4 py-2.5 text-left font-semibold text-text">
+              {/* Kolom keterangan disembunyikan di layar sempit agar tabel tetap legibel */}
+              <th className="hidden px-4 py-2.5 text-left font-semibold text-text md:table-cell">
                 Keterangan
               </th>
             </tr>
@@ -205,12 +206,16 @@ function GlossaryRenderer({ block }: { block: { title?: string; items: GlossaryI
           <tbody>
             {block.items.map((g, i) => (
               <tr key={i} className="border-b border-border-subtle last:border-0">
-                <td className="px-4 py-2.5 font-mono font-semibold text-accent">
+                <td className="px-3 py-2.5 font-mono font-semibold text-accent sm:px-4">
                   <InlineText text={g.symbol} />
                 </td>
-                <td className="px-4 py-2.5 text-text"><InlineText text={g.meaning} /></td>
-                <td className="px-4 py-2.5 text-text-muted font-mono"><InlineText text={g.unit ?? "—"} /></td>
-                <td className="px-4 py-2.5 text-text-secondary">
+                <td className="px-3 py-2.5 text-text sm:px-4">
+                  <InlineText text={g.meaning} />
+                </td>
+                <td className="px-3 py-2.5 font-mono text-text-muted sm:px-4">
+                  <InlineText text={g.unit ?? "—"} />
+                </td>
+                <td className="hidden px-4 py-2.5 text-text-secondary md:table-cell">
                   {g.note ? <InlineText text={g.note} /> : "—"}
                 </td>
               </tr>
@@ -218,6 +223,19 @@ function GlossaryRenderer({ block }: { block: { title?: string; items: GlossaryI
           </tbody>
         </table>
       </div>
+      {/* Keterangan dirinci di bawah tabel untuk layar sempit */}
+      <ul className="space-y-1.5 md:hidden">
+        {block.items
+          .filter((g) => g.note)
+          .map((g, i) => (
+            <li key={i} className="text-xs leading-relaxed text-text-muted">
+              <span className="font-mono font-semibold text-accent">
+                <InlineText text={g.symbol} />
+              </span>{" "}
+              — <InlineText text={g.note ?? ""} />
+            </li>
+          ))}
+      </ul>
     </div>
   );
 }

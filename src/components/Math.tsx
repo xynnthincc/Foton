@@ -17,15 +17,17 @@ export function Math({ tex, display = false }: MathProps) {
   if (display) {
     return (
       <div
-        className="my-4 overflow-x-auto rounded-lg border border-border-subtle bg-bg-elevated px-5 py-4"
+        className="my-4 overflow-x-auto rounded-lg border border-border-subtle bg-bg-elevated px-3 py-4 sm:px-5"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     );
   }
 
   return (
+    // max-w-full + overflow-x-auto: rumus inline yang panjang digulir di dalam
+    // itself, bukan melebarkan halaman di layar sempit.
     <span
-      className="inline-block"
+      className="inline-block max-w-full overflow-x-auto align-middle"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );

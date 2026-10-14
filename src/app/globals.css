@@ -87,3 +87,17 @@
 .katex-display > .katex {
   white-space: nowrap;
 }
+
+/* Perkecil formula pada layar sempit agar tidak perlu geser horizontal */
+@media (max-width: 640px) {
+  .katex {
+    font-size: 0.97em;
+  }
+  .katex-display {
+    font-size: 0.9em;
+    margin: 1.25em 0;
+  }
+  .katex-display > .katex {
+    font-size: 1em;
+  }
+}

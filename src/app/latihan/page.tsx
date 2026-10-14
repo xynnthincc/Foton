@@ -25,7 +25,7 @@ export default function LatihanPage() {
               href={`/latihan/${l.slug}`}
               className="group block rounded-md border border-border-subtle bg-surface/30 p-4 transition-colors hover:border-accent/50"
             >
-              <div className="flex items-start justify-between gap-2">
+              <div className="flex flex-wrap items-start justify-between gap-x-2 gap-y-1">
                 <h3 className="font-medium text-text group-hover:text-accent transition-colors">
                   {l.title}
                 </h3>

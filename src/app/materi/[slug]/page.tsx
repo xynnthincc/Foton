@@ -46,18 +46,18 @@ export default async function MateriDetailPage({
           >
             ← Kembali ke Materi
           </Link>
-          <div className="mt-4 flex items-start gap-4">
-            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md border border-border text-sm font-mono font-semibold text-text-muted">
+          <div className="mt-4 flex items-start gap-3 sm:gap-4">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-border text-xs font-mono font-semibold text-text-muted sm:h-12 sm:w-12 sm:text-sm">
               {String(materi.no).padStart(2, "0")}
             </span>
-            <div>
+            <div className="min-w-0">
               <p className="text-sm text-text-muted">
                 Materi {materi.no} · {materi.category}
               </p>
-              <h1 className="font-serif text-3xl font-bold text-text">
+              <h1 className="font-serif text-2xl font-bold text-text sm:text-3xl">
                 {materi.title}
               </h1>
-              <p className="mt-2 text-text-secondary leading-relaxed">
+              <p className="mt-2 text-sm leading-relaxed text-text-secondary sm:text-base">
                 {materi.summary}
               </p>
             </div>

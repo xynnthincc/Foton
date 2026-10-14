@@ -56,9 +56,9 @@ export function QuizRunner({ latihan }: Props) {
     return (
       <div>
         {/* Result summary */}
-        <div className="rounded-xl border border-border-subtle bg-surface/40 p-6 text-center">
+        <div className="rounded-lg border border-border-subtle bg-surface/40 p-5 text-center sm:rounded-xl sm:p-6">
           <p className="text-sm text-text-muted">Hasil Latihan</p>
-          <p className="mt-2 text-5xl font-bold text-accent">{score}</p>
+          <p className="mt-2 text-4xl font-bold text-accent sm:text-5xl">{score}</p>
           <p className="mt-1 text-text-secondary">
             dari {latihan.soalList.length} soal benar
           </p>
@@ -146,7 +146,7 @@ export function QuizRunner({ latihan }: Props) {
     <div>
       {/* Progress */}
       <div className="mb-6">
-        <div className="mb-2 flex items-center justify-between text-sm">
+        <div className="mb-2 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 text-sm">
           <span className="text-text-muted">
             Soal {current + 1} dari {latihan.soalList.length}
           </span>
@@ -187,8 +187,8 @@ export function QuizRunner({ latihan }: Props) {
       </div>
 
       {/* Question */}
-      <div className="rounded-xl border border-border-subtle bg-surface/30 p-6">
-        <p className="text-lg leading-relaxed text-text">
+      <div className="rounded-lg border border-border-subtle bg-surface/30 p-4 sm:rounded-xl sm:p-6">
+        <p className="text-base leading-relaxed text-text sm:text-lg">
           <InlineText text={soal.question} />
         </p>
         {soal.formulaLatex && (
@@ -223,10 +223,10 @@ export function QuizRunner({ latihan }: Props) {
                 key={i}
                 onClick={() => selectAnswer(i)}
                 disabled={showExplanation === current}
-                className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3 text-left transition-all ${cls}`}
+                className={`flex w-full items-start gap-3 rounded-md border px-3 py-3 text-left transition-all sm:px-4 ${cls}`}
               >
                 <span
-                  className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-md text-xs font-bold ${
+                  className={`flex h-6 w-6 shrink-0 items-center justify-center rounded text-xs font-bold ${
                     isSelected || (showCorrect && isAnswer)
                       ? "bg-accent text-bg"
                       : showCorrect && isWrong
@@ -236,7 +236,7 @@ export function QuizRunner({ latihan }: Props) {
                 >
                   {LETTERS[i]}
                 </span>
-                <span className="text-sm text-text-secondary">
+                <span className="min-w-0 break-words text-sm text-text-secondary">
                   <InlineText text={opt} />
                 </span>
               </button>
@@ -275,29 +275,29 @@ export function QuizRunner({ latihan }: Props) {
       </div>
 
       {/* Navigation */}
-      <div className="mt-6 flex items-center justify-between">
+      <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between">
         <button
           onClick={goPrev}
           disabled={current === 0}
-          className="rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-text transition-colors hover:bg-surface-hover disabled:opacity-30 disabled:hover:bg-surface"
+          className="w-full rounded-md border border-border bg-surface px-4 py-2.5 text-sm font-medium text-text transition-colors hover:bg-surface-hover disabled:opacity-30 disabled:hover:bg-surface sm:w-auto"
         >
-          ← Sebelumnya
+          Sebelumnya
         </button>
 
         {current === latihan.soalList.length - 1 ? (
           <button
             onClick={() => setShowResult(true)}
             disabled={!allAnswered}
-            className="rounded-lg bg-accent px-6 py-2.5 text-sm font-medium text-bg transition-colors hover:bg-accent-hover disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full rounded-md bg-accent px-4 py-2.5 text-center text-sm font-medium text-bg transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto sm:px-6"
           >
-            Selesai & Lihat Hasil
+            Selesai &amp; lihat hasil
           </button>
         ) : (
           <button
             onClick={goNext}
-            className="rounded-lg bg-accent px-6 py-2.5 text-sm font-medium text-bg transition-colors hover:bg-accent-hover"
+            className="w-full rounded-md bg-accent px-4 py-2.5 text-center text-sm font-medium text-bg transition-colors hover:bg-accent-hover sm:w-auto sm:px-6"
           >
-            Selanjutnya →
+            Selanjutnya
           </button>
         )}
       </div>

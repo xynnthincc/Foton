@@ -14,11 +14,11 @@ export default function Home() {
             <p className="text-sm font-medium uppercase tracking-wider text-accent">
               Persiapan TKA Fisika
             </p>
-            <h1 className="mt-3 font-serif text-4xl font-bold leading-tight text-text sm:text-5xl">
+            <h1 className="mt-3 font-serif text-3xl font-bold leading-tight text-text sm:text-4xl md:text-5xl">
               Belajar Fisika untuk
               <span className="text-accent"> Tes Kemampuan Akademik</span>
             </h1>
-            <p className="mt-5 text-lg leading-relaxed text-text-secondary">
+            <p className="mt-5 text-base leading-relaxed text-text-secondary sm:text-lg">
               Materi lengkap dengan penjelasan, rumus, keterangan simbol, dan
               contoh soal, disertai latihan bergaya TKA dengan pembahasan detail
               untuk persiapan ujian masuk universitas.
@@ -39,20 +39,28 @@ export default function Home() {
             </div>
           </div>
 
-          <dl className="mt-10 grid grid-cols-3 gap-4 sm:max-w-md">
-            <div className="rounded-md border border-border-subtle px-4 py-3">
-              <dd className="text-2xl font-bold text-accent">
+          <dl className="mt-10 grid grid-cols-3 gap-2 sm:mt-12 sm:max-w-md sm:gap-4">
+            <div className="rounded-md border border-border-subtle px-3 py-3 sm:px-4">
+              <dd className="text-xl font-bold text-accent sm:text-2xl">
                 {materiList.length}
               </dd>
-              <dt className="mt-0.5 text-xs text-text-muted">Materi</dt>
+              <dt className="mt-0.5 text-[11px] text-text-muted sm:text-xs">
+                Materi
+              </dt>
             </div>
-            <div className="rounded-md border border-border-subtle px-4 py-3">
-              <dd className="text-2xl font-bold text-accent">{totalSoal}</dd>
-              <dt className="mt-0.5 text-xs text-text-muted">Soal latihan</dt>
+            <div className="rounded-md border border-border-subtle px-3 py-3 sm:px-4">
+              <dd className="text-xl font-bold text-accent sm:text-2xl">
+                {totalSoal}
+              </dd>
+              <dt className="mt-0.5 text-[11px] text-text-muted sm:text-xs">
+                Soal latihan
+              </dt>
             </div>
-            <div className="rounded-md border border-border-subtle px-4 py-3">
-              <dd className="text-2xl font-bold text-accent">15</dd>
-              <dt className="mt-0.5 text-xs text-text-muted">Topik</dt>
+            <div className="rounded-md border border-border-subtle px-3 py-3 sm:px-4">
+              <dd className="text-xl font-bold text-accent sm:text-2xl">15</dd>
+              <dt className="mt-0.5 text-[11px] text-text-muted sm:text-xs">
+                Topik
+              </dt>
             </div>
           </dl>
         </div>
@@ -105,7 +113,7 @@ export default function Home() {
 
       {/* Latihan preview */}
       <section className="mx-auto max-w-6xl px-4 pb-14 sm:px-6">
-        <header className="mb-6 flex items-baseline justify-between gap-4">
+        <header className="mb-6 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2">
           <div>
             <h2 className="font-serif text-2xl font-semibold text-text">
               Latihan Soal
@@ -129,7 +137,7 @@ export default function Home() {
                 href={`/latihan/${l.slug}`}
                 className="block rounded-md border border-border-subtle bg-surface/30 p-4 transition-colors hover:border-accent/50"
               >
-                <div className="flex items-center justify-between gap-2">
+                <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1">
                   <h3 className="font-medium text-text">{l.title}</h3>
                   <DifficultyBadge difficulty={l.difficulty} />
                 </div>
