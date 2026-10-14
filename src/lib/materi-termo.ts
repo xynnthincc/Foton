@@ -1922,8 +1922,8 @@ export const materiTermo: Materi[] = [
       {
         type: 'image',
         src: '/diagrams/listrik-statis-coulomb.svg',
-        alt: 'Dua muatan listrik berlawanan tanda dengan gaya Coulomb yang berlawanan arah',
-        caption: 'Besar gaya pada kedua muatan sama tetapi arahnya berlawanan, sesuai Hukum Newton III.',
+        alt: 'Dua muatan listrik berlawanan tanda yang saling tarik-menarik beserta gaya Coulomb pada masing-masing muatan',
+        caption: 'Muatan berlawanan tanda saling menarik. Kedua gaya besarnya sama tetapi arahnya berlawanan, sesuai Hukum Newton III. Jika kedua muatan sepi, arahnya justru bertolak.',
       },
       {
         type: 'paragraph',

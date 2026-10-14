@@ -30,6 +30,9 @@
   </defs>
 
   <text class="tb" x="20" y="26">Hukum Coulomb dua muatan titik</text>
+  <text class="ts" x="300" y="58" text-anchor="middle">gaya berbanding lurus dengan q1 x q2</text>
+  <text class="ts" x="300" y="76" text-anchor="middle">dan berbanding terbalik dengan kuadrat jarak</text>
+  <text class="ts" x="20" y="230">konstanta Coulomb: k</text>
 
   <!-- muatan titik -->
   <circle cx="150" cy="170" r="22" fill="#c97064"/>
