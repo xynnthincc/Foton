@@ -2628,7 +2628,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "paragraph",
-        text: "Dispersi adalah penguraian cahaya putih menjadi-spectrum warna karena indeks bias tiap warna berbeda. Cahaya ungu memiliki $\\lambda$ paling pendek sehingga $n$-nya paling besar dan paling banyak dibelokkan; cahaya merah $|\U0001d514$ paling panjang sehingga paling sedikit dibelokkan.",
+        text: "Dispersi adalah penguraian cahaya putih menjadi-spectrum warna karena indeks bias tiap warna berbeda. Cahaya ungu memiliki $\\lambda$ paling pendek sehingga $n$-nya paling besar dan paling banyak dibelokkan; cahaya merah $|\\lambda$ paling panjang sehingga paling sedikit dibelokkan.",
       },
       {
         type: "formula",
@@ -3226,7 +3226,7 @@ export const materiGelombang: Materi[] = [
       },
       {
         type: "formula",
-        latex: "d\\sin\\theta = m\\lambda\\ (\text{terang}), \qquad d\sin\theta = \left(m - \tfrac{1}{2}\right)\lambda \; (\text{gelap})",
+        latex: "d\\sin\\theta = m\\lambda\\ (\\text{terang}), \\qquad d\\sin\\theta = \\left(m - \\tfrac{1}{2}\\right)\\lambda \\; (\\text{gelap})",
         description: "Syarat pita terang dan pita gelap pada interferensi celah ganda. Perhatikan bedanya setengah panjang gelombang.",
       },
       {

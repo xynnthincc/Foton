@@ -344,7 +344,7 @@ export const materiTermo: Materi[] = [
           { text: 'Benda hitam sempurna: $e = 1$ (menyerap dan memancarkan radiasi maksimum).' },
           { text: 'Benda putih mengkilat: $e \\approx 0$ (memantulkan radiasi).' },
           { text: 'Jika benda juga menerima radiasi lingkungan suhu $T_0$, daya bersih: $H = e\\sigma A(T^4 - T_0^4)$.' },
-          { text: 'Konduktivitas termal $k$: tembaga $\\approx 400$, aluminium $\\approx 237$, besi $\\approx 50$, kaca $\\approx 1$, kayu $\\approx 0{,}1$, udara $\\approx 0{,}02\\ \\text{W/(m\\cdot K)}$.' },
+          { text: 'Konduktivitas termal $k$: tembaga $\\approx 400$, aluminium $\\approx 237$, besi $\\approx 50$, kaca $\\approx 1$, kayu $\\approx 0{,}1$, udara $\\approx 0{,}02\\ \\mathrm{W/(m\\cdot K)}$.' },
         ],
       },
       {
@@ -1023,7 +1023,7 @@ export const materiTermo: Materi[] = [
         items: [
           { text: 'Jumlah mol dari massa: $n = \\frac{m}{M}$, dengan $M$ = massa molar (kg/mol).' },
           { text: 'Jumlah molekul: $N = n N_A$, dengan $N_A = 6{,}02\\times10^{23}\\ \\text{mol}^{-1}$.' },
-          { text: '$R = 8{,}314\\ \\text{J/(mol\\cdot K)} = 0{,}082\\ \\text{L\\cdot atm/(mol\\cdot K)} = 8314\\ \\text{J/(kmol\\cdot K)}$.' },
+          { text: '$R = 8{,}314\\ \\mathrm{J/(mol\\cdot K)} = 0{,}082\\ \\mathrm{L\\cdot atm/(mol\\cdot K)} = 8314\\ \\mathrm{J/(kmol\\cdot K)}$.' },
           { text: '$k = \\frac{R}{N_A} = 1{,}38\\times10^{-23}\\ \\text{J/K}$ (konstanta Boltzmann).' },
           { text: 'Volume molar pada STP (0 $^\\circ$C, 1 atm): $V_m = 22{,}4\\ \\text{L/mol}$.' },
           { text: 'Massa jenis gas: $\\rho = \\frac{PM}{RT}$.' },
@@ -1031,7 +1031,7 @@ export const materiTermo: Materi[] = [
       },
       {
         type: 'note',
-        text: 'Pada TKA sering muncul satuan L dan atm. Pakailah $R = 0{,}082\\ \\text{L}\\cdot\\text{atm/(mol\\cdot K)}$ jika $P$ dalam atm, $V$ dalam liter, dan $T$ dalam K. Jika $P$ dalam Pa dan $V$ dalam m$^3$, pakai $R=8{,}314$.',
+        text: 'Pada TKA sering muncul satuan L dan atm. Pakailah $R = 0{,}082\\ \\mathrm{L\\cdot atm/(mol\\cdot K)}$ jika $P$ dalam atm, $V$ dalam liter, dan $T$ dalam K. Jika $P$ dalam Pa dan $V$ dalam m$^3$, pakai $R=8{,}314$.',
         variant: 'tip',
       },
       {
@@ -1778,7 +1778,7 @@ export const materiTermo: Materi[] = [
         blocks: [
           { type: 'paragraph', text: 'Gas ideal 1 mol mengalami siklus: (1) isokhorik A->B: V=2 L, P naik dari 1 ke 2 atm; (2) isotermik B->C ekspansi ke 4 L; (3) isokhorik C->D tekanan turun ke 1 atm; (4) isotermik D->A kompresi ke 2 L. Tentukan usaha net.' },
           { type: 'paragraph', text: 'Usaha hanya pada proses isotermik: W (B->C) = nRT_B ln(V_C/V_B), W (D->A) = nRT_D ln(V_A/V_D). T_B = P_B V_B/nR. Untuk perhitungan kualitatif, usaha net = luas persegi panjang kurva dalam logaritmis? Gunakan luas tertutup; dapat dihitung numerik dengan R=0,082.' },
-          { type: 'formula', latex: 'T_B = \\frac{P_B V_B}{nR} = \\frac{2\\times2}{1\\times0{,}082} \\approx 48{,}78\\ \\text{K? (satuan konsisten; skala L\\cdot atm)}' },
+          { type: 'formula', latex: 'T_B = \\frac{P_B V_B}{nR} = \\frac{2\\times2}{1\\times0{,}082} \\approx 48{,}78\\ \\text{K? (satuan konsisten; skala L}\\cdot\\text{atm)}' },
           { type: 'glossary', title: 'Keterangan Simbol', items: [{ symbol: '$P_B,V_B$', meaning: 'Tekanan dan volume keadaan B', unit: 'atm, L' }, { symbol: '$n,R$', meaning: 'Mol dan konstanta gas', unit: 'mol, L· atm/(mol· K)' }] },
           { type: 'paragraph', text: 'Catatan: pastikan konsistensi satuan; contoh ini ilustratif untuk metode. Pada ujian, angka-angka biasanya dipilih agar hasil sederhana.' },
         ],

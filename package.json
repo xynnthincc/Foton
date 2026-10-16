@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint:math": "node scripts/lint-math.js",
+    "lint:math:selftest": "node scripts/lint-math-selftest.js",
+    "check:build": "node scripts/check-build.js"
   },
   "dependencies": {
     "@types/katex": "^0.16.8",
