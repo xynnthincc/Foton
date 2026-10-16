@@ -2464,4 +2464,353 @@ export const materiTermo: Materi[] = [
       },
     ],
   },
+  {
+    slug: 'rangkaian-dc',
+    no: 16,
+    title: 'Rangkaian Arus Searah',
+    category: 'Listrik',
+    summary: 'Arus listrik, hambatan dan Hukum Ohm, daya listrik, rangkaian seri dan paralel, jembatan Wheatstone, serta transien pada rangkaian RC.',
+    blocks: [
+      {
+        type: 'paragraph',
+        text: 'Berbeda dengan listrik statis yang muatannya diam, listrik dinamis (listrik arus) mempelajari aliran muatan pada konduktor. Agar muatan terus mengalir, harus ada beda potensial (tegangan) yang mempertahankan arus sepanjang rangkaian. Sifat mendasar: arus hanya mengalir pada lintasan tertutup (rangkuman), bukan pada konduktor yang ujungnya terputus.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Arus Listrik',
+      },
+      {
+        type: 'paragraph',
+        text: 'Arus listrik adalah besar muatan listrik yang melewati suatu penampang konduktor per satuan waktu. Arus besar bila banyak muatan melewati penampang dalam waktu yang singkat.',
+      },
+      {
+        type: 'formula',
+        latex: 'I = \\frac{Q}{t}',
+        description: 'Besar arus listrik, di mana Q adalah muatan yang melewati penampang dalam waktu t.',
+      },
+      {
+        type: 'glossary',
+        title: 'Keterangan Simbol',
+        items: [
+          { symbol: '$I$', meaning: 'Besar arus listrik', unit: 'A (ampere)' },
+          { symbol: '$Q$', meaning: 'Muatan listrik yang lewat', unit: 'C (coulomb)' },
+          { symbol: '$t$', meaning: 'Waktu tempuh', unit: 's' },
+        ],
+      },
+      {
+        type: 'list',
+        items: [
+          { text: 'Satuan: $1\\ \\mathrm{A} = 1\\ \\mathrm{C/s}$, jadi muatan sebanding dengan arus dikali waktu.' },
+          { text: 'Satuan lain yang sering muncul di soal: $1\\ \\mathrm{mAh}$ (miliampere-hour) sebagai kapasitas baterai, dengan $1\\ \\mathrm{Ah} = 3600\\ \\mathrm{C}$.' },
+          { text: 'Arus hanya mengalir pada rangkuman tertutup; konduktor yang digantung bebas tidak dialiri arus.' },
+        ],
+      },
+      {
+        type: 'note',
+        variant: 'warning',
+        text: 'Arah arus listrik: dari kutub positif ke kutub negatif melalui kawat luar. Arah gerak elektron justru berlawanan, dari negatif ke positif. Jangan tertukar saat menggambar rangkaian atau menentukan arah gaya pada muatan.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Hambatan Listrik',
+      },
+      {
+        type: 'paragraph',
+        text: 'Hambatan adalah hamperan listrik pada penghantar. Besarnya ditentukan oleh bahan, panjang, dan luas penampang kawat.',
+      },
+      {
+        type: 'formula',
+        latex: 'R = \\rho\\frac{l}{A}',
+        description: 'Hambatan kawat: sebanding dengan panjang kawat dan berbanding terbalik dengan luas penampangnya.',
+      },
+      {
+        type: 'glossary',
+        title: 'Keterangan Simbol',
+        items: [
+          { symbol: '$R$', meaning: 'Hambatan listrik', unit: '$\\Omega$ (ohm)' },
+          { symbol: '$\\rho$', meaning: 'Resistivitas bahan', unit: '$\\Omega\\cdot\\mathrm{m}$' },
+          { symbol: '$l$', meaning: 'Panjang kawat', unit: 'm' },
+          { symbol: '$A$', meaning: 'Luas penampang kawat', unit: '$\\mathrm{m}^2$' },
+        ],
+      },
+      {
+        type: 'note',
+        variant: 'info',
+        text: 'Resistivitas bergantung pada bahan: perak dan tembaga paling kecil (penghantar terbaik), sedangkan nikel krom (nichrome) cukup besar dan dipakai pada elemen pemanas. Pada logam, hambatan naik ketika suhu naik - inilah sebabnya lampu pijar paling terang sesaat setelah dinyalakan.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Hukum Ohm',
+      },
+      {
+        type: 'paragraph',
+        text: 'Hukum Ohm menyatakan hubungan langsung antara tegangan, arus, dan hambatan pada penghantar ohmik pada suhu tetap.',
+      },
+      {
+        type: 'formula',
+        latex: 'V = I R',
+        description: 'Hukum Ohm: tegangan sebanding dengan arus pada penghantar ohmik dengan hambatan tetap.',
+      },
+      {
+        type: 'glossary',
+        title: 'Keterangan Simbol',
+        items: [
+          { symbol: '$V$', meaning: 'Tegangan atau beda potensial', unit: 'volt (V)' },
+          { symbol: '$I$', meaning: 'Arus listrik', unit: 'A' },
+          { symbol: '$R$', meaning: 'Hambatan listrik', unit: '$\\Omega$' },
+        ],
+      },
+      {
+        type: 'note',
+        variant: 'info',
+        text: 'Hukum Ohm hanya berlaku untuk penghantar ohmik, terutama kawat logam pada suhu tetap. Lampu pijar, diode, dan termistor bukan penghantar ohmik karena grafik tegangan terhadap arusnya tidak berupa garis lurus.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Daya Listrik',
+      },
+      {
+        type: 'paragraph',
+        text: 'Daya listrik adalah laju perubahan energi listrik menjadi energi lain (panas, cahaya, bunyi, atau gerak). Pada resistor, daya selalu berubah menjadi kalor.',
+      },
+      {
+        type: 'formula',
+        latex: 'P = V I = I^2 R = \\frac{V^2}{R}',
+        description: 'Tiga bentuk ekuivalen untuk daya listrik; pilih sesuai besaran yang diketahui pada soal.',
+      },
+      {
+        type: 'glossary',
+        title: 'Keterangan Simbol',
+        items: [
+          { symbol: '$P$', meaning: 'Daya listrik', unit: 'watt (W)' },
+          { symbol: '$V$', meaning: 'Tegangan', unit: 'V' },
+          { symbol: '$I$', meaning: 'Arus', unit: 'A' },
+          { symbol: '$R$', meaning: 'Hambatan', unit: '$\\Omega$' },
+        ],
+      },
+      {
+        type: 'list',
+        items: [
+          { text: 'Jika diketahui $V$ dan $I$, pakai $P = VI$. Jika diketahui $I$ dan $R$, pakai $P = I^2R$.' },
+          { text: 'Satuan: $1\\ \\mathrm{W} = 1\\ \\mathrm{J/s} = 1\\ \\mathrm{V}\\cdot\\mathrm{A}$.' },
+          { text: 'Pakai bentuk yang tidak memuat pangkat agar mudah dihitung manual; $P = VI$ hampir selalu paling aman bila $V$ dan $I$ tersedia.' },
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Rangkaian Seri',
+      },
+      {
+        type: 'image',
+        src: '/diagrams/rangkaian-seri.svg',
+        alt: 'Rangkaian seri dengan baterai dan dua hambatan R1 dan R2 disusun berurutan pada satu loop, arus I sama di semua bagian',
+        caption: 'Pada rangkaian seri semua hambatan disusun berurutan pada satu jalur. Karena hanya ada satu jalur, arus yang mengalir di setiap titik sama besar.',
+      },
+      {
+        type: 'formula',
+        latex: 'R_{total} = R_1 + R_2 + R_3 + \\dots',
+        description: 'Hambatan total rangkaian seri adalah jumlah dari seluruh hambatannya.',
+      },
+      {
+        type: 'table',
+        headers: ['Besaran', 'Perilaku pada Rangkaian Seri'],
+        rows: [
+          ['Arus $I$', 'Sama di semua titik: $I_1 = I_2 = I_{total}$'],
+          ['Tegangan $V$', 'Terbagi: $V_{total} = V_1 + V_2 + V_3$'],
+          ['Hambatan $R$', 'Dijumlahkan: $R_{total} = R_1 + R_2 + R_3$'],
+          ['Ukuran $R_{total}$', 'Selalu lebih besar dari tiap hambatan penyusunnya'],
+        ],
+      },
+      {
+        type: 'example',
+        title: 'Contoh: tiga hambatan seri',
+        blocks: [
+          { type: 'paragraph', text: 'Tiga hambatan $R_1 = 2\\ \\Omega$, $R_2 = 4\\ \\Omega$, dan $R_3 = 6\\ \\Omega$ disusun seri pada sebuah baterai $12\\ \\mathrm{V}$. Tentukan hambatan total, arus listrik, dan tegangan pada $R_2$.' },
+          { type: 'formula', latex: 'R_{total} = 2 + 4 + 6 = 12\\ \\Omega' },
+          { type: 'formula', latex: 'I = \\frac{V_{total}}{R_{total}} = \\frac{12}{12} = 1\\ \\mathrm{A}' },
+          { type: 'paragraph', text: 'Karena seri, tegangan pada $R_2$ diperoleh dari hukum Ohm: $V_2 = I R_2 = (1)(4) = 4\\ \\mathrm{V}$.' },
+          { type: 'paragraph', text: 'Cek: $V_1 + V_2 + V_3 = 2 + 4 + 6 = 12\\ \\mathrm{V}$, sama dengan tegangan baterai. Kekekalan tegangan harus selalu terpenuhi - jika tidak, berarti ada salah perhitungan.' },
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Rangkaian Paralel',
+      },
+      {
+        type: 'image',
+        src: '/diagrams/rangkaian-paralel.svg',
+        alt: 'Rangkaian paralel dengan baterai dan dua cabang hambatan R1 dan R2, arus I bercabang menjadi I1 dan I2',
+        caption: 'Pada rangkaian paralel setiap hambatan memiliki jalur sendiri yang terhubung langsung ke kedua kutub baterai.',
+      },
+      {
+        type: 'formula',
+        latex: '\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots',
+        description: 'Hambatan total adalah kebalikan dari jumlah kebalikan setiap hambatan.',
+      },
+      {
+        type: 'formula',
+        latex: 'R_{total} = \\frac{R_1 R_2}{R_1 + R_2}',
+        description: 'Bentuk khusus untuk tepat dua hambatan yang paralel.',
+      },
+      {
+        type: 'table',
+        headers: ['Besaran', 'Perilaku pada Rangkaian Paralel'],
+        rows: [
+          ['Tegangan $V$', 'Sama pada semua cabang: $V_1 = V_2 = V_{total}$'],
+          ['Arus $I$', 'Terbagi: $I_{total} = I_1 + I_2$'],
+          ['Hambatan $R$', 'Dijumlahkan secara resiprokal: $\\frac{1}{R_{total}} = \\sum \\frac{1}{R_n}$'],
+          ['Ukuran $R_{total}$', 'Selalu lebih kecil dari tiap hambatan penyusunnya'],
+        ],
+      },
+      {
+        type: 'example',
+        title: 'Contoh: dua hambatan paralel',
+        blocks: [
+          { type: 'paragraph', text: 'Dua hambatan $R_1 = 6\\ \\Omega$ dan $R_2 = 3\\ \\Omega$ disusun paralel pada tegangan $12\\ \\mathrm{V}$. Tentukan hambatan total dan arus pada tiap cabang.' },
+          { type: 'formula', latex: 'R_{total} = \\frac{6 \\times 3}{6 + 3} = \\frac{18}{9} = 2\\ \\Omega' },
+          { type: 'formula', latex: 'I_1 = \\frac{V}{R_1} = \\frac{12}{6} = 2\\ \\mathrm{A},\\quad I_2 = \\frac{V}{R_2} = \\frac{12}{3} = 4\\ \\mathrm{A}' },
+          { type: 'paragraph', text: 'Arus totalnya $I = 2 + 4 = 6\\ \\mathrm{A}$. Cek dengan hukum Ohm: $I = \\frac{V}{R_{total}} = \\frac{12}{2} = 6\\ \\mathrm{A}$.' },
+          { type: 'paragraph', text: 'Perhatikan polanya: $R_2$ lebih kecil daripada $R_1$, sehingga arus pada $R_2$ justru lebih besar. Ini kebalikan dari rangkaian seri.' },
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Rangkaian Gabungan',
+      },
+      {
+        type: 'paragraph',
+        text: 'Rangkaian nyata hampir selalu gabungan. Ruas yang seri dijumlahkan hambatannya, ruas yang paralel memakai rumus resiprokal. Strategi penyederhanaan: kerjakan ruas paling dalam terlebih dahulu, lalu bergerak ke arah sumber tegangan.',
+      },
+      {
+        type: 'formula',
+        latex: 'R_{total} = \\frac{R_1 R_2}{R_1 + R_2} + R_3',
+        description: 'Contoh pola kombinasi: dua hambatan paralel, lalu disambung seri dengan sebuah hambatan ketiga.',
+      },
+      {
+        type: 'note',
+        variant: 'tip',
+        text: 'Pengaman hasil: pada setiap rangkaian seri, jumlah tegangan pada tiap hambatan harus sama dengan tegangan sumber. Pada rangkaian paralel, jumlah arus tiap cabang harus sama dengan arus total. Gunakan aturan ini untuk memeriksa hasil perhitungan.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Jembatan Wheatstone',
+      },
+      {
+        type: 'paragraph',
+        text: 'Jembatan Wheatstone terdiri dari empat hambatan $R_1, R_2, R_3,$ dan $R_4$ yang membentuk bentuk belah ketupat, ditambah sebuah galvanometer pada salah satu diagonalnya. Jembatan disebut seimbang bila galvanometer tidak menunjukkan simpangan.',
+      },
+      {
+        type: 'formula',
+        latex: '\\frac{R_1}{R_2} = \\frac{R_3}{R_4}',
+        description: 'Syarat jembatan Wheatstone seimbang, yaitu tidak ada arus yang mengalir melalui galvanometer.',
+      },
+      {
+        type: 'note',
+        variant: 'tip',
+        text: 'TKA sering memuat soal penentuan arus atau tegangan pada jembatan yang tidak seimbang. Setelah hubungan seimbang diketahui, gunakan aturan pembagi tegangan pada tiap cabang untuk memperoleh besaran yang ditanyakan.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Rangkaian RC (Keadaan Transien)',
+      },
+      {
+        type: 'paragraph',
+        text: 'Jika sebuah kapasitor berada dalam rangkaian arus searah, tegangan pada kapasitor tidak dapat berubah seketika. Tegangan berubah secara eksponensial menuju tegangan sumber, dengan konstanta waktu yang menentukan kecepatan prosesnya.',
+      },
+      {
+        type: 'formula',
+        latex: 'V_C(t) = V\\left(1 - e^{-t/RC}\\right)',
+        description: 'Tegangan kapasitor saat sedang diisi (pengisian).',
+      },
+      {
+        type: 'formula',
+        latex: 'V_C(t) = V e^{-t/RC}',
+        description: 'Tegangan kapasitor saat sedang dikosongkan (pelepasan).',
+      },
+      {
+        type: 'formula',
+        latex: '\\tau = R C',
+        description: 'Konstanta waktu; saat t = RC, tegangan sudah mencapai sekitar 63% nilai akhir (saat pengisian) atau tersisa sekitar 37% (saat pelepasan).',
+      },
+      {
+        type: 'glossary',
+        title: 'Keterangan Simbol',
+        items: [
+          { symbol: '$R$', meaning: 'Hambatan total yang seri dengan kapasitor', unit: '$\\Omega$' },
+          { symbol: '$C$', meaning: 'Kapasitansi', unit: 'F' },
+          { symbol: '$t$', meaning: 'Waktu sejak saklar ditutup', unit: 's' },
+          { symbol: '$\\tau$', meaning: 'Konstanta waktu', unit: 's' },
+        ],
+      },
+      {
+        type: 'note',
+        variant: 'info',
+        text: 'Kebanyakan soal TKA berada pada keadaan tunak (steady state), yaitu setelah waktu yang sangat lama. Dalam keadaan tunak, arus pada kapasitor bernilai nol sehingga kapasitor dapat dianggap sebagai penghambat (open circuit).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Alat Ukur Listrik',
+      },
+      {
+        type: 'table',
+        headers: ['Alat', 'Penempatan', 'Sifat'],
+        rows: [
+          ['Ammeter', 'Seri dengan komponen', 'Hambatan sangat kecil (idealnya nol) agar tidak mengubah arus'],
+          ['Voltmeter', 'Paralel dengan komponen', 'Hambatan sangat besar (idealnya tak hingga) agar tidak menarik arus'],
+          ['Ohm meter', 'Seri, tanpa baterai', 'Mengalirkan arus kecil untuk mengukur hambatan komponen'],
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Ringkasan Seri dan Paralel',
+      },
+      {
+        type: 'table',
+        headers: ['Besaran', 'Rangkaian Seri', 'Rangkaian Paralel'],
+        rows: [
+          ['Hambatan total', 'Jumlah: $R_1 + R_2$', 'Resiprokal: $\\frac{1}{R_1} + \\frac{1}{R_2}$'],
+          ['Tegangan', 'Terbagi: $V_1 + V_2 = V$', 'Sama: $V_1 = V_2 = V$'],
+          ['Arus', 'Sama: $I_1 = I_2 = I$', 'Terbagi: $I_1 + I_2 = I$'],
+          ['Ukuran $R_{total}$', 'Lebih besar dari tiap $R$', 'Lebih kecil dari tiap $R$'],
+          ['Daya pada tiap $R$', 'Sebanding dengan $R$', 'Berbanding terbalik dengan $R$'],
+        ],
+      },
+      {
+        type: 'note',
+        variant: 'tip',
+        text: 'Strategi cepat: hanya dua besaran yang menentukan keadaan sebuah rangkaian arus searah, yaitu tegangan dan arus (atau tegangan dan hambatan). Setelah keduanya diketahui, besaran lain dapat dihitung. Mulailah dari ruas yang paling dekat dengan sumber tegangan, lalu bergerak menuju beban.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Tugas Latihan (Self-Check)',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          { text: 'Tiga hambatan $2\\ \\Omega$, $3\\ \\Omega$, dan $6\\ \\Omega$ disusun seri pada baterai $24\\ \\mathrm{V}$. Tentukan hambatan total, arus listrik, dan tegangan pada tiap hambatan.' },
+          { text: 'Dua hambatan $4\\ \\Omega$ dan $12\\ \\Omega$ disusun paralel pada tegangan $12\\ \\mathrm{V}$. Tentukan hambatan total dan arus pada tiap cabang.' },
+          { text: 'Sebuah lampu berlabel $60\\ \\mathrm{W}$ dipasang pada tegangan $220\\ \\mathrm{V}$. Tentukan arus listrik dan hambatan lampu tersebut.' },
+          { text: 'Jembatan Wheatstone dengan $R_1 = 10\\ \\Omega$, $R_2 = 20\\ \\Omega$, dan $R_3 = 30\\ \\Omega$. Tentukan $R_4$ agar jembatan seimbang, lalu hitung hambatan total yang dilihat oleh baterai.' },
+          { text: 'Sebuah kapasitor $100\\ \\mu\\mathrm{F}$ disambung seri dengan hambatan $2\\ \\mathrm{k}\\Omega$. Tentukan konstanta waktu, dan tegangan kapasitor pada saat $t = \\tau$ ketika dikosongkan dari tegangan awal $10\\ \\mathrm{V}$.' },
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Latihan ini melatih pemilihan rumus yang tepat antara seri dan paralel, pembacaan diagram rangkaian, serta pembedaan besaran yang tetap sama dengan yang terbagi.',
+      },
+    ],
+  },
 ];

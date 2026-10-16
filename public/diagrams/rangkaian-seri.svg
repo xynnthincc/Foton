@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" role="img" aria-label="Rangkaian seri: baterai dengan dua hambatan R1 dan R2 disusun berurutan pada satu loop, arus I sama di seluruh bagian, tegangan terbagi V1 dan V2 sehingga V total = V1 + V2">
+  <defs>
+    <style>
+      .t   { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; }
+      .tb  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #e5e0d6; font-weight: 700; }
+      .ts  { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 11px; fill: #8a857d; }
+      .acc { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #d97757; font-weight: 600; }
+      .w   { stroke: #e5e0d6; stroke-width: 2; fill: none; }
+      .cur { stroke: #6ba3c0; stroke-width: 2; fill: none; marker-end: url(#arr-sc); }
+      .res { fill: #c97064; stroke: #e5e0d6; stroke-width: 1.5; }
+      .pl  { stroke: #e5e0d6; stroke-width: 3; }
+    </style>
+    <marker id="arr-sc" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#6ba3c0"/>
+    </marker>
+  </defs>
+
+  <text class="tb" x="20" y="26">Rangkaian seri</text>
+  <text class="ts" x="20" y="46">satu jalur - semua hambatan dilalui arus yang sama</text>
+
+  <!-- kawat atas -->
+  <line class="w" x1="90" y1="100" x2="210" y2="100"/>
+  <line class="w" x1="300" y1="100" x2="330" y2="100"/>
+  <line class="w" x1="420" y1="100" x2="510" y2="100"/>
+  <!-- kawat kanan dan bawah -->
+  <line class="w" x1="510" y1="100" x2="510" y2="240"/>
+  <line class="w" x1="510" y1="240" x2="90" y2="240"/>
+  <!-- kawat kiri atas dan bawah baterai -->
+  <line class="w" x1="90" y1="240" x2="90" y2="180"/>
+  <line class="w" x1="90" y1="150" x2="90" y2="100"/>
+
+  <!-- baterai -->
+  <line class="pl" x1="66" y1="150" x2="114" y2="150"/>
+  <line class="pl" x1="78" y1="180" x2="102" y2="180"/>
+  <text class="acc" x="58" y="155" text-anchor="end">+</text>
+  <text class="ts" x="58" y="185" text-anchor="end">-</text>
+  <text class="ts" x="90" y="215" text-anchor="middle">baterai</text>
+
+  <!-- dua hambatan seri -->
+  <rect class="res" x="210" y="88" width="90" height="24" rx="3"/>
+  <rect class="res" x="330" y="88" width="90" height="24" rx="3"/>
+  <text class="t" x="255" y="80" text-anchor="middle">R₁</text>
+  <text class="t" x="375" y="80" text-anchor="middle">R₂</text>
+  <text class="ts" x="255" y="132" text-anchor="middle">tegangan V₁</text>
+  <text class="ts" x="375" y="132" text-anchor="middle">tegangan V₂</text>
+
+  <!-- arah arus (searah jarum jam) -->
+  <line class="cur" x1="130" y1="100" x2="180" y2="100"/>
+  <text class="t" x="155" y="90" text-anchor="middle" style="fill:#6ba3c0">I</text>
+  <line class="cur" x1="460" y1="240" x2="410" y2="240"/>
+  <text class="t" x="435" y="264" text-anchor="middle" style="fill:#6ba3c0">I</text>
+
+  <text class="t" x="300" y="176" text-anchor="middle">hambatan dijumlahkan, bukan dibagi</text>
+  <text class="ts" x="300" y="194" text-anchor="middle">R yang besar menghambat -&gt; arus kecil</text>
+
+  <!-- ringkasan -->
+  <text class="acc" x="20" y="292">R total = R₁ + R₂</text>
+  <text class="acc" x="320" y="292">I₁ = I₂ = I total</text>
+  <text class="acc" x="20" y="314">V total = V₁ + V₂</text>
+  <text class="t" x="320" y="314">arus sama, tegangan terbagi</text>
+</svg>

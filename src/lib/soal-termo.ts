@@ -339,4 +339,84 @@ export const soalTermo: LatihanSet[] = [
       },
     ],
   },
+  {
+    slug: "rangkaian-dc",
+    title: "Latihan Soal: Rangkaian Arus Searah",
+    category: "Listrik",
+    description:
+      "Hukum Ohm, daya listrik, rangkaian seri dan paralel, jembatan Wheatstone, dan konstanta waktu RC",
+    difficulty: "Sedang",
+    soalList: [
+      {
+        no: 1,
+        question:
+          "Tiga hambatan $2\\ \\Omega$, $4\\ \\Omega$, dan $6\\ \\Omega$ disusun seri pada baterai $24\\ \\mathrm{V}$. Berapa arus listrik pada rangkaian tersebut?",
+        formulaLatex: "R_{total} = R_1 + R_2 + R_3,\\quad I = \\frac{V}{R_{total}}",
+        options: ["1 A", "2 A", "3 A", "4 A", "6 A"],
+        answerIndex: 1,
+        explanation:
+          "Seri berarti hambatan dijumlahkan: $R_{total} = 2 + 4 + 6 = 12\\ \\Omega$. Arus $I = V/R_{total} = 24/12 = 2\\ \\mathrm{A}$. Jawaban: B.",
+      },
+      {
+        no: 2,
+        question:
+          "Dua hambatan $6\\ \\Omega$ dan $3\\ \\Omega$ disusun paralel pada tegangan $12\\ \\mathrm{V}$. Berapa besar hambatan totalnya?",
+        formulaLatex: "R_{total} = \\frac{R_1 R_2}{R_1 + R_2}",
+        options: ["1 Ω", "2 Ω", "3 Ω", "4,5 Ω", "9 Ω"],
+        answerIndex: 1,
+        explanation:
+          "Paralel: $R_{total} = (6 \\times 3)/(6 + 3) = 18/9 = 2\\ \\Omega$. Ingat, hambatan total paralel selalu lebih kecil dari tiap hambatan penyusunnya, sehingga $2\\ \\Omega$ masuk akal. Jawaban: B.",
+      },
+      {
+        no: 3,
+        question:
+          "Sebuah lampu berlabel $60\\ \\mathrm{W}$ dipasang pada tegangan $220\\ \\mathrm{V}$. Berapa besar hambatan lampu tersebut?",
+        formulaLatex: "P = \\frac{V^2}{R}",
+        options: ["120 Ω", "400 Ω", "807 Ω", "13200 Ω", "3,67 Ω"],
+        answerIndex: 2,
+        explanation:
+          "Daya expressed lewat tegangan: $R = V^2/P = 220^2/60 = 48400/60 \\approx 807\\ \\Omega$. Pemeriksaan: arus $I = P/V = 60/220 \\approx 0{,}27$ A, sesuai dengan lampu berdaya kecil pada tegangan listrikrumah. Jawaban: C.",
+      },
+      {
+        no: 4,
+        question:
+          "Pada rangkaian seri, tiga hambatan $2\\ \\Omega$, $4\\ \\Omega$, dan $6\\ \\Omega$ dialiri arus $1\\ \\mathrm{A}$. Berapa tegangan pada hambatan $4\\ \\Omega$?",
+        formulaLatex: "V = I R",
+        options: ["2 V", "4 V", "6 V", "10 V", "12 V"],
+        answerIndex: 1,
+        explanation:
+          "Hukum Ohm: $V_2 = I R_2 = (1)(4) = 4\\ \\mathrm{V}$. Pada seri arus sama di semua titik, jadi tegangan pada hambatan $6\\ \\Omega$ adalah $6$ V dan totalnya $2 + 4 + 6 = 12$ V. Jawaban: B.",
+      },
+      {
+        no: 5,
+        question:
+          "Jembatan Wheatstone seimbang dengan $R_1 = 10\\ \\Omega$, $R_2 = 20\\ \\Omega$, dan $R_3 = 30\\ \\Omega$. Berapa nilai $R_4$?",
+        formulaLatex: "\\frac{R_1}{R_2} = \\frac{R_3}{R_4}",
+        options: ["10 Ω", "20 Ω", "30 Ω", "45 Ω", "60 Ω"],
+        answerIndex: 4,
+        explanation:
+          "Syarat seimbang adalah $R_1/R_2 = R_3/R_4$, yaitu $10/20 = 30/R_4$. Maka $R_4 = (30 \\times 20)/10 = 60\\ \\Omega$. Cara cepatnya: $R_1:R_2 = 1:2$, jadi $R_3:R_4$ harus $1:2$ juga, sehingga $R_4 = 2 \\times 30 = 60\\ \\Omega$. Jawaban: E.",
+      },
+      {
+        no: 6,
+        question:
+          "Dua hambatan $4\\ \\Omega$ dan $12\\ \\Omega$ disusun paralel pada tegangan $12\\ \\mathrm{V}$. Berapa besar arus total pada rangkaian tersebut?",
+        formulaLatex: "I_{total} = I_1 + I_2",
+        options: ["1 A", "2 A", "3 A", "4 A", "6 A"],
+        answerIndex: 3,
+        explanation:
+          "Paralel berarti tegangan sama pada kedua cabang: $I_1 = 12/4 = 3\\ \\mathrm{A}$ dan $I_2 = 12/12 = 1\\ \\mathrm{A}$. Arus total $I = 3 + 1 = 4\\ \\mathrm{A}$. Cek lain: $R_{total} = (4 \\times 12)/(4 + 12) = 3\\ \\Omega$, sehingga $I = 12/3 = 4\\ \\mathrm{A}$. Jawaban: D.",
+      },
+      {
+        no: 7,
+        question:
+          "Sebuah kapasitor $100\\ \\mu\\mathrm{F}$ disambung seri dengan hambatan $2\\ \\mathrm{k}\\Omega$. Berapa konstanta waktunya?",
+        formulaLatex: "\\tau = R C",
+        options: ["0,05 s", "0,2 s", "2 s", "20 s", "200 s"],
+        answerIndex: 1,
+        explanation:
+          "Konstanta waktu $\\tau = R C = (2 \\times 10^3)(100 \\times 10^{-6}) = 0{,}2$ s. Cara cepatnya: $1\\ \\mathrm{k}\\Omega \\times 1\\ \\mu\\mathrm{F} = 10^{-3}$ s, sehingga $2000 \\times 100 \\times 10^{-6} = 0{,}2$ s. Jawaban: B.",
+      },
+    ],
+  },
 ];
